@@ -1,0 +1,54 @@
+Date__c,Amount__c,Method__c,Account__c,Subject__c,RecordTypeId,Category__c,WF Visa,FNBO Visa,BR Visa,WF Checking,WF Savings,FNBO Checking,FNBO Savings,Fidelity,Cash,Venmo,Reflected_Online__c
+2022-01-01,12.00,Cash,001Dn0000033D9iIAE,Coffee from Cubby's,012Dn000000tHzcIAE,Groceries & Gas,,,,,,,,,-$12.00,,FALSE
+2022-01-02,1389.83,Online Payment,001Dn0000033D9jIAE,Joslyn Lofts - rent,012Dn000000tHzcIAE,Rent & Utilities,,,,,,"-$1,389.83",,,,,TRUE
+2022-01-02,27.03,Credit Card,001Dn0000033D9eIAE,Good Stop - gas,012Dn000000tHzcIAE,Groceries & Gas,,,$27.03,,,,,,,,TRUE
+2022-01-02,72.83,Online Payment,001Dn0000033D9jIAE,Cox Internet,012Dn000000tHzcIAE,Internet,,,,,,-$72.83,,,,,TRUE
+2022-01-02,54.32,Credit Card,001Dn0000033D9YIAU,Corky Canvas Win & Paint date night,012Dn000000tHzXIAU,Recreation,$54.32,,,,,,,,,,TRUE
+2022-01-03,31.00,Credit Card,001Dn0000033D9YIAU,YMCA Subscription,012Dn000000tHzcIAE,YMCA Subscription,$31.00,,,,,,,,,,TRUE
+2022-01-03,40.41,Credit Card,001Dn0000033D9YIAU,Household supplies from Walgreens,012Dn000000tHzcIAE,Necessary Life Supplies,$40.41,,,,,,,,,,TRUE
+2022-01-03,17.00,Cash,001Dn0000033D9iIAE,Drinks at Zen coffee,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$17.00,,FALSE
+2022-01-03,100.53,Credit Card,001Dn0000033D9dIAE,Accessories from Sweetwater,012Dn000000tHzXIAU,Products & Merchandise,,$100.53,,,,,,,,,TRUE
+2022-01-07,26.74,Credit Card,001Dn0000033D9YIAU,Russell Speeder's Unlimited Express Subscription,012Dn000000tHzcIAE,Carwash Subscription,$26.74,,,,,,,,,,TRUE
+2022-01-07,10.00,Cash,001Dn0000033D9iIAE,Coffee from 13th Street Coffee,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$10.00,,FALSE
+2022-01-07,31.90,Credit Card,001Dn0000033D9eIAE,12BH7 power tube,012Dn000000tHzXIAU,Products & Merchandise,,,$31.90,,,,,,,,TRUE
+2022-01-08,8.93,Credit Card,001Dn0000033D9eIAE,Costco food court,012Dn000000tHzXIAU,Food & Leisure,,,$8.93,,,,,,,,TRUE
+2022-01-09,5.00,Cash,001Dn0000033D9iIAE,Eggs from Cubby's,012Dn000000tHzcIAE,Groceries & Gas,,,,,,,,,-$5.00,,FALSE
+2022-01-10,7.05,Credit Card,001Dn0000033D9YIAU,Watch batteries from Amazon,012Dn000000tHzXIAU,Products & Merchandise,$7.05,,,,,,,,,,TRUE
+2022-01-10,50.00,Credit Card,001Dn0000033D9eIAE,Park Omaha wallet,012Dn000000tHzXIAU,Parking & Scooters,,,$50.00,,,,,,,,TRUE
+2022-01-11,6.04,Credit Card,001Dn0000033D9dIAE,Main Bank 16th Floor Dining Room,012Dn000000tHzXIAU,Food & Leisure,,$6.04,,,,,,,,,TRUE
+2022-01-11,29.00,Credit Card,001Dn0000033D9dIAE,Late card payment fee,012Dn000000tHzcIAE,Nonnegotiable Unpredictables,,$29.00,,,,,,,,,TRUE
+2022-01-12,10.00,Cash,001Dn0000033D9iIAE,Wine at Corky Canvas,012Dn000000tHzXIAU,Recreation,,,,,,,,,-$10.00,,FALSE
+2022-01-13,16.00,Cash,001Dn0000033D9iIAE,Drinks at Harney Street Tavern,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$16.00,,FALSE
+2022-01-13,20.29,Credit Card,001Dn0000033D9YIAU,Arby's,012Dn000000tHzXIAU,Food & Leisure,$20.29,,,,,,,,,,TRUE
+2022-01-14,10.69,Credit Card,001Dn0000033D9eIAE,Guitarcenter - sticks for Jack,012Dn000000tHzXIAU,Products & Merchandise,,,$10.69,,,,,,,,TRUE
+2022-01-14,5.33,Credit Card,001Dn0000033D9YIAU,Apple TV,012Dn000000tHzXIAU,Products & Merchandise,$5.33,,,,,,,,,,TRUE
+2022-01-17,21.72,Credit Card,001Dn0000033D9dIAE,Lunch from Stories Coffee,012Dn000000tHzXIAU,Food & Leisure,,$21.72,,,,,,,,,TRUE
+2022-01-18,30.00,Zelle Transfer,001Dn0000033D9ZIAU,Phone Payment to Dad,012Dn000000tHzcIAE,Phone Payment to Dad,,,,-$30.00,,,,,,,TRUE
+2022-01-18,115.00,Zelle Transfer,001Dn0000033D9ZIAU,Paid Kawai for MUDD/OPPD,012Dn000000tHzcIAE,Rent & Utilities,,,,-$115.00,,,,,,,TRUE
+2022-01-19,200.00,Credit Card,001Dn0000033D9YIAU,Signed up for Salesforce Developer exam,012Dn000000tHzcIAE,Necessary Life Supplies,$200.00,,,,,,,,,,TRUE
+2022-01-19,130.16,Online Payment,001Dn0000033D9ZIAU,Progressive - auto insurance,012Dn000000tHzcIAE,Car & Renter's Insurance,,,,-$130.16,,,,,,,TRUE
+2022-01-19,21.30,Credit Card,001Dn0000033D9eIAE,Panda Express,012Dn000000tHzXIAU,Food & Leisure,,,$21.30,,,,,,,,TRUE
+2022-01-19,24.00,Zelle Transfer,001Dn0000033D9ZIAU,Paid Dad for cumulative Amazon movie rentals,012Dn000000tHzXIAU,Products & Merchandise,,,,-$24.00,,,,,,,TRUE
+2022-01-20,10.00,Credit Card,001Dn0000033D9eIAE,Parking violation,012Dn000000tHzXIAU,Parking & Scooters,,,$10.00,,,,,,,,TRUE
+2022-01-22,3.00,Cash,001Dn0000033D9iIAE,Racing game at Quaker Steak & Lube,012Dn000000tHzXIAU,Recreation,,,,,,,,,-$3.00,,FALSE
+2022-01-22,31.70,Credit Card,001Dn0000033D9YIAU,Dinner at Quaker Steak & Lube,012Dn000000tHzXIAU,Food & Leisure,$31.70,,,,,,,,,,TRUE
+2022-01-22,28.87,Credit Card,001Dn0000033D9eIAE,Baker's - groceries,012Dn000000tHzcIAE,Groceries & Gas,,,$28.87,,,,,,,,TRUE
+2022-01-23,206.88,Credit Card,001Dn0000033D9dIAE,Costco - groceries,012Dn000000tHzcIAE,Groceries & Gas,,$206.88,,,,,,,,,TRUE
+2022-01-23,250.00,Check,001Dn0000033D9ZIAU,Corolla Payment,012Dn000000tHzcIAE,Car Payment,,,,-$250.00,,,,,,,TRUE
+2022-01-24,6.00,Cash,001Dn0000033D9iIAE,Snacks from 13th Street Coffee,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$6.00,,FALSE
+2022-01-25,250.00,Zelle Transfer,001Dn0000033D9ZIAU,Student loan payback to Dad,012Dn000000tHzcIAE,Student Loan Payback to Dad,,,,-$250.00,,,,,,,TRUE
+2022-01-25,35.00,Venmo Transfer,001Dn0000033D9fIAE,Paid Sophie for Craft burgers,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,,-$35.00,TRUE
+2022-01-26,28.00,Credit Card,001Dn0000033D9dIAE,Game points at Dave & Buster's,012Dn000000tHzXIAU,Recreation,,$28.00,,,,,,,,,TRUE
+2022-01-26,2.00,Cash,001Dn0000033D9iIAE,Coffee from 13th Street Coffee,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$2.00,,FALSE
+2022-01-27,12.23,Online Payment,001Dn0000033D9ZIAU,Progressive - renter's insurance,012Dn000000tHzcIAE,Car & Renter's Insurance,,,,-$12.23,,,,,,,TRUE
+2022-01-27,1.06,Credit Card,001Dn0000033D9YIAU,Pocket tanks weapons pack,012Dn000000tHzXIAU,Products & Merchandise,$1.06,,,,,,,,,,TRUE
+2022-01-29,14.45,Credit Card,001Dn0000033D9YIAU,Qwik Trip - snacks,012Dn000000tHzXIAU,Food & Leisure,$14.45,,,,,,,,,,TRUE
+2022-01-29,29.23,Credit Card,001Dn0000033D9eIAE,Qwik Trip - gas,012Dn000000tHzcIAE,Groceries & Gas,,,$29.23,,,,,,,,TRUE
+2022-01-29,5.00,Cash,001Dn0000033D9iIAE,Gave 5 bucks to a homeless lady,012Dn000000tHzXIAU,Charitable giving,,,,,,,,,-$5.00,,FALSE
+2022-01-29,19.00,Cash,001Dn0000033D9iIAE,Drinks and Darts at the Down Under,012Dn000000tHzXIAU,Recreation,,,,,,,,,-$19.00,,FALSE
+2022-01-29,17.00,Cash,001Dn0000033D9iIAE,Dinner at Dinker's,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$17.00,,FALSE
+2022-01-29,4.25,Online Payment,001Dn0000033D9ZIAU,ATM Withdrawal fee,012Dn000000tHzcIAE,Nonnegotiable Unpredictables,,,,-$4.25,,,,,,,TRUE
+2022-01-30,13.92,Credit Card,001Dn0000033D9dIAE,New Doc Martens laces,012Dn000000tHzXIAU,Giftgiving,,$13.92,,,,,,,,,TRUE
+2022-01-31,9.00,Cash,001Dn0000033D9iIAE,Snacks from Zen,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$9.00,,FALSE
+2022-01-31,1.06,Credit Card,001Dn0000033D9YIAU,Pocket tanks weapons pack,012Dn000000tHzXIAU,Products & Merchandise,$1.06,,,,,,,,,,TRUE
+2022-01-31,30.00,Cash,001Dn0000033D9iIAE,Breakfast at Lisa's,012Dn000000tHzXIAU,Food & Leisure,,,,,,,,,-$30.00,,FALSE

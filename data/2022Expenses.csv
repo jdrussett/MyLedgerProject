@@ -1,0 +1,843 @@
+Date,Month,Income Amount,Expense Amount,Form,Description,Type,Category,WF Visa,FNBO Visa,BR Visa,WF Checking,WF Savings,FNBO Checking,FNBO Savings,Fidelity,Cash,Venmo,Reflected online?
+2022-01-01,January,,,,Initial Load,,,,1073.29,,,,,,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,771.88,,,,,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,4114.86,,,,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,,6000.95,,,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,,,5994.98,,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,,,,6006.75,,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,,,,,15000.00,,,Yes
+2022-01-01,January,,,,Initial Load,,,,,,,,,,,98.00,,n/a
+2022-01-01,January,,,,Initial Load,,,,,,,,,,,,16.60,Yes
+2022-01-01,January,,,,Initial Load,,,542.12,,,,,,,,,,Yes
+2022-01-01,January,,12.00,Cash,Coffee from Cubby's,Nondiscretionary,(ND) Groceries & Gas,,,,,,,,,-12.00,,n/a
+2022-01-02,January,,,Online Transfer,Paid off card - BR Visa,,,,,-450.00,-450.00,,,,,,,Yes
+2022-01-02,January,40.00,,Zelle Transfer,Paid back by Kawai for drinks on NYE,Reimbursement,(R) Recreation,,,,40.00,,,,,,,Yes
+2022-01-02,January,694.00,,Zelle Transfer,Kawai Rent,Reimbursement,(R) Rent & Utilities,,,,694.00,,,,,,,Yes
+2022-01-02,January,36.00,,Zelle Transfer,Kawai Internet,Reimbursement,(R) Internet,,,,36.00,,,,,,,Yes
+2022-01-02,January,,1389.83,eCheck,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1389.83,,,,,Yes
+2022-01-02,January,,27.03,Card - BR Visa,Good Stop - gas,Nondiscretionary,(ND) Groceries & Gas,,,27.03,,,,,,,,Yes
+2022-01-02,January,,72.83,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-72.83,,,,,Yes
+2022-01-02,January,,54.32,Card - WF Visa,Corky Canvas Win & Paint date night,Discretionary,(D) Recreation,54.32,,,,,,,,,,Yes
+2022-01-03,January,,31.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,31.00,,,,,,,,,,Yes
+2022-01-03,January,17.00,,Venmo Transfer,Paid back by Patrick for soap,Reimbursement,(R) Necessary Life Supplies,,,,,,,,,,17.00,Yes
+2022-01-03,January,,40.41,Card - WF Visa,Household supplies from Walgreens,Nondiscretionary,(ND) Necessary Life Supplies,40.41,,,,,,,,,,Yes
+2022-01-03,January,,17.00,Cash,Drinks at Zen coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-17.00,,n/a
+2022-01-03,January,,100.53,Card - FNBO Visa,Accessories from Sweetwater,Discretionary,(D) Products & Merchandise,,100.53,,,,,,,,,Yes
+2022-01-07,January,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-01-07,January,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-01-07,January,674.17,,Direct Deposit,FNBO - salary income,Regular,,,,,674.17,,,,,,,Yes
+2022-01-07,January,,10.00,Cash,Coffee from 13th Street Coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-10.00,,n/a
+2022-01-07,January,,31.90,Card - BR Visa,12BH7 power tube,Discretionary,(D) Products & Merchandise,,,31.90,,,,,,,,Yes
+2022-01-08,January,,8.93,Card - BR Visa,Costco food court,Discretionary,(D) Food & Leisure,,,8.93,,,,,,,,Yes
+2022-01-09,January,,5.00,Cash,Eggs from Cubby's,Nondiscretionary,(ND) Groceries & Gas,,,,,,,,,-5.00,,n/a
+2022-01-10,January,,7.05,Card - WF Visa,Watch batteries from Amazon,Discretionary,(D) Products & Merchandise,7.05,,,,,,,,,,Yes
+2022-01-10,January,,50.00,Card - BR Visa,Park Omaha wallet,Nondiscretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-01-11,January,,6.04,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,6.04,,,,,,,,,Yes
+2022-01-11,January,,29.00,Card - FNBO Visa,Late card payment fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,29.00,,,,,,,,,Yes
+2022-01-12,January,,10.00,Cash,Wine at Corky Canvas,Discretionary,(D) Recreation,,,,,,,,,-10.00,,n/a
+2022-01-13,January,,16.00,Cash,Drinks at Harney Street Tavern,Discretionary,(D) Food & Leisure,,,,,,,,,-16.00,,n/a
+2022-01-13,January,,20.29,Card - WF Visa,Arby's,Discretionary,(D) Food & Leisure,20.29,,,,,,,,,,Yes
+2022-01-14,January,,,Online Transfer,Paid off card - FNBO Visa,,,,-1000.00,,,,-1000.00,,,,,Yes
+2022-01-14,January,,10.69,Card - BR Visa,Guitarcenter - sticks for Jack,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-01-14,January,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-01-15,January,10.00,,Venmo Transfer,Paid back by Jack for sticks,Reimbursement,(R) Products & Merchandise,,,,,,,,,,10.00,Yes
+2022-01-17,January,,21.72,Card - FNBO Visa,Lunch from Stories Coffee,Discretionary,(D) Food & Leisure,,21.72,,,,,,,,,Yes
+2022-01-18,January,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-01-18,January,,115.00,Zelle Transfer,Paid Kawai for MUDD/OPPD,Nondiscretionary,(ND) Rent & Utilities,,,,-115.00,,,,,,,Yes
+2022-01-19,January,,200.00,Card - WF Visa,Signed up for Salesforce Developer exam,Nondiscretionary,(ND) Necessary Life Supplies,200.00,,,,,,,,,,Yes
+2022-01-19,January,,130.16,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-130.16,,,,,,,Yes
+2022-01-19,January,,21.30,Card - BR Visa,Panda Express,Discretionary,(D) Food & Leisure,,,21.30,,,,,,,,Yes
+2022-01-19,January,,24.00,Zelle Transfer,Paid Dad for cumulative Amazon movie rentals,Discretionary,(D) Products & Merchandise,,,,-24.00,,,,,,,Yes
+2022-01-20,January,,10.00,Card - BR Visa,Parking violation,Discretionary,(D) Parking & Scooters,,,10.00,,,,,,,,Yes
+2022-01-20,January,,,Online Transfer,Paid off card - WF Visa,,,-500.00,,,-500.00,,,,,,,Yes
+2022-01-21,January,676.23,,Direct Deposit,FNBO - salary income,Regular,,,,,676.23,,,,,,,Yes
+2022-01-21,January,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-01-22,January,,3.00,Cash,Racing game at Quaker Steak & Lube,Discretionary,(D) Recreation,,,,,,,,,-3.00,,n/a
+2022-01-22,January,,31.70,Card - WF Visa,Dinner at Quaker Steak & Lube,Discretionary,(D) Food & Leisure,31.70,,,,,,,,,,Yes
+2022-01-22,January,,28.87,Card - BR Visa,Baker's - groceries,Nondiscretionary,(ND) Groceries & Gas,,,28.87,,,,,,,,Yes
+2022-01-23,January,35.00,,Zelle Transfer,Paid back by Kawai for champagne and coat,Reimbursement,(R) Groceries & Gas,,,,35.00,,,,,,,Yes
+2022-01-23,January,,206.88,Card - FNBO Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,,206.88,,,,,,,,,Yes
+2022-01-23,January,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-01-24,January,,6.00,Cash,Snacks from 13th Street Coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-6.00,,n/a
+2022-01-25,January,,250.00,Zelle Transfer,Student loan payback to Dad,Discretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-01-25,January,,35.00,Venmo Transfer,Paid Sophie for Craft burgers,Discretionary,(D) Food & Leisure,,,,,,,,,,-35.00,Yes
+2022-01-25,January,17.00,,Zelle Transfer,Paid back by Kawai for Craft burgers,Reimbursement,(R) Food & Leisure,,,,17.00,,,,,,,Yes
+2022-01-26,January,,28.00,Card - FNBO Visa,Game points at Dave & Buster's,Discretionary,(D) Recreation,,28.00,,,,,,,,,Yes
+2022-01-26,January,,2.00,Cash,Coffee from 13th Street Coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-2.00,,n/a
+2022-01-27,January,,12.23,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.23,,,,,,,Yes
+2022-01-27,January,,1.06,Card - WF Visa,Pocket tanks weapons pack,Discretionary,(D) Products & Merchandise,1.06,,,,,,,,,,Yes
+2022-01-29,January,,14.45,Card - WF Visa,Qwik Trip - snacks,Discretionary,(D) Food & Leisure,14.45,,,,,,,,,,Yes
+2022-01-29,January,,29.23,Card - BR Visa,Qwik Trip - gas,Nondiscretionary,(ND) Groceries & Gas,,,29.23,,,,,,,,Yes
+2022-01-29,January,,5.00,Cash,Gave 5 bucks to a homeless lady,Discretionary,(D) Charitable giving,,,,,,,,,-5.00,,n/a
+2022-01-29,January,,19.00,Cash,Drinks and Darts at the Down Under,Discretionary,(D) Recreation,,,,,,,,,-19.00,,n/a
+2022-01-29,January,,17.00,Cash,Dinner at Dinker's,Discretionary,(D) Food & Leisure,,,,,,,,,-17.00,,n/a
+2022-01-29,January,,,ATM Withdrawal,Cash withdrawal,,,,,,-80.00,,,,,80.00,,Yes
+2022-01-29,January,,4.25,ATM Withdrawal,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-4.25,,,,,,,Yes
+2022-01-30,January,15.60,,Venmo Transfer,Paid by Caleb for Down Under show,Regular,,,,,,,,,,,15.60,Yes
+2022-01-30,January,,13.92,Card - FNBO Visa,New Doc Martens laces,Discretionary,(D) Giftgiving,,13.92,,,,,,,,,Yes
+2022-01-31,January,,9.00,Cash,Snacks from Zen,Discretionary,(D) Food & Leisure,,,,,,,,,-9.00,,n/a
+2022-01-31,January,,1.06,Card - WF Visa,Pocket tanks weapons pack,Discretionary,(D) Products & Merchandise,1.06,,,,,,,,,,Yes
+2022-01-31,January,42.70,,Venmo Transfer,Paid by Caleb for Dub show,Regular,,,,,,,,,,,42.70,Yes
+2022-01-31,January,0.05,,Online Transfer,Interest payment from Wells Fargo,Regular,,,,,,0.05,,,,,,Yes
+2022-01-31,January,0.40,,Online Transfer,Interest payment from FNBO,Regular,,,,,,,,0.40,,,,Yes
+2022-01-31,January,,30.00,Cash,Breakfast at Lisa's,Discretionary,(D) Food & Leisure,,,,,,,,,-30.00,,n/a
+2022-02-01,February,694.00,,Zelle Transfer,Kawai Rent,Reimbursement,(R) Rent & Utilities,,,,694.00,,,,,,,Yes
+2022-02-01,February,36.00,,Zelle Transfer,Kawai Internet,Reimbursement,(R) Internet,,,,36.00,,,,,,,Yes
+2022-02-01,February,,12.32,Card - WF Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,12.32,,,,,,,,,,Yes
+2022-02-01,February,,96.83,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,96.83,,,,,,,,,Yes
+2022-02-02,February,,1388.27,eCheck,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1388.27,,,,,Yes
+2022-02-02,February,,72.83,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-72.83,,,,,Yes
+2022-02-03,February,,31.00,Card - WF Visa,YMCA Subscription,Discretionary,(ND) YMCA Subscription,31.00,,,,,,,,,,Yes
+2022-02-03,February,,18.02,Card - FNBO Visa,Target - CAT6 cable,Nondiscretionary,(ND) Necessary Life Supplies,,18.02,,,,,,,,,Yes
+2022-02-03,February,,9.17,Card - BR Visa,Stories coffee - coffee,Discretionary,(D) Food & Leisure,,,9.17,,,,,,,,Yes
+2022-02-03,February,,12.96,Card - WF Visa,Stories coffee - beer,Discretionary,(D) Food & Leisure,12.96,,,,,,,,,,Yes
+2022-02-04,February,,20.68,Card - BR Visa,Papa John's,Discretionary,(D) Food & Leisure,,,20.68,,,,,,,,Yes
+2022-02-04,February,,29.00,Card - BR Visa,Late card payment fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,29.00,,,,,,,,Yes
+2022-02-04,February,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-02-04,February,674.17,,Direct Deposit,FNBO - salary income,Regular,,,,,674.17,,,,,,,Yes
+2022-02-04,February,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-02-05,February,,,Venmo Transfer,Payment liaison from Kawai to Emily Duesenberg,,,,,,35.00,,,,,,-35.00,Yes
+2022-02-05,February,,38.58,Card - FNBO Visa,Drinks at Funny Bone,Discretionary,(D) Recreation,,38.58,,,,,,,,,Yes
+2022-02-06,February,,19.73,Card - FNBO Visa,Supplies from Creighton bookstore for FNBO tabling,Nondiscretionary,(ND) Necessary Life Supplies,,19.73,,,,,,,,,Yes
+2022-02-07,February,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-02-07,February,60.00,,Venmo Transfer,Paid by Patrick for Funny Bone tickets,Reimbursement,(D) Recreation,,,,,,,,,,60.00,Yes
+2022-02-07,February,,140.00,Card - FNBO Visa,Mark Normand tickets at the Funny Bone,Discretionary,(D) Recreation,,140.00,,,,,,,,,Yes
+2022-02-09,February,,10.50,Card - BR Visa,Interest charge on late payment,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,10.50,,,,,,,,Yes
+2022-02-10,February,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-02-10,February,,60.00,Venmo Transfer,Paid Patrick for dinner at Funny Bone,Discretionary,(D) Recreation,,,,-60.00,,,,,,,Yes
+2022-02-10,February,,,Online Transfer,Paid off card - FNBO Visa,,,,-813.86,,,,-813.86,,,,,Yes
+2022-02-10,February,,,Online Transfer,Paid off card - BR Visa,,,,,-621.88,-621.88,,,,,,,Yes
+2022-02-10,February,,5.00,Venmo Transfer,Paid Marian for beef stick coozie,Discretionary,(D) Products & Merchandise,,,,-5.00,,,,,,,Yes
+2022-02-10,February,,8.52,Card - WF Visa,Beer at the Funny Bone,Discretionary,(D) Food & Leisure,8.52,,,,,,,,,,Yes
+2022-02-10,February,,28.62,Card - FNBO Visa,Baker's - groceries,Nondiscretionary,(ND) Necessary Life Supplies,,28.62,,,,,,,,,Yes
+2022-02-11,February,,,Venmo Transfer,Transfer Balance,,,,,,91.90,,,,,,-91.90,Yes
+2022-02-11,February,,20.74,Card - WF Visa,Speedway - gas,Nondiscretionary,(ND) Groceries & Gas,20.74,,,,,,,,,,Yes
+2022-02-11,February,,25.00,Card - FNBO Visa,Love's - gas,Nondiscretionary,(ND) Groceries & Gas,,25.00,,,,,,,,,Yes
+2022-02-12,February,,19.07,Card - FNBO Visa,Chick-fil-a,Discretionary,(D) Food & Leisure,,19.07,,,,,,,,,Yes
+2022-02-12,February,,15.00,Cash,Beer for Palentine's,Discretionary,(D) Food & Leisure,,,,,,,,,-15.00,,n/a
+2022-02-13,February,,31.12,Card - WF Visa,Superbowl party favors,Discretionary,(D) Recreation,31.12,,,,,,,,,,Yes
+2022-02-13,February,110.00,,Venmo Transfer,Paid by Adam for Dub Show,Regular,,,,,,,,,,,110.00,Yes
+2022-02-13,February,,12.00,Venmo Transfer,Paid Bob Guenin for Superbowl betting game,Discretionary,(D) Recreation,,,,-12.00,,,,,,,Yes
+2022-02-14,February,,183.56,Card - FNBO Visa,Valentine's Day dinner at Union Rooftop,Discretionary,(D) Recreation,,183.56,,,,,,,,,Yes
+2022-02-14,February,,7.00,Card - BR Visa,Minneapolis parking ramp,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,7.00,,,,,,,,Yes
+2022-02-14,February,,30.35,Card - WF Visa,Holiday - gas,Nondiscretionary,(ND) Groceries & Gas,30.35,,,,,,,,,,Yes
+2022-02-14,February,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-02-15,February,,,Venmo Transfer,Transfer Balance,,,,,,100.00,,,,,,-100.00,Yes
+2022-02-15,February,,12.00,Card - FNBO Visa,Parking ramp,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,12.00,,,,,,,,,Yes
+2022-02-15,February,,22.42,Card - WF Visa,Drinks at First Ave,Discretionary,(D) Food & Leisure,22.42,,,,,,,,,,Yes
+2022-02-17,February,,,Online Transfer,Transfer Balance,,,,,,2000.00,-2000.00,,,,,,Yes
+2022-02-17,February,,,Online Transfer,Transfer Balance,,,,,,,,2000.00,-2000.00,,,,Yes
+2022-02-17,February,,,Online Transfer,Transfer Balance,,,,,,-4000.00,,,,4000.00,,,Yes
+2022-02-17,February,,,Online Transfer,Transfer Balance,,,,,,,,-4000.00,,4000.00,,,Yes
+2022-02-17,February,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-02-18,February,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-02-18,February,,130.16,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-130.16,,,,,,,Yes
+2022-02-18,February,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-02-18,February,676.18,,Direct Deposit,FNBO - salary income,Regular,,,,,676.18,,,,,,,Yes
+2022-02-18,February,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-02-18,February,,30.00,Card - BR Visa,Dinner at Louie M's,Discretionary,(D) Food & Leisure,,,30.00,,,,,,,,Yes
+2022-02-19,February,,57.00,Cash,Drinks at Down Under and Shakedown Street,Discretionary,(D) Recreation,,,,,,,,,-57.00,,n/a
+2022-02-20,February,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-02-20,February,,,Online Transfer,Paid off card - WF Visa,,,-475.00,,,-475.00,,,,,,,Yes
+2022-02-20,February,,130.00,Zelle Transfer,Paid Kawai for MUDD/OPPD,Nondiscretionary,(ND) Rent & Utilities,,,,-130.00,,,,,,,Yes
+2022-02-20,February,20.00,,Venmo Transfer,Paid by Caleb for Down Under show,Regular,,,,,,,,,,,20.00,Yes
+2022-02-20,February,,24.83,Card - BR Visa,China Taste,Discretionary,(D) Food & Leisure,,,24.83,,,,,,,,Yes
+2022-02-21,February,,51.29,Card - FNBO Visa,Sweetwater - music supplies,Discretionary,(D) Products & Merchandise,,51.29,,,,,,,,,Yes
+2022-02-21,February,,10.20,Card - BR Visa,Archetype - coffee,Discretionary,(D) Food & Leisure,,,10.20,,,,,,,,Yes
+2022-02-22,February,,5.00,Cash,eCreamery ice cream,Discretionary,(D) Recreation,,,,,,,,,-5.00,,n/a
+2022-02-24,February,,28.75,Card - FNBO Visa,Wash world laundry,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,28.75,,,,,,,,,Yes
+2022-02-24,February,,22.00,Card - WF Visa,Walgreen's - necessary life supplies,Nondiscretionary,(ND) Necessary Life Supplies,22.00,,,,,,,,,,Yes
+2022-02-24,February,,19.00,Card - BR Visa,Focus on Force study materials,Discretionary,(D) Products & Merchandise,,,19.00,,,,,,,,Yes
+2022-02-25,February,,,ATM Withdrawal,Transfer Balance,,,,,,-320.00,,,,,320.00,,Yes
+2022-02-25,February,,24.11,Card - WF Visa,Krispy Kreme for the office,Discretionary,(D) Food & Leisure,24.11,,,,,,,,,,Yes
+2022-02-25,February,,325.00,Cash,Bought Marshall cabinet from Blake,Discretionary,(D) Products & Merchandise,,,,,,,,,-325.00,,n/a
+2022-02-26,February,,15.00,Cash,Games at Beercade,Discretionary,(D) Recreation,,,,,,,,,-15.00,,n/a
+2022-02-26,February,,60.00,Card - FNBO Visa,Beercade - drinks and games,Discretionary,(D) Recreation,,60.00,,,,,,,,,Yes
+2022-02-28,February,,11.75,Card - WF Visa,Swim cap from Dick's,Nondiscretionary,(ND) Necessary Life Supplies,11.75,,,,,,,,,,Yes
+2022-02-28,February,,12.24,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.24,,,,,,,Yes
+2022-02-28,February,,21.38,Card - FNBO Visa,Freddy's,Discretionary,(D) Food & Leisure,,21.38,,,,,,,,,Yes
+2022-02-28,February,,30.00,Card - WF Visa,Donated to Ukrainian Facebook/Instagram fundraiser,Discretionary,(D) Charitable giving,30.00,,,,,,,,,,Yes
+2022-02-28,February,,3.83,Card - WF Visa,13th Street Coffee - water,Discretionary,(D) Food & Leisure,3.83,,,,,,,,,,Yes
+2022-03-01,March,,397.47,Card - FNBO Visa,Vehicle Servicing,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,397.47,,,,,,,,,Yes
+2022-03-03,March,,31.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,31.00,,,,,,,,,,Yes
+2022-03-03,March,,,Online Transfer,Paid off card - BR Visa,,,,,-100.00,-100.00,,,,,,,Yes
+2022-03-03,March,,3.38,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,3.38,,,,,,,,,Yes
+2022-03-03,March,,1395.65,eCheck,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1395.65,,,,,Yes
+2022-03-03,March,,24.00,Card - WF Visa,Drinks at Harney Street Tavern,Discretionary,(D) Recreation,24.00,,,,,,,,,,Yes
+2022-03-03,March,,81.05,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-81.05,,,,,Yes
+2022-03-04,March,,43.50,Card - FNBO Visa,Slowdown - drinks,Discretionary,(D) Recreation,,43.50,,,,,,,,,Yes
+2022-03-04,March,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-03-04,March,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-03-04,March,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-03-04,March,,43.10,Card - WF Visa,Dinner at Old Mattress Factory,Discretionary,(D) Recreation,43.10,,,,,,,,,,Yes
+2022-03-05,March,,44.41,Card - WF Visa,Dinner in Lincoln at Stur 22 Lounge,Discretionary,(D) Food & Leisure,44.41,,,,,,,,,,Yes
+2022-03-05,March,,35.21,Card - BR Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,,35.21,,,,,,,,Yes
+2022-03-05,March,,24.50,Card - BR Visa,Beercade - drinks and games,Discretionary,(D) Recreation,,,24.50,,,,,,,,Yes
+2022-03-06,March,,34.55,Card - BR Visa,Wohlner's - groceries,Nondiscretionary,(ND) Groceries & Gas,,,34.55,,,,,,,,Yes
+2022-03-06,March,36.00,,Venmo Transfer,Paid by Adam for Shakedown Street Show,Regular,,,,,,,,,,,36.00,Yes
+2022-03-06,March,,7.02,Card - WF Visa,13th Street Coffee - snacks,Discretionary,(D) Food & Leisure,7.02,,,,,,,,,,Yes
+2022-03-07,March,,,ATM Withdrawal,Transfer Balance,,,,,,-200.00,,,,,200.00,,Yes
+2022-03-07,March,,13.89,Card - BR Visa,Target - power strip and mouse pad,Nondiscretionary,(ND) Necessary Life Supplies,,,13.89,,,,,,,,Yes
+2022-03-07,March,,7.17,Card - FNBO Visa,Sozo - drinks,Discretionary,(D) Food & Leisure,,7.17,,,,,,,,,Yes
+2022-03-07,March,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-03-07,March,,150.00,Cash,LG Computer Monitor,Discretionary,(D) Products & Merchandise,,,,,,,,,-150.00,,n/a
+2022-03-08,March,,25.00,Cash,Breakfast at Lisa's,Discretionary,(D) Food & Leisure,,,,,,,,,-25.00,,n/a
+2022-03-09,March,,4.16,Card - BR Visa,Sozo - drinks,Discretionary,(D) Food & Leisure,,,4.16,,,,,,,,Yes
+2022-03-09,March,,,Online Transfer,Paid off card - FNBO Visa,,,,-400.00,,,,-400.00,,,,,Yes
+2022-03-09,March,,38.35,Card - WF Visa,Baker's - stamps and flowers,Nondiscretionary,(ND) Necessary Life Supplies,38.35,,,,,,,,,,Yes
+2022-03-12,March,,5.00,Cash,Tipped musicians at Kinkaider brewery,Discretionary,(D) Recreation,,,,,,,,,-5.00,,n/a
+2022-03-12,March,,15.00,Card - BR Visa,Omaha film festival tickets,Discretionary,(D) Recreation,,,15.00,,,,,,,,Yes
+2022-03-12,March,,22.50,Card - FNBO Visa,Drinks at Kinkaider,Discretionary,(D) Food & Leisure,,22.50,,,,,,,,,Yes
+2022-03-12,March,,21.54,Card - BR Visa,Dinner at Mai Thai,Discretionary,(D) Food & Leisure,,,21.54,,,,,,,,Yes
+2022-03-13,March,,138.02,Card - BR Visa,Guitar servicing at Ground Floor Guitar,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,138.02,,,,,,,,Yes
+2022-03-14,March,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-03-14,March,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-03-15,March,,13.04,Card - BR Visa,Shipping label for old tubes sold on Reverb,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,13.04,,,,,,,,Yes
+2022-03-15,March,10.00,,Zelle Transfer,Paid by Kawai for something I don't know,Reimbursement,(ND) Nonnegotiable Unpredictables,,,,10.00,,,,,,,Yes
+2022-03-15,March,,19.44,Card - WF Visa,Movie theatre snacks,Discretionary,(D) Recreation,19.44,,,,,,,,,,Yes
+2022-03-15,March,,4.37,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,4.37,,,,,,,,,Yes
+2022-03-15,March,,8.87,Card - WF Visa,Cane's for dinner,Discretionary,(D) Food & Leisure,8.87,,,,,,,,,,Yes
+2022-03-16,March,280.00,,Direct Deposit,Nebraska Tax Return,Regular,,,,,280.00,,,,,,,Yes
+2022-03-16,March,,21.96,Card - BR Visa,Dinner at Backlot Taphouse,Discretionary,(D) Food & Leisure,,,21.96,,,,,,,,Yes
+2022-03-16,March,,110.66,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,110.66,,,,,,,,,Yes
+2022-03-17,March,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-03-17,March,27.37,,Online Transfer,Sold old tubes on Reverb,Regular,,,,,27.37,,,,,,,Yes
+2022-03-17,March,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-03-17,March,941.00,,Direct Deposit,Federal Tax Return,Regular,,,,,941.00,,,,,,,Yes
+2022-03-17,March,,20.00,Cash,Dub cover charge,Discretionary,(D) Recreation,,,,,,,,,-20.00,,n/a
+2022-03-17,March,,20.00,Cash,Drinks at the Dub,Discretionary,(D) Recreation,,,,,,,,,-20.00,,n/a
+2022-03-17,March,,5.50,ATM Withdrawal,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.50,,,,,,,Yes
+2022-03-18,March,,130.16,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-130.16,,,,,,,Yes
+2022-03-18,March,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-03-18,March,39.00,,Cash,Paid by Caleb for Dr. Jacks show,Regular,,,,,,,,,,39.00,,n/a
+2022-03-18,March,723.28,,Direct Deposit,FNBO - salary income,Regular,,,,,723.28,,,,,,,Yes
+2022-03-18,March,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-03-18,March,,11.00,Cash,Drinks at Dr. Jacks,Discretionary,(D) Recreation,,,,,,,,,-11.00,,n/a
+2022-03-19,March,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-03-19,March,,8.00,Cash,Stories coffee - snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-8.00,,n/a
+2022-03-19,March,,6.21,Card - BR Visa,Stories coffee - coffee,Discretionary,(D) Food & Leisure,,,6.21,,,,,,,,Yes
+2022-03-19,March,,15.00,Cash,Slowdown - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-15.00,,n/a
+2022-03-19,March,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-03-19,March,,,Online Transfer,Paid off card - WF Visa,,,-300.00,,,-300.00,,,,,,,Yes
+2022-03-19,March,,22.25,Card - BR Visa,McDonald's ,Discretionary,(D) Food & Leisure,,,22.25,,,,,,,,Yes
+2022-03-20,March,,4.00,Cash,Sozo - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-4.00,,n/a
+2022-03-21,March,,69.56,Card - FNBO Visa,Sweetwater - music supplies,Discretionary,(D) Products & Merchandise,,69.56,,,,,,,,,Yes
+2022-03-21,March,,85.60,Card - BR Visa,Sweet girl gonna be so tall,Discretionary,(D) Products & Merchandise,,,85.60,,,,,,,,Yes
+2022-03-21,March,,66.50,Card - FNBO Visa,MustardVision tickets,Discretionary,(D) Recreation,,66.50,,,,,,,,,Yes
+2022-03-21,March,606.00,,Zelle Transfer,Kawai Rent,Reimbursement,(R) Rent & Utilities,,,,606.00,,,,,,,Yes
+2022-03-21,March,40.00,,Zelle Transfer,Kawai Internet,Reimbursement,(R) Internet,,,,40.00,,,,,,,Yes
+2022-03-22,March,,10.00,Card - WF Visa,Parking violation,Discretionary,(D) Parking & Scooters,10.00,,,,,,,,,,Yes
+2022-03-22,March,,20.76,Card - WF Visa,Mini golf,Discretionary,(D) Recreation,20.76,,,,,,,,,,Yes
+2022-03-23,March,,27.44,Card - BR Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,,,27.44,,,,,,,,Yes
+2022-03-23,March,,16.00,Cash,Drinks at various coffee shops,Discretionary,(D) Food & Leisure,,,,,,,,,-16.00,,n/a
+2022-03-24,March,,19.00,Card - WF Visa,Thrift World - rock n roll clothes,Discretionary,(D) Products & Merchandise,19.00,,,,,,,,,,Yes
+2022-03-25,March,,40.00,Cash,Drinks at Slowdown and Hook n Lime,Discretionary,(D) Recreation,,,,,,,,,-40.00,,n/a
+2022-03-26,March,,34.82,Card - FNBO Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,34.82,,,,,,,,,Yes
+2022-03-27,March,,15.00,Card - BR Visa,Printed developer exam study materials,Nondiscretionary,(ND) Necessary Life Supplies,,,15.00,,,,,,,,Yes
+2022-03-27,March,,54.40,Card - FNBO Visa,Hiro 88 - dinner date,Discretionary,(D) Recreation,,54.40,,,,,,,,,Yes
+2022-03-28,March,,31.92,Card - BR Visa,Baker's - groceries,Nondiscretionary,(ND) Groceries & Gas,,,31.92,,,,,,,,Yes
+2022-03-28,March,,141.77,Card - FNBO Visa,6mp,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,141.77,,,,,,,,,Yes
+2022-03-29,March,,12.23,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.23,,,,,,,Yes
+2022-03-29,March,,27.91,Card - WF Visa,Broken Mug - lunch,Discretionary,(D) Food & Leisure,27.91,,,,,,,,,,Yes
+2022-03-30,March,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-03-30,March,,4.00,Cash,Sozo - snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-4.00,,n/a
+2022-03-30,March,,21.06,Card - WF Visa,Plank - fellas night,Discretionary,(D) Recreation,21.06,,,,,,,,,,Yes
+2022-03-31,March,,7.00,Cash,13th Street Coffee - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-7.00,,n/a
+2022-04-01,April,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-04-01,April,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-04-01,April,,142.37,Card - WF Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,142.37,,,,,,,,,,Yes
+2022-04-02,April,,6.00,Cash,Dub - a Guinness,Discretionary,(D) Food & Leisure,,,,,,,,,-6.00,,n/a
+2022-04-02,April,,46.40,Card - BR Visa,Addy's - food & drink,Discretionary,(D) Food & Leisure,,,46.40,,,,,,,,Yes
+2022-04-03,April,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-04-03,April,,4.08,Card - FNBO Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,4.08,,,,,,,,,Yes
+2022-04-03,April,,,Online Transfer,Paid off card - BR Visa,,,,,-350.00,-350.00,,,,,,,Yes
+2022-04-03,April,,1294.79,eCheck,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1294.79,,,,,Yes
+2022-04-03,April,,78.19,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-78.19,,,,,Yes
+2022-04-04,April,,11.87,Card - WF Visa,Zen coffee - drinks,Discretionary,(D) Food & Leisure,11.87,,,,,,,,,,Yes
+2022-04-04,April,,10.00,Card - WF Visa,Parking violation,Discretionary,(D) Parking & Scooters,10.00,,,,,,,,,,Yes
+2022-04-04,April,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-04-05,April,,192.00,Card - BR Visa,Tickets to Anastasia,Discretionary,(D) Recreation,,,192.00,,,,,,,,Yes
+2022-04-05,April,,2.48,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,2.48,,,,,,,,,Yes
+2022-04-06,April,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-04-06,April,,25.00,Card - BR Visa,Creighton Giving Day Donation,Discretionary,(D) Charitable giving,,,25.00,,,,,,,,Yes
+2022-04-06,April,,25.00,Card - BR Visa,Creighton Giving Day Donation,Discretionary,(D) Charitable giving,,,25.00,,,,,,,,Yes
+2022-04-06,April,,18.28,Card - FNBO Visa,Arby's,Discretionary,(D) Food & Leisure,,18.28,,,,,,,,,Yes
+2022-04-07,April,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-04-07,April,,3.87,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,3.87,,,,,,,,,Yes
+2022-04-08,April,,5.19,Card - BR Visa,Cubby's - eggs,Nondiscretionary,(ND) Groceries & Gas,,,5.19,,,,,,,,Yes
+2022-04-09,April,,12.10,Card - BR Visa,Road trip snacks from Denver gig weekend,Discretionary,(D) Food & Leisure,,,12.10,,,,,,,,Yes
+2022-04-09,April,,28.21,Card - WF Visa,Dinner at School House in Denver,Discretionary,(D) Food & Leisure,28.21,,,,,,,,,,Yes
+2022-04-09,April,,35.75,Card - FNBO Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,35.75,,,,,,,,,Yes
+2022-04-10,April,,8.25,Card - BR Visa,Road trip snacks from Denver gig weekend,Discretionary,(D) Food & Leisure,,,8.25,,,,,,,,Yes
+2022-04-10,April,,,Online Transfer,Paid off card - FNBO Visa,,,,-600.00,,,,-600.00,,,,,Yes
+2022-04-10,April,14.00,,Venmo Transfer,Paid by Caleb for Regis show,Regular,,,,,,,,,,,14.00,Yes
+2022-04-10,April,,26.37,Card - WF Visa,Gas from Henderson Fuel Stop,Nondiscretionary,(ND) Groceries & Gas,26.37,,,,,,,,,,Yes
+2022-04-10,April,,42.00,Cash,Food and stuff over Denver gig trip,Discretionary,(D) Vacationing,,,,,,,,,-42.00,,n/a
+2022-04-11,April,,30.75,Card - WF Visa,NE license from DMV,Nondiscretionary,(ND) Nonnegotiable Unpredictables,30.75,,,,,,,,,,Yes
+2022-04-12,April,,16.64,Card - BR Visa,Pickleman's - lunch,Discretionary,(D) Food & Leisure,,,16.64,,,,,,,,Yes
+2022-04-12,April,40.00,,Venmo Transfer,Paid by Caleb for Relay For Life gig,Regular,,,,,,,,,,,40.00,Yes
+2022-04-13,April,,4.00,Cash,Sozo - snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-4.00,,n/a
+2022-04-14,April,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-04-14,April,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-04-15,April,723.29,,Direct Deposit,FNBO - salary income,,,,,,723.29,,,,,,,Yes
+2022-04-15,April,1200.00,,Direct Deposit,FNBO - salary income,,,,,,,,1200.00,,,,,Yes
+2022-04-16,April,,110.78,Card - BR Visa,"Took Kawai, Mom, and Grandma out for brunch",Discretionary,(D) Food & Leisure,,,110.78,,,,,,,,Yes
+2022-04-16,April,,137.45,Card - FNBO Visa,Target - Easter goods and household supplies,Nondiscretionary,(ND) Necessary Life Supplies,,137.45,,,,,,,,,Yes
+2022-04-16,April,13.00,,Venmo Transfer,Paid back by Mom for coffee beans,Reimbursement,(R) Food & Leisure,,,,,,,,,,13.00,Yes
+2022-04-16,April,37.42,,Zelle Transfer,Paid back by Kawai for Old Navy haul,Reimbursement,(R) Products & Merchandise,,,,37.42,,,,,,,Yes
+2022-04-16,April,,37.42,Card - BR Visa,Old Navy - clothes,Discretionary,(D) Products & Merchandise,,,37.42,,,,,,,,Yes
+2022-04-16,April,,4.81,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,4.81,,,,,,,,,Yes
+2022-04-16,April,,3.72,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,3.72,,,,,,,,,Yes
+2022-04-16,April,,14.29,Card - WF Visa,Dollar Tree - Easter supplies,Nondiscretionary,(ND) Necessary Life Supplies,14.29,,,,,,,,,,Yes
+2022-04-17,April,,,Venmo Transfer,Transfer Balance,,,,,,200.00,,,,,,-200.00,Yes
+2022-04-17,April,74.00,,Venmo Transfer,Paid by Adam for Dub and Slowdown shows,Regular,,,,,,,,,,,74.00,Yes
+2022-04-17,April,,24.60,Card - WF Visa,Cubby's - Easter wine,Discretionary,(D) Food & Leisure,24.60,,,,,,,,,,Yes
+2022-04-18,April,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-04-18,April,,14.54,Card - FNBO Visa,Date night - Alamo drafthouse,Discretionary,(D) Recreation,,14.54,,,,,,,,,Yes
+2022-04-18,April,,5.00,Cash,13th Street Coffee - snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-04-19,April,,,Online Transfer,Transfer Balance,,,,,,-2125.00,,,,2125.00,,,Yes
+2022-04-19,April,,,Online Transfer,Transfer Balance,,,,,,,,-2125.00,,2125.00,,,Yes
+2022-04-19,April,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-04-19,April,,96.69,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.69,,,,,,,Yes
+2022-04-19,April,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-04-19,April,,,Online Transfer,Paid off card - WF Visa,,,-300.00,,,-300.00,,,,,,,Yes
+2022-04-19,April,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-04-19,April,,62.65,Card - FNBO Visa,Date night - Alamo drafthouse,Discretionary,(D) Recreation,,62.65,,,,,,,,,Yes
+2022-04-20,April,,10.00,Card - BR Visa,Parking violation,Discretionary,(D) Parking & Scooters,,,10.00,,,,,,,,Yes
+2022-04-20,April,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-04-21,April,,25.35,Card - BR Visa,Wohlner's - groceries,Nondiscretionary,(ND) Groceries & Gas,,,25.35,,,,,,,,Yes
+2022-04-21,April,,8.00,Cash,Sozo - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-8.00,,n/a
+2022-04-21,April,,5.57,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,5.57,,,,,,,,,Yes
+2022-04-22,April,,257.50,Check,Vehicle registration renewal,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-257.50,,,,,,,Yes
+2022-04-22,April,,3.00,Card - WF Visa,Omaha airport parking garage,Nondiscretionary,(ND) Nonnegotiable Unpredictables,3.00,,,,,,,,,,Yes
+2022-04-22,April,,3.00,Cash,Omaha airport apple juice,Discretionary,(D) Food & Leisure,,,,,,,,,-3.00,,n/a
+2022-04-22,April,,6.15,Card - WF Visa,Gatorade at John Mulaney show,Discretionary,(D) Food & Leisure,6.15,,,,,,,,,,Yes
+2022-04-22,April,,18.85,Card - FNBO Visa,Arby's,Discretionary,(D) Food & Leisure,,18.85,,,,,,,,,Yes
+2022-04-23,April,,34.19,Card - FNBO Visa,Bronco's - dinner,Discretionary,(D) Food & Leisure,,34.19,,,,,,,,,Yes
+2022-04-24,April,,12.42,Card - BR Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,,12.42,,,,,,,,Yes
+2022-04-24,April,,1.00,Cash,Jukebox at the Moon,Discretionary,(D) Recreation,,,,,,,,,-1.00,,n/a
+2022-04-25,April,,67.86,Card - WF Visa,Target - household supplies,Nondiscretionary,(ND) Necessary Life Supplies,67.86,,,,,,,,,,Yes
+2022-04-25,April,,100.00,Card - BR Visa,Salesforce Platform Developer I Exam scheduling fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,100.00,,,,,,,,Yes
+2022-04-27,April,,4.00,Cash,Sozo - drinks ,Discretionary,(D) Food & Leisure,,,,,,,,,-4.00,,n/a
+2022-04-27,April,35.00,,Venmo Transfer,Paid by Caleb for recent gigs,Regular,,,,,,,,,,,35.00,Yes
+2022-04-27,April,,3.33,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,3.33,,,,,,,,,Yes
+2022-04-27,April,,1.00,Cash,Gave a homeless a buck (my last one),Discretionary,(D) Charitable giving,,,,,,,,,-1.00,,n/a
+2022-04-28,April,,92.79,Card - WF Visa,Tap House - guys night dinner,Discretionary,(D) Food & Leisure,92.79,,,,,,,,,,Yes
+2022-04-28,April,,9.99,Card - BR Visa,"Mixthemusic - No Rain, Blind Melon",Discretionary,(D) Products & Merchandise,,,9.99,,,,,,,,Yes
+2022-04-28,April,,88.48,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,88.48,,,,,,,,,Yes
+2022-04-29,April,,503.85,Card - FNBO Visa,New phone and phone case and screen protector,Nondiscretionary,(ND) Necessary Life Supplies,,503.85,,,,,,,,,Yes
+2022-04-29,April,,5.57,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,5.57,,,,,,,,,Yes
+2022-04-29,April,586.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,586.00,,,,,,,Yes
+2022-04-29,April,36.00,,Zelle Transfer,Kawai Internet,Reimbursement,(R) Internet,,,,36.00,,,,,,,Yes
+2022-04-29,April,700.05,,Direct Deposit,FNBO - salary income,Regular,,,,,700.05,,,,,,,Yes
+2022-04-29,April,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-04-29,April,,37.46,Card - BR Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,,37.46,,,,,,,,Yes
+2022-04-30,April,,12.42,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.42,,,,,,,Yes
+2022-04-30,April,,20.00,Venmo Transfer,Donated to Ikaika memorial,,(D) Charitable giving,,,,,,,,,,-20.00,Yes
+2022-04-30,April,,15.00,Venmo Transfer,Dinner from food truck,Discretionary,(D) Food & Leisure,,,,,,,,,,-15.00,Yes
+2022-04-30,April,,17.10,Card - WF Visa,Berry & Rye - drinks,Discretionary,(D) Recreation,17.10,,,,,,,,,,Yes
+2022-05-01,May,,10.00,Card - BR Visa,Parking violation,Discretionary,(D) Parking & Scooters,,,10.00,,,,,,,,Yes
+2022-05-01,May,,40.00,Zelle Transfer,Paid Kawai for John Mulaney ticket less contribution to Ikaika memorial,Discretionary,(D) Recreation,,,,-40.00,,,,,,,Yes
+2022-05-01,May,,1388.44,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1388.44,,,,,Yes
+2022-05-01,May,,78.19,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-78.19,,,,,Yes
+2022-05-02,May,,,Online Transfer,Paid off card - BR Visa,,,,,-650.00,-650.00,,,,,,,Yes
+2022-05-02,May,45.00,,Venmo Transfer,Paid back by Patrick for guys night dinner,Reimbursement,(R) Food & Leisure,,,,,,,,,,45.00,Yes
+2022-05-02,May,,63.13,Card - BR Visa,Camping passes,Discretionary,(D) Recreation,,,63.13,,,,,,,,Yes
+2022-05-03,May,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-05-03,May,250.00,,Venmo Transfer,Paid by Caleb for Regis show,Regular,,,,,,,,,,,250.00,Yes
+2022-05-03,May,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-05-03,May,,8.39,Card - WF Visa,Café Postale - drinks,Discretionary,(D) Food & Leisure,8.39,,,,,,,,,,Yes
+2022-05-04,May,,6.68,Card - BR Visa,Printed stuff at Sozo,Nondiscretionary,(ND) Necessary Life Supplies,,,6.68,,,,,,,,Yes
+2022-05-04,May,,4.52,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,4.52,,,,,,,,,Yes
+2022-05-04,May,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-05-04,May,,27.39,Card - BR Visa,Café Postale - lunch,Discretionary,(D) Food & Leisure,,,27.39,,,,,,,,Yes
+2022-05-05,May,,,Online Transfer,Transfer Balance,,,,,,-500.00,,,,500.00,,,Yes
+2022-05-05,May,,,Online Transfer,Transfer Balance,,,,,,,,-500.00,,500.00,,,Yes
+2022-05-05,May,,46.72,Card - BR Visa,Taqueria Tijuana - tacos for Cinco de Mayo,Discretionary,(D) Food & Leisure,,,46.72,,,,,,,,Yes
+2022-05-05,May,,10.00,Card - BR Visa,Parking violation,Discretionary,(D) Parking & Scooters,,,10.00,,,,,,,,Yes
+2022-05-05,May,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-05-06,May,,45.22,Card - BR Visa,The Session Room - dinner,Discretionary,(D) Food & Leisure,,,45.22,,,,,,,,Yes
+2022-05-06,May,,5.90,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,5.90,,,,,,,,,Yes
+2022-05-06,May,,15.06,Card - WF Visa,13th Street Coffee - drinks,Discretionary,(D) Food & Leisure,15.06,,,,,,,,,,Yes
+2022-05-07,May,,,Venmo Transfer,Transfer Balance,,,,,,350.00,,,,,,-350.00,Yes
+2022-05-07,May,,29.22,Card - FNBO Visa,Shell - gas,Nondiscretionary,(ND) Groceries & Gas,,29.22,,,,,,,,,Yes
+2022-05-07,May,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-05-07,May,60.00,,Venmo Transfer,Paid back by Marian for Costco groceries,Reimbursement,(R) Groceries & Gas,,,,,,,,,,60.00,Yes
+2022-05-07,May,,28.49,Card - WF Visa,Dollar General - camping supplies,Nondiscretionary,(ND) Necessary Life Supplies,28.49,,,,,,,,,,Yes
+2022-05-07,May,,159.75,Card - FNBO Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,,159.75,,,,,,,,,Yes
+2022-05-09,May,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-05-09,May,,37.62,Card - BR Visa,Denny's - lunch,Discretionary,(D) Food & Leisure,,,37.62,,,,,,,,Yes
+2022-05-10,May,,13.79,Card - WF Visa,Pickleman's - lunch,Discretionary,(D) Food & Leisure,13.79,,,,,,,,,,Yes
+2022-05-10,May,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-05-11,May,,,Online Transfer,Paid off card - FNBO Visa,,,,-750.00,,,,-750.00,,,,,Yes
+2022-05-11,May,300.00,,Zelle Transfer,Paid back by Hiwa for bail,Reimbursement,(R) Nonnegotiable Unpredictables,,,,300.00,,,,,,,Yes
+2022-05-12,May,,37.00,Cash,Reverb Lounge - drinks,Discretionary,(D) Recreation,,,,,,,,,-37.00,,n/a
+2022-05-12,May,,3.18,Card - WF Visa,Pocket tanks weapons pack,Discretionary,(D) Products & Merchandise,3.18,,,,,,,,,,Yes
+2022-05-12,May,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-05-12,May,,153.00,Card - WF Visa,Amazon - kitchen cabinet,Nondiscretionary,(ND) Necessary Life Supplies,153.00,,,,,,,,,,Yes
+2022-05-13,May,,10.00,Cash,Shakedown Street - drinks,Discretionary,(D) Recreation,,,,,,,,,-10.00,,n/a
+2022-05-13,May,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-05-13,May,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-05-14,May,,18.00,Cash,The Moon - beer,Discretionary,(D) Recreation,,,,,,,,,-18.00,,n/a
+2022-05-14,May,,29.60,Card - BR Visa,Noodles & Company - lunch,Discretionary,(D) Food & Leisure,,,29.60,,,,,,,,Yes
+2022-05-14,May,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-05-14,May,,6.41,Card - WF Visa,Amazon - batteries for caliper,Discretionary,(D) Products & Merchandise,6.41,,,,,,,,,,Yes
+2022-05-16,May,,96.67,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.67,,,,,,,Yes
+2022-05-16,May,,9.19,Card - WF Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,9.19,,,,,,,,,,Yes
+2022-05-16,May,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-05-17,May,,7.12,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,7.12,,,,,,,,,Yes
+2022-05-17,May,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-05-17,May,,200.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-200.00,,,,,,,Yes
+2022-05-17,May,,12.83,Card - BR Visa,Ace Hardware - electronics cleaner spray,Nondiscretionary,(ND) Necessary Life Supplies,,,12.83,,,,,,,,Yes
+2022-05-18,May,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-05-18,May,,149.80,Card - FNBO Visa,Orange Micro Terror MH20,Discretionary,(D) Products & Merchandise,,149.80,,,,,,,,,Yes
+2022-05-18,May,,18.60,Card - BR Visa,Ace Hardware - electrical wire and spade connectors,Nondiscretionary,(ND) Necessary Life Supplies,,,18.60,,,,,,,,Yes
+2022-05-19,May,,10.85,Card - WF Visa,Wendy's,Discretionary,(D) Food & Leisure,10.85,,,,,,,,,,Yes
+2022-05-19,May,,9.87,Card - WF Visa,Moon - drinks,Discretionary,(D) Recreation,9.87,,,,,,,,,,Yes
+2022-05-19,May,,38.77,Card - FNBO Visa,Love's - gas,Nondiscretionary,(ND) Groceries & Gas,,38.77,,,,,,,,,Yes
+2022-05-20,May,,42.40,Card - FNBO Visa,Five Guys with Sam,Discretionary,(D) Recreation,,42.40,,,,,,,,,Yes
+2022-05-21,May,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-05-21,May,,3.00,Cash,Speedway - lemonade,Discretionary,(D) Food & Leisure,,,,,,,,,-3.00,,n/a
+2022-05-21,May,,35.04,Card - BR Visa,Speedway - gas,Nondiscretionary,(ND) Groceries & Gas,,,35.04,,,,,,,,Yes
+2022-05-21,May,,17.99,Card - FNBO Visa,Holiday - gas,Nondiscretionary,(ND) Groceries & Gas,,17.99,,,,,,,,,Yes
+2022-05-21,May,,27.00,Cash,Drinks on night out for Guenin's birthday,Discretionary,(D) Recreation,,,,,,,,,-27.00,,n/a
+2022-05-21,May,,5.00,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.00,,,,,,,Yes
+2022-05-22,May,,5.00,Cash,Starbucks - coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-05-22,May,,,Online Transfer,Paid off card - WF Visa,,,-500.00,,,-500.00,,,,,,,Yes
+2022-05-22,May,,33.74,Card - FNBO Visa,Arby's - lunch,Discretionary,(D) Food & Leisure,,33.74,,,,,,,,,Yes
+2022-05-23,May,85.00,,Venmo Transfer,Paid by Adam for Shakedown Street Show,Regular,,,,,,,,,,,85.00,Yes
+2022-05-23,May,,6.29,Card - BR Visa,McDonald's ,Discretionary,(D) Food & Leisure,,,6.29,,,,,,,,Yes
+2022-05-23,May,,38.22,Card - BR Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,,38.22,,,,,,,,Yes
+2022-05-24,May,,4.87,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,4.87,,,,,,,,,Yes
+2022-05-24,May,,28.00,Card - WF Visa,Hy-vee - flowers for Kawai,Discretionary,(D) Giftgiving,28.00,,,,,,,,,,Yes
+2022-05-25,May,,12.00,Venmo Transfer,Paid Caleb for dinner at Fizzy's,Discretionary,(D) Food & Leisure,,,,,,,,,,-12.00,Yes
+2022-05-27,May,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-05-27,May,588.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,588.00,,,,,,,Yes
+2022-05-27,May,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-05-27,May,723.28,,Direct Deposit,FNBO - salary income,Regular,,,,,723.28,,,,,,,Yes
+2022-05-27,May,,10.00,Cash,13th Street Coffee - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-10.00,,n/a
+2022-05-28,May,,11.52,Card - BR Visa,Voodoo Taco - tacos for Doug,Discretionary,(D) Giftgiving,,,11.52,,,,,,,,Yes
+2022-05-28,May,,5.23,Card - WF Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,5.23,,,,,,,,,,Yes
+2022-05-28,May,,12.26,Card - WF Visa,Juice Stop - smoothies,Discretionary,(D) Food & Leisure,12.26,,,,,,,,,,Yes
+2022-05-29,May,,15.75,Card - BR Visa,Subway - sandwiches for Doug and myself,Discretionary,(D) Food & Leisure,,,15.75,,,,,,,,Yes
+2022-05-29,May,,5.00,Cash,Sozo - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-05-29,May,,15.66,Card - BR Visa,Poke Boba House - poke bowl for Kawai,Discretionary,(D) Giftgiving,,,15.66,,,,,,,,Yes
+2022-05-29,May,8.00,,Venmo Transfer,Paid back by Doug for Voodoo Taco,Reimbursement,(R) Giftgiving,,,,,,,,,,8.00,Yes
+2022-05-29,May,7.00,,Venmo Transfer,Paid back by Doug for Subway,Reimbursement,(R) Food & Leisure,,,,,,,,,,7.00,Yes
+2022-05-30,May,,9.91,Card - FNBO Visa,Cubby's - ice cream & something else,Nondiscretionary,(ND) Groceries & Gas,,9.91,,,,,,,,,Yes
+2022-05-30,May,,16.18,Card - WF Visa,Baker's - groceries,Nondiscretionary,(ND) Groceries & Gas,16.18,,,,,,,,,,Yes
+2022-05-31,May,,12.23,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.23,,,,,,,Yes
+2022-06-01,June,,,Online Transfer,Paid off card - BR Visa,,,,,-627.47,-627.47,,,,,,,Yes
+2022-06-01,June,,1415.88,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1415.88,,,,,Yes
+2022-06-01,June,,78.19,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-78.19,,,,,Yes
+2022-06-02,June,,2.00,Cash,Sozo - tea,Discretionary,(D) Food & Leisure,,,,,,,,,-2.00,,n/a
+2022-06-02,June,,22.37,Card - WF Visa,Qdoba - dinner,Discretionary,(D) Food & Leisure,22.37,,,,,,,,,,Yes
+2022-06-03,June,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-06-03,June,,18.00,Card - BR Visa,Archetype - coffee & pastries,Discretionary,(D) Food & Leisure,,,18.00,,,,,,,,Yes
+2022-06-04,June,,27.00,Cash,Winchester's - drinks,Discretionary,(D) Recreation,,,,,,,,,-27.00,,n/a
+2022-06-04,June,,15.07,Card - FNBO Visa,Block 16 - Lunch,Discretionary,(D) Food & Leisure,,15.07,,,,,,,,,Yes
+2022-06-05,June,,3.08,Card - BR Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,,3.08,,,,,,,,Yes
+2022-06-05,June,,1.00,Cash,Abelardo's - tipped staff,Discretionary,(D) Food & Leisure,,,,,,,,,-1.00,,n/a
+2022-06-06,June,,56.24,Card - BR Visa,Date night - Buffalo Wild Wings,Discretionary,(D) Recreation,,,56.24,,,,,,,,Yes
+2022-06-06,June,,85.03,Card - WF Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,85.03,,,,,,,,,,Yes
+2022-06-07,June,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-06-07,June,,8.00,Cash,Cubby's - ice cream,Nondiscretionary,(ND) Groceries & Gas,,,,,,,,,-8.00,,n/a
+2022-06-09,June,,5.00,Cash,Sozo - coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-06-09,June,,20.00,Venmo Transfer,Paid Maeve for Chinese food,Discretionary,(D) Food & Leisure,,,,,,,,,,-20.00,Yes
+2022-06-09,June,,2.63,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.63,,,,,,,,,Yes
+2022-06-10,June,,60.96,Card - BR Visa,Target - road trip groceries and sunglasss,Nondiscretionary,(ND) Groceries & Gas,,,60.96,,,,,,,,Yes
+2022-06-10,June,,11.77,Card - FNBO Visa,Planet Sub,Discretionary,(D) Food & Leisure,,11.77,,,,,,,,,Yes
+2022-06-10,June,,,Online Transfer,Paid off card - FNBO Visa,,,,-850.00,,,,-850.00,,,,,Yes
+2022-06-10,June,,44.64,Card - WF Visa,Hy-vee - gas,Nondiscretionary,(ND) Groceries & Gas,44.64,,,,,,,,,,Yes
+2022-06-10,June,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-06-10,June,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-06-11,June,,9.70,Card - WF Visa,Sheridan's - custard,Discretionary,(D) Food & Leisure,9.70,,,,,,,,,,Yes
+2022-06-11,June,,4.47,Card - WF Visa,Scooter's - coffee,Discretionary,(D) Food & Leisure,4.47,,,,,,,,,,Yes
+2022-06-11,June,40.00,,Venmo Transfer,Paid back by Ryan for alcohol,Reimbursement,(R) Groceries & Gas,,,,,,,,,,40.00,Yes
+2022-06-11,June,40.00,,Cash,Paid back by Lucas for alcohol,Reimbursement,(R) Groceries & Gas,,,,,,,,,40.00,,n/a
+2022-06-11,June,,15.28,Card - WF Visa,Bowling,Discretionary,(D) Recreation,15.28,,,,,,,,,,Yes
+2022-06-11,June,,8.00,Cash,Bought Jack a beer for losing in bowling,Discretionary,(D) Recreation,,,,,,,,,-8.00,,n/a
+2022-06-11,June,,144.57,Card - BR Visa,2850 Wanamaker Liquor - booze,Nondiscretionary,(ND) Groceries & Gas,,,144.57,,,,,,,,Yes
+2022-06-12,June,,9.00,Cash,Replay Lounge - an IPA,Discretionary,(D) Recreation,,,,,,,,,-9.00,,n/a
+2022-06-13,June,,41.88,Card - WF Visa,MM 97 - gas,Nondiscretionary,(ND) Groceries & Gas,41.88,,,,,,,,,,Yes
+2022-06-13,June,,8.00,Card - BR Visa,Kansas toll road,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,8.00,,,,,,,,Yes
+2022-06-14,June,,21.50,Card - WF Visa,Worn Again - thrifted trench coat,Discretionary,(D) Products & Merchandise,21.50,,,,,,,,,,Yes
+2022-06-14,June,,8.58,Card - BR Visa,Goodwill - pants and jacket,Discretionary,(D) Products & Merchandise,,,8.58,,,,,,,,Yes
+2022-06-14,June,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-06-15,June,,13.72,Card - BR Visa,Kwik Shop - midnight dinner,Nondiscretionary,(ND) Groceries & Gas,,,13.72,,,,,,,,Yes
+2022-06-15,June,,17.14,Card - WF Visa,Kwik Shop - gas,Nondiscretionary,(ND) Groceries & Gas,17.14,,,,,,,,,,Yes
+2022-06-15,June,,20.00,Card - WF Visa,Headshots Bar - drinks & trivia,Discretionary,(D) Recreation,20.00,,,,,,,,,,Yes
+2022-06-15,June,,2.00,Cash,Gave 2 bucks to a homeless guy,Discretionary,(D) Charitable giving,,,,,,,,,-2.00,,n/a
+2022-06-15,June,,20.32,Card - FNBO Visa,Abuelo's - lunch,Discretionary,(D) Food & Leisure,,20.32,,,,,,,,,Yes
+2022-06-16,June,,10.36,Card - BR Visa,Phillips 66 - gas,Nondiscretionary,(ND) Groceries & Gas,,,10.36,,,,,,,,Yes
+2022-06-16,June,,27.95,Card - WF Visa,Jiffy Trip - gas,Nondiscretionary,(ND) Groceries & Gas,27.95,,,,,,,,,,Yes
+2022-06-17,June,,11.14,Card - WF Visa,Whataburger,Discretionary,(D) Food & Leisure,11.14,,,,,,,,,,Yes
+2022-06-17,June,,2.00,Cash,Tipped staff at 806 Coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-2.00,,n/a
+2022-06-18,June,,,Venmo Transfer,Transfer Balance,,,,,,100.00,,,,,,-100.00,Yes
+2022-06-18,June,155.00,,Cash,Paid by Caleb for bearwithus tour,Regular,,,,,,,,,,155.00,,n/a
+2022-06-18,June,,10.81,Card - WF Visa,Buns Over Texas - lunch,Discretionary,(D) Food & Leisure,10.81,,,,,,,,,,Yes
+2022-06-18,June,,10.00,Card - WF Visa,Amp'd trampoline park,Discretionary,(D) Recreation,10.00,,,,,,,,,,Yes
+2022-06-18,June,,10.00,Cash,Amp'd arcade points,Discretionary,(D) Recreation,,,,,,,,,-10.00,,n/a
+2022-06-19,June,,11.58,Card - WF Visa,Road trip snacks from bearwithus tour,Discretionary,(D) Food & Leisure,11.58,,,,,,,,,,Yes
+2022-06-19,June,26.00,,Venmo Transfer,Paid by Caleb for Winchester gig,Regular,,,,,,,,,,,26.00,Yes
+2022-06-19,June,42.50,,Venmo Transfer,Paid by Adam for Winchester gig,Regular,,,,,,,,,,,42.50,Yes
+2022-06-19,June,,11.04,Card - FNBO Visa,Offerle Country Store - gas,Nondiscretionary,(ND) Groceries & Gas,,11.04,,,,,,,,,Yes
+2022-06-19,June,,17.44,Card - WF Visa,Gas somewhere on road trip,Nondiscretionary,(ND) Groceries & Gas,17.44,,,,,,,,,,Yes
+2022-06-19,June,,26.82,Card - FNBO Visa,Gas on bearwithus road trip,Nondiscretionary,(ND) Groceries & Gas,,26.82,,,,,,,,,Yes
+2022-06-19,June,,10.38,Card - WF Visa,Cefco - gas,Nondiscretionary,(ND) Groceries & Gas,10.38,,,,,,,,,,Yes
+2022-06-19,June,,8.29,Card - WF Visa,Braum's - dinner on the road,Discretionary,(D) Food & Leisure,8.29,,,,,,,,,,Yes
+2022-06-20,June,,8.17,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,8.17,,,,,,,,,Yes
+2022-06-20,June,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-06-21,June,,,ATM Withdrawal,Transfer Balance,,,,,,-320.00,,,,,320.00,,Yes
+2022-06-21,June,,96.67,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.67,,,,,,,Yes
+2022-06-21,June,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-06-21,June,,320.00,Cash,New TV after I broke the old one,Discretionary,(D) Products & Merchandise,,,,,,,,,-320.00,,n/a
+2022-06-21,June,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-06-22,June,,,Online Transfer,Paid off card - WF Visa,,,-500.00,,,-500.00,,,,,,,Yes
+2022-06-24,June,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-06-24,June,,10.00,Card - WF Visa,Parking violation,Discretionary,(D) Parking & Scooters,10.00,,,,,,,,,,Yes
+2022-06-24,June,,11.24,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,11.24,,,,,,,,,Yse
+2022-06-24,June,658.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,658.00,,,,,,,Yes
+2022-06-24,June,,20.00,Cash,Harney Street Tavern - drinks,Discretionary,(D) Recreation,,,,,,,,,-20.00,,n/a
+2022-06-24,June,723.29,,Direct Deposit,FNBO - salary income,Regular,,,,,723.29,,,,,,,Yes
+2022-06-24,June,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-06-25,June,,14.50,Card - FNBO Visa,Food at the feach,Discretionary,(D) Food & Leisure,,14.50,,,,,,,,,Yes
+2022-06-25,June,,30.79,Card - WF Visa,Cracker Barrel - dinner,Discretionary,(D) Food & Leisure,30.79,,,,,,,,,,Yes
+2022-06-25,June,,12.00,Cash,Admission to the feach,Discretionary,(D) Recreation,,,,,,,,,-12.00,,n/a
+2022-06-27,June,,14.33,Card - FNBO Visa,Target - avocado oil and flowers,Nondiscretionary,(ND) Necessary Life Supplies,,14.33,,,,,,,,,Yes
+2022-06-27,June,,168.77,Card - WF Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,168.77,,,,,,,,,,Yes
+2022-06-27,June,,48.83,Card - FNBO Visa,Costco - gas,Nondiscretionary,(ND) Groceries & Gas,,48.83,,,,,,,,,Yes
+2022-06-28,June,,5.00,Cash,Sozo - tea,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-06-28,June,,2.26,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.26,,,,,,,,,Yes
+2022-06-29,June,90.00,,Venmo Transfer,Paid by Adam for Harney Street gig,Regular,,,,,,,,,,,90.00,Yes
+2022-06-30,June,,12.24,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.24,,,,,,,Yes
+2022-06-30,June,,13.00,Cash,Dub - drinks,Discretionary,(D) Recreation,,,,,,,,,-13.00,,n/a
+2022-07-02,July,,,Venmo Transfer,Transfer Balance,,,,,,150.00,,,,,,-150.00,Yes
+2022-07-02,July,,5.00,Cash,Tipped Craig for his smoked meat,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-07-02,July,,20.00,Cash,Shakedown Street - drinks,Discretionary,(D) Recreation,,,,,,,,,-20.00,,n/a
+2022-07-02,July,142.00,,Zelle Transfer,Paid back by Dad for 6mp,Reimbursement,(R) Necessary Life Supplies,,,,142.00,,,,,,,Yes
+2022-07-02,July,,35.92,Card - WF Visa,Jake's Cigars,Discretionary,(D) Recreation,35.92,,,,,,,,,,Yes
+2022-07-02,July,,23.00,Card - WF Visa,GoFundMe - Ground Floor Guitar Robbery,Discretionary,(D) Charitable giving,23.00,,,,,,,,,,Yes
+2022-07-02,July,,142.00,Card - WF Visa,6mp,Nondiscretionary,(ND) Necessary Life Supplies,142.00,,,,,,,,,,Yes
+2022-07-03,July,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-07-03,July,,3.21,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,3.21,,,,,,,,,Yes
+2022-07-03,July,,8.00,Cash,Cubby's - potatoes and Body Armor,Discretionary,(D) Food & Leisure,,,,,,,,,-8.00,,n/a
+2022-07-04,July,,1.62,Card - WF Visa,Walmart - Ice,Nondiscretionary,(ND) Necessary Life Supplies,1.62,,,,,,,,,,Yes
+2022-07-04,July,,8.55,Card - FNBO Visa,Subway,Discretionary,(D) Food & Leisure,,8.55,,,,,,,,,Yes
+2022-07-04,July,,46.95,Card - FNBO Visa,Red Lobster - dinner,Discretionary,(D) Food & Leisure,,46.95,,,,,,,,,Yes
+2022-07-04,July,,40.00,Card - BR Visa,Late card payment fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,40.00,,,,,,,,Yes
+2022-07-04,July,,1431.83,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1431.83,,,,,Yes
+2022-07-04,July,,6.00,Cash,Admission to the feach,Discretionary,(D) Recreation,,,,,,,,,-6.00,,n/a
+2022-07-05,July,,53.68,Card - WF Visa,Salween - anniversary dinner,Discretionary,(D) Recreation,53.68,,,,,,,,,,Yes
+2022-07-05,July,,3.62,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,3.62,,,,,,,,,Yes
+2022-07-06,July,,29.50,Card - WF Visa,Parking for the last few weeks (including ticket),Discretionary,(D) Parking & Scooters,29.50,,,,,,,,,,Yes
+2022-07-06,July,,,Online Transfer,Paid off card - BR Visa,,,,,-450.00,-450.00,,,,,,,Yes
+2022-07-06,July,,92.12,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-92.12,,,,,Yes
+2022-07-07,July,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-07-07,July,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-07-07,July,12.00,,Zelle Transfer,Paid back by Kawai for Pickleman's,Reimbursement,(R) Food & Leisure,,,,12.00,,,,,,,Yes
+2022-07-07,July,,2.89,Card - FNBO Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,2.89,,,,,,,,,Yes
+2022-07-07,July,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-07-08,July,,,Online Transfer,Paid off card - FNBO Visa,,,,-300.00,,,,-300.00,,,,,Yes
+2022-07-08,July,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-07-08,July,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-07-08,July,,1222.14,Card - BR Visa,Booked flight for Bill & Laura's wedding,Discretionary,(D) Vacationing,,,1222.14,,,,,,,,Yes
+2022-07-08,July,,25.00,Cash,Beercade - games,Discretionary,(D) Recreation,,,,,,,,,-25.00,,n/a
+2022-07-09,July,,29.59,Card - FNBO Visa,Lucky Tiger - lunch,Discretionary,(D) Food & Leisure,,29.59,,,,,,,,,Yes
+2022-07-09,July,,10.97,Card - WF Visa,Juice Stop - smoothies,Discretionary,(D) Food & Leisure,10.97,,,,,,,,,,Yes
+2022-07-09,July,,6.00,Cash,Godega - coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-6.00,,n/a
+2022-07-09,July,,35.31,Card - WF Visa,Amazon - household needs,Nondiscretionary,(ND) Necessary Life Supplies,35.31,,,,,,,,,,Yes
+2022-07-10,July,,2.89,Card - BR Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,,2.89,,,,,,,,Yes
+2022-07-10,July,,14.63,Card - BR Visa,Interest charge on late payment,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,14.63,,,,,,,,Yes
+2022-07-10,July,,16.93,Card - BR Visa,First Watch - brunch,Discretionary,(D) Food & Leisure,,,16.93,,,,,,,,Yes
+2022-07-10,July,,5.94,Card - WF Visa,Coneflower,Discretionary,(D) Food & Leisure,5.94,,,,,,,,,,Yes
+2022-07-11,July,,15.84,Card - FNBO Visa,Ted n Wallys - ice cream,Discretionary,(D) Food & Leisure,,15.84,,,,,,,,,Yes
+2022-07-12,July,,2.00,Cash,Tipped street violinist guy,Discretionary,(D) Recreation,,,,,,,,,-2.00,,n/a
+2022-07-12,July,,2.53,Card - BR Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,,2.53,,,,,,,,Yes
+2022-07-13,July,,28.79,Card - FNBO Visa,Wohlner's - groceries,Nondiscretionary,(ND) Groceries & Gas,,28.79,,,,,,,,,Yes
+2022-07-13,July,,2.16,Card - BR Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,,2.16,,,,,,,,Yes
+2022-07-13,July,,30.00,Card - BR Visa,Lime Cash,Discretionary,(D) Parking & Scooters,,,30.00,,,,,,,,Yes
+2022-07-13,July,,15.07,Card - WF Visa,Block 16 - Lunch,Discretionary,(D) Food & Leisure,15.07,,,,,,,,,,Yes
+2022-07-14,July,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-07-14,July,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-07-15,July,,19.00,Cash,Blatt - drinks,Discretionary,(D) Recreation,,,,,,,,,-19.00,,n/a
+2022-07-16,July,,5.00,Cash,Sozo - pool and snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-07-17,July,,24.57,Card - WF Visa,Panda Express,Discretionary,(D) Food & Leisure,24.57,,,,,,,,,,Yes
+2022-07-17,July,12.00,,Zelle Transfer,Paid back by Kawai for Panda Express,Reimbursement,(R) Food & Leisure,,,,12.00,,,,,,,Yes
+2022-07-17,July,,59.11,Card - FNBO Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,,59.11,,,,,,,,,Yes
+2022-07-17,July,,48.14,Card - BR Visa,Baker's - flowers,Discretionary,(D) Giftgiving,,,48.14,,,,,,,,Yes
+2022-07-18,July,,,ATM Withdrawal,Transfer Balance,,,,,,-80.00,,,,,80.00,,Yes
+2022-07-18,July,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-07-18,July,,30.00,Cash,New speakers from Facebook marketplace,Discretionary,(D) Products & Merchandise,,,,,,,,,-30.00,,n/a
+2022-07-18,July,,14.89,Card - BR Visa,13th Street Coffee - coffee and snacks,Discretionary,(D) Food & Leisure,,,14.89,,,,,,,,Yes
+2022-07-19,July,,96.67,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.67,,,,,,,Yes
+2022-07-19,July,,97.13,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,97.13,,,,,,,,,Yes
+2022-07-20,July,,8.64,Card - FNBO Visa,FN Tower Interchange - lunch,Discretionary,(D) Food & Leisure,,8.64,,,,,,,,,Yes
+2022-07-22,July,,,Online Transfer,Paid off card - WF Visa,,,-600.00,,,-600.00,,,,,,,Yes
+2022-07-22,July,33.50,,Zelle Transfer,Paid back by Kawai for alcohol,Reimbursement,(R) Groceries & Gas,,,,33.50,,,,,,,Yes
+2022-07-22,July,,67.00,Card - FNBO Visa,Hy-vee - alcohol,Nondiscretionary,(ND) Groceries & Gas,,67.00,,,,,,,,,Yes
+2022-07-22,July,723.28,,Direct Deposit,FNBO - salary income,Regular,,,,,723.28,,,,,,,Yes
+2022-07-22,July,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-07-23,July,,5.00,Cash,Zuccini at the farmer's market,Nondiscretionary,(ND) Groceries & Gas,,,,,,,,,-5.00,,n/a
+2022-07-23,July,,2.00,Cash,Water from Godega,Nondiscretionary,(ND) Necessary Life Supplies,,,,,,,,,-2.00,,n/a
+2022-07-23,July,,2.00,Cash,Tipped street performer,Discretionary,(D) Charitable giving,,,,,,,,,-2.00,,n/a
+2022-07-23,July,,60.00,Venmo Transfer,Paid Isabelle Loos for GVF ticket,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-60.00,,,,,,,Yes
+2022-07-23,July,30.00,,Venmo Transfer,Paid by Caleb for GVF ticket,Reimbursement,(R) Nonnegotiable Unpredictables,,,,,,,,,,30.00,Yes
+2022-07-23,July,,42.80,Card - WF Visa,Greta Van Fleet tshirt,Discretionary,(D) Products & Merchandise,42.80,,,,,,,,,,Yes
+2022-07-23,July,,26.49,Card - BR Visa,Beer and water at CHI for GVF concert,Discretionary,(D) Recreation,,,26.49,,,,,,,,Yes
+2022-07-24,July,,,ATM Withdrawal,Transfer Balance,,,,,,-420.00,,,,,420.00,,Yes
+2022-07-24,July,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-07-24,July,,15.81,Card - BR Visa,Ace Hardware - key copies and s-biner clips,Nondiscretionary,(ND) Necessary Life Supplies,,,15.81,,,,,,,,Yes
+2022-07-25,July,,,Online Transfer,Transfer Balance,,,,,,-1000.00,1000.00,,,,,,Yes
+2022-07-25,July,,,Online Transfer,Transfer Balance,,,,,,,,-1000.00,1000.00,,,,Yes
+2022-07-25,July,694.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,694.00,,,,,,,Yes
+2022-07-26,July,,8.00,Cash,Union coffee shop - cofee & muffin,Discretionary,(D) Food & Leisure,,,,,,,,,-8.00,,n/a
+2022-07-26,July,,25.53,Card - FNBO Visa,Tasty Pizza - date night dinner,Discretionary,(D) Recreation,,25.53,,,,,,,,,Yes
+2022-07-26,July,,6.00,Cash,Spent cash somewhere,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,,,,,,-6.00,,n/a
+2022-07-26,July,,17.75,Card - BR Visa,Freezing Thai ice cream - date night treats,Discretionary,(D) Recreation,,,,,,,,,,,
+2022-07-26,July,,17.75,Card - BR Visa,Date night - slushie ice things,Discretionary,(D) Recreation,,,17.75,,,,,,,,Yes
+2022-07-26,July,,14.00,Cash,Beer at Aksarben park,Discretionary,(D) Recreation,,,,,,,,,-14.00,,n/a
+2022-07-27,July,,3.00,Cash,Starbucks - snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-3.00,,n/a
+2022-07-27,July,,12.08,Card - WF Visa,Cubby's - Band beer,Nondiscretionary,(ND) Groceries & Gas,12.08,,,,,,,,,,Yes
+2022-07-28,July,,20.24,Card - BR Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,,,20.24,,,,,,,,Yes
+2022-07-29,July,,12.34,Card - FNBO Visa,FN Tower Interchange - lunch,Discretionary,(D) Food & Leisure,,12.34,,,,,,,,,Yes
+2022-07-31,July,,12.23,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.23,,,,,,,Yes
+2022-07-31,July,,50.91,Card - BR Visa,Original Pancake House - brunch with Mikey,Discretionary,(D) Recreation,,,50.91,,,,,,,,Yes
+2022-07-31,July,,37.75,Card - WF Visa,Kum & Go - gas,Nondiscretionary,(ND) Groceries & Gas,37.75,,,,,,,,,,Yes
+2022-08-01,August,,1425.74,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1425.74,,,,,Yes
+2022-08-01,August,,13.40,Card - WF Visa,Culver's - dinner,Discretionary,(D) Food & Leisure,13.40,,,,,,,,,,Yes
+2022-08-03,August,,33.00,Card - WF Visa,YMCA Subscription,Discretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-08-03,August,,,ATM Withdrawal,Transfer Balance,,,,,,-120.00,,,,,120.00,,Yes
+2022-08-03,August,15.00,,Zelle Transfer,Paid back by Kawai for food at Rhythm on the Rails,Reimbursement,(R) Food & Leisure,,,,15.00,,,,,,,Yes
+2022-08-03,August,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-08-03,August,,37.00,Cash,Food and drinks at Rhythm on the Rails,Discretionary,(D) Food & Leisure,,,,,,,,,-37.00,,n/a
+2022-08-03,August,,21.44,Card - WF Visa,Caribou - coffee & bagels,Discretionary,(D) Food & Leisure,21.44,,,,,,,,,,Yes
+2022-08-03,August,,5.95,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-6.45,,,,,,,Yes
+2022-08-04,August,,,Online Transfer,Paid off card - BR Visa,,,,,-1500.00,-1500.00,,,,,,,Yes
+2022-08-04,August,,85.11,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-85.11,,,,,Yes
+2022-08-05,August,,46.00,Cash,Loon's Landing - beer,Discretionary,(D) Recreation,,,,,,,,,-46.00,,n/a
+2022-08-05,August,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-08-05,August,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-08-06,August,,39.95,Card - BR Visa,BP - gas,Nondiscretionary,(ND) Groceries & Gas,,,39.95,,,,,,,,Yes
+2022-08-07,August,,5.65,Card - FNBO Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,5.65,,,,,,,,,Yes
+2022-08-07,August,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-08-07,August,,50.78,Card - BR Visa,Old Navy - clothes,Discretionary,(D) Products & Merchandise,,,50.78,,,,,,,,Yes
+2022-08-08,August,,8.21,Card - WF Visa,Costco - food,Discretionary,(D) Food & Leisure,8.21,,,,,,,,,,Yes
+2022-08-09,August,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-08-09,August,100.00,,Venmo Transfer,Paid by Adam for Shakedown and Dub shows,Regular,,,,,,,,,,,100.00,Yes
+2022-08-10,August,,267.52,Card - BR Visa,Reverb - PreSonus 1810c,Discretionary,(D) Products & Merchandise,,,267.52,,,,,,,,Yes
+2022-08-10,August,,,Online Transfer,Paid off card - FNBO Visa,,,,-300.00,,,,-300.00,,,,,Yes
+2022-08-10,August,,30.00,Card - BR Visa,Lime Cash,Discretionary,(D) Parking & Scooters,,,30.00,,,,,,,,Yes
+2022-08-10,August,,28.84,Card - BR Visa,Interest charge on late payment,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,28.84,,,,,,,,Yes
+2022-08-12,August,,19.88,Card - BR Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,,,19.88,,,,,,,,Yes
+2022-08-13,August,,28.50,Card - BR Visa,Spielbound - game passes and drinks,Discretionary,(D) Recreation,,,28.50,,,,,,,,Yes
+2022-08-13,August,,4.26,Card - WF Visa,Movie rental - Death on the Nile,Discretionary,(D) Products & Merchandise,4.26,,,,,,,,,,Yes
+2022-08-13,August,,17.81,Card - WF Visa,Five Below - some stuff,Discretionary,(D) Products & Merchandise,17.81,,,,,,,,,,Yes
+2022-08-13,August,,26.74,Card - FNBO Visa,Barnes & Noble - Bohnanza,Discretionary,(D) Products & Merchandise,,26.74,,,,,,,,,Yes
+2022-08-13,August,,36.62,Card - BR Visa,Baker's - gas,Nondiscretionary,(ND) Groceries & Gas,,,36.62,,,,,,,,Yes
+2022-08-14,August,,30.24,Card - WF Visa,Jam's - men's lunch,Discretionary,(D) Recreation,30.24,,,,,,,,,,Yes
+2022-08-14,August,,23.35,Card - FNBO Visa,Baker's - groceries,Nondiscretionary,(ND) Groceries & Gas,,23.35,,,,,,,,,Yes
+2022-08-15,August,,12.00,Cash,Howling Hounds - coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-12.00,,n/a
+2022-08-15,August,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-08-16,August,,16.00,Card - BR Visa,Parking violation,Discretionary,(D) Parking & Scooters,,,16.00,,,,,,,,Yes
+2022-08-16,August,300.00,,Direct Deposit,FNBO - reimbursement for Salesforce Developer 1 Exam,Reimbursement,(R) Nonnegotiable Unpredictables,,,,300.00,,,,,,,Yes
+2022-08-16,August,,8.00,Cash,13th Street Coffee - coffee and snacks,Discretionary,(D) Food & Leisure,,,,,,,,,-8.00,,n/a
+2022-08-17,August,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-08-17,August,,11.76,Card - FNBO Visa,Walmart - chicken nuggets & cheerios,Nondiscretionary,(ND) Groceries & Gas,,11.76,,,,,,,,,Yes
+2022-08-18,August,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-08-18,August,,4.67,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,4.67,,,,,,,,,Yes
+2022-08-18,August,,96.67,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.67,,,,,,,Yes
+2022-08-19,August,,31.00,Card - FNBO Visa,Sweetwater - music supplies,Discretionary,(D) Products & Merchandise,,31.00,,,,,,,,,Yes
+2022-08-19,August,,4.17,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,4.17,,,,,,,,,Yes
+2022-08-19,August,723.27,,Direct Deposit,FNBO - salary income,Regular,,,,,723.27,,,,,,,Yes
+2022-08-19,August,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-08-20,August,,3.00,Cash,Tipped guys at Hu Hot,Discretionary,(D) Food & Leisure,,,,,,,,,-3.00,,n/a
+2022-08-20,August,42.00,,Venmo Transfer,Paid back by Maeve for Hu Hot,Reimbursement,(R) Food & Leisure,,,,,,,,,,42.00,Yes
+2022-08-20,August,,91.96,Card - BR Visa,Hu Hot - dinner,Discretionary,(D) Food & Leisure,,,91.96,,,,,,,,Yes
+2022-08-21,August,,13.89,Card - FNBO Visa,MXR patch cables,Discretionary,(D) Products & Merchandise,,13.89,,,,,,,,,Yes
+2022-08-21,August,,124.16,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,124.16,,,,,,,,,Yes
+2022-08-22,August,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-08-22,August,,,Online Transfer,Paid off card - WF Visa,,,-550.00,,,-550.00,,,,,,,Yes
+2022-08-23,August,,6.39,Card - BR Visa,Union coffee shop - coffee,Discretionary,(D) Food & Leisure,,,6.39,,,,,,,,Yes
+2022-08-23,August,,20.26,Card - FNBO Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,,20.26,,,,,,,,,Yes
+2022-08-24,August,,33.16,Card - WF Visa,Amazon - new water kettle,Nondiscretionary,(ND) Necessary Life Supplies,33.16,,,,,,,,,,Yes
+2022-08-25,August,,34.48,Card - WF Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,34.48,,,,,,,,,,Yes
+2022-08-26,August,,16.46,Card - BR Visa,Juice Stop - smoothies,Discretionary,(D) Food & Leisure,,,16.46,,,,,,,,Yes
+2022-08-27,August,,37.33,Card - WF Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,37.33,,,,,,,,,,Yes
+2022-08-27,August,,21.46,Card - FNBO Visa,Bison Witches Bar & Deli - lunch,Discretionary,(D) Food & Leisure,,21.46,,,,,,,,,Yes
+2022-08-28,August,,3.28,Card - BR Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,,3.28,,,,,,,,Yes
+2022-08-28,August,,160.17,Card - FNBO Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,,160.17,,,,,,,,,Yes
+2022-08-28,August,,41.72,Card - WF Visa,Amazon - dress for Kawai,Discretionary,(D) Giftgiving,41.72,,,,,,,,,,Yes
+2022-08-29,August,680.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,680.00,,,,,,,Yes
+2022-08-29,August,,20.99,Card - FNBO Visa,Howling Hounds - coffee (tipped extra because it's the dude's birthday),,(D) Food & Leisure,,20.99,,,,,,,,,Yes
+2022-08-30,August,,17.04,Card - WF Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,17.04,,,,,,,,,,Yes
+2022-08-30,August,,189.93,Card - BR Visa,GreenStreet Cycles - bike repair,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,189.93,,,,,,,,Yes
+2022-08-30,August,,12.24,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.24,,,,,,,Yes
+2022-09-01,September,,22.23,Card - BR Visa,Wendy's - dinner,Discretionary,(D) Food & Leisure,,,22.23,,,,,,,,Yes
+2022-09-01,September,,17.32,Card - WF Visa,Krispy Kreme,Discretionary,(D) Food & Leisure,17.32,,,,,,,,,,Yes
+2022-09-01,September,,1422.86,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1422.86,,,,,Yes
+2022-09-01,September,,85.11,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-85.11,,,,,Yes
+2022-09-02,September,,32.60,Card - FNBO Visa,Perkins - dinner,Discretionary,(D) Food & Leisure,,32.60,,,,,,,,,Yes
+2022-09-02,September,,,Online Transfer,Paid off card - BR Visa,,,,,-400.00,-400.00,,,,,,,Yes
+2022-09-02,September,721.13,,Direct Deposit,FNBO - salary income,Regular,,,,,721.13,,,,,,,Yes
+2022-09-02,September,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-09-03,September,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-09-03,September,,,ATM Withdrawal,Transfer Balance,,,,,,-140.00,,,,,140.00,,Yes
+2022-09-03,September,,25.77,Card - BR Visa,Target - hair stuff and a wedding card,Nondiscretionary,(ND) Necessary Life Supplies,,,25.77,,,,,,,,Yes
+2022-09-03,September,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-09-03,September,,5.50,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.50,,,,,,,Yes
+2022-09-05,September,,40.69,Card - WF Visa,Total Wine - beer for Mom & Dad,Discretionary,(D) Giftgiving,40.69,,,,,,,,,,Yes
+2022-09-05,September,,45.73,Card - BR Visa,Speedway - gas,Nondiscretionary,(ND) Groceries & Gas,,,45.73,,,,,,,,Yes
+2022-09-05,September,74.00,,Venmo Transfer,Paid by Adam for Dub shows,Regular,,,,,,,,,,,74.00,Yes
+2022-09-06,September,,,Online Transfer,Transfer Balance,,,,,,-1000.00,1000.00,,,,,,Yes
+2022-09-06,September,,21.47,Card - BR Visa,Subway,Discretionary,(D) Food & Leisure,,,21.47,,,,,,,,Yes
+2022-09-06,September,,60.00,Venmo Transfer,Paid Mom for Billy & Laura's wedding gift,Discretionary,(D) Giftgiving,,,,,,,,,,-60.00,Yes
+2022-09-06,September,,73.72,Card - WF Visa,FNBO United Way donation - Titleist golf balls,Discretionary,(D) Charitable giving,73.72,,,,,,,,,,Yes
+2022-09-06,September,,30.97,Card - WF Visa,Amazon - international power converter brick and fanny pack,Nondiscretionary,(ND) Necessary Life Supplies,30.97,,,,,,,,,,Yes
+2022-09-06,September,,,Online Transfer,Transfer Balance,,,,,,,,-2000.00,2000.00,,,,Yes
+2022-09-07,September,,43.00,Card - FNBO Visa,Victory Barber - haircut,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,43.00,,,,,,,,,Yes
+2022-09-07,September,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,Yes
+2022-09-07,September,,50.00,Card - BR Visa,Park Omaha wallet,Discretionary,(D) Parking & Scooters,,,50.00,,,,,,,,Yes
+2022-09-07,September,,3.18,Card - FNBO Visa,Main Bank 16th Floor Dining Room,Discretionary,(D) Food & Leisure,,3.18,,,,,,,,,Yes
+2022-09-08,September,,13.98,Card - FNBO Visa,FN Tower Interchange - lunch,Discretionary,(D) Food & Leisure,,13.98,,,,,,,,,Yes
+2022-09-09,September,,24.00,Cash,Harney Street Tavern - drinks and darts,Discretionary,(D) Recreation,,,,,,,,,-24.00,,
+2022-09-10,September,,12.21,Card - WF Visa,Sonic - tasty treats,Discretionary,(D) Food & Leisure,12.21,,,,,,,,,,Yes
+2022-09-10,September,,75.00,Card - FNBO Visa,Checked bag at Delta,Discretionary,(D) Vacationing,,75.00,,,,,,,,,Yes
+2022-09-10,September,,12.51,Card - WF Visa,Airport snacks,Discretionary,(D) Food & Leisure,12.51,,,,,,,,,,Yes
+2022-09-10,September,,22.99,Card - BR Visa,Airport lunch,Discretionary,(D) Food & Leisure,,,22.99,,,,,,,,Yes
+2022-09-11,September,,465.61,ATM Withdrawal,Withdrew cash at Fiumicino airport,Discretionary,(D) Vacationing,,,,-465.61,,,,,,,Yes
+2022-09-11,September,,5.00,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.00,,,,,,,Yes
+2022-09-12,September,,133.52,Card - WF Visa,Train tickets to Bologna,Discretionary,(D) Vacationing,133.52,,,,,,,,,,Yes
+2022-09-12,September,,,Online Transfer,Paid off card - FNBO Visa,,,,-350.00,,,,-350.00,,,,,Yes
+2022-09-13,September,45.00,,Zelle Transfer,Paid back by Kawai for Old Navy haul,Reimbursement,(R) Products & Merchandise,,,,45.00,,,,,,,Yes
+2022-09-13,September,,44.94,Card - BR Visa,Old Navy - clothes,Discretionary,(D) Products & Merchandise,,,44.94,,,,,,,,Yes
+2022-09-13,September,,13.25,Card - WF Visa,Bottle of wine for Mom & Dad,Discretionary,(D) Giftgiving,13.25,,,,,,,,,,Yes
+2022-09-14,September,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-09-15,September,,61.64,ATM Withdrawal,Withdrew cash in Florence train station,Discretionary,(D) Vacationing,,,,-61.64,,,,,,,Yes
+2022-09-15,September,,24.06,Card - WF Visa,Train tickets to Florence,Discretionary,(D) Vacationing,24.06,,,,,,,,,,Yes
+2022-09-15,September,,5.00,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.00,,,,,,,Yes
+2022-09-16,September,176.80,,Online Transfer,Reimbursed by Wells Fargo for charge dispute,Reimbursement,(R) Vacationing,-176.80,,,,,,,,,,Yes
+2022-09-16,September,,215.00,Venmo Transfer,Paid Bonia for travel related expenses,Discretionary,(D) Vacationing,,,,-215.00,,,,,,,Yes
+2022-09-16,September,,20.00,Venmo Transfer,Paid Billy for not being able to attend pizza party,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,,,,,,,-20.00,Yes
+2022-09-16,September,723.28,,Direct Deposit,FNBO - salary income,Regular,,,,,723.28,,,,,,,Yes
+2022-09-16,September,,171.65,Card - WF Visa,Bullshit scam B&B in Rome,Discretionary,(D) Vacationing,171.65,,,,,,,,,,Yes
+2022-09-16,September,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-09-17,September,,40.15,Card - WF Visa,Train tickets to Rome FCO,Discretionary,(D) Vacationing,40.15,,,,,,,,,,Yes
+2022-09-17,September,,13.29,Card - WF Visa,Total foreign currency conversion fees,Nondiscretionary,(ND) Nonnegotiable Unpredictables,13.29,,,,,,,,,,Yes
+2022-09-17,September,,60.23,Card - WF Visa,Checked bag at Rome FCO,Nondiscretionary,(D) Vacationing,60.23,,,,,,,,,,Yes
+2022-09-18,September,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,-250.00,,,,,,,Yes
+2022-09-18,September,,28.41,Card - FNBO Visa,Qdoba - lunch,Discretionary,(D) Food & Leisure,,28.41,,,,,,,,,Yes
+2022-09-19,September,,30.00,Zelle Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-09-19,September,,110.31,Card - FNBO Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,110.31,,,,,,,,,Yes
+2022-09-20,September,,96.63,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-96.63,,,,,,,Yes
+2022-09-20,September,,64.17,Card - FNBO Visa,Guitarcenter - bass strap for Kawai & some strings,Discretionary,(D) Giftgiving,,64.17,,,,,,,,,Yes
+2022-09-21,September,,13.54,Card - BR Visa,The Corn Dog Company - lunch (food truck),Discretionary,(D) Food & Leisure,,,13.54,,,,,,,,Yes
+2022-09-22,September,,250.00,Zelle Transfer,Student loan payback to Dad,Nondiscretionary,(ND) Student loan payback to Dad,,,,-250.00,,,,,,,Yes
+2022-09-22,September,,,Online Transfer,Paid off card - WF Visa,,,-350.00,,,-350.00,,,,,,,Yes
+2022-09-23,September,,25.00,Card - BR Visa,Film Streams - tickets for Don't Worry Darling,Discretionary,(D) Recreation,,,25.00,,,,,,,,Yes
+2022-09-23,September,,18.19,Card - BR Visa,Film Streams - snacks,Discretionary,(D) Recreation,,,18.19,,,,,,,,Yes
+2022-09-24,September,,60.00,Venmo Transfer,Plant table from Facebook Marketplace,Discretionary,(D) Products & Merchandise,,,,,,,,,,-60.00,Yes
+2022-09-24,September,,15.65,Card - BR Visa,Maplewood Lanes - dinner,Discretionary,(D) Food & Leisure,,,15.65,,,,,,,,Yes
+2022-09-24,September,,16.82,Card - WF Visa,Maplewood Lanes - bowling,Discretionary,(D) Recreation,16.82,,,,,,,,,,Yes
+2022-09-24,September,,2.13,Card - WF Visa,La La Land rental,Discretionary,(D) Products & Merchandise,2.13,,,,,,,,,,Yes
+2022-09-24,September,,27.38,Card - BR Visa,Kum & Go - phone charger for car,Nondiscretionary,(ND) Necessary Life Supplies,,,27.38,,,,,,,,Yes
+2022-09-24,September,,35.67,Card - FNBO Visa,Kum & Go - gas,Nondiscretionary,(ND) Groceries & Gas,,35.67,,,,,,,,,Yes
+2022-09-24,September,,36.00,Card - BR Visa,Harney Street Tavern - drinks,Discretionary,(D) Recreation,,,36.00,,,,,,,,Yes
+2022-09-26,September,,51.82,Card - WF Visa,Hy-vee - groceries,Nondiscretionary,(ND) Groceries & Gas,51.82,,,,,,,,,,Yes
+2022-09-26,September,,19.32,Card - BR Visa,Asian market - noodles,Nondiscretionary,(ND) Groceries & Gas,,,19.32,,,,,,,,Yes
+2022-09-27,September,,607.10,Card - FNBO Visa,Toyota - car servicing,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,607.10,,,,,,,,,Yes
+2022-09-27,September,728.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,728.00,,,,,,,Yes
+2022-09-27,September,,16.63,Card - BR Visa,Wendy's - dinner,Discretionary,(D) Food & Leisure,,,16.63,,,,,,,,Yes
+2022-09-28,September,,4.71,Card - BR Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,,,4.71,,,,,,,,Yes
+2022-09-28,September,65.00,,Venmo Transfer,Paid by Adam for Harney Street gig,Regular,,,,,,,,,,,65.00,Yes
+2022-09-29,September,,12.23,Online Transfer,Progressive - renter's insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-12.23,,,,,,,Yes
+2022-09-29,September,,16.05,Card - BR Visa,Target - dry shampoo for Kawai,Nondiscretionary,(ND) Necessary Life Supplies,,,16.05,,,,,,,,Yes
+2022-09-29,September,,25.30,Card - WF Visa,Papa John's,Discretionary,(D) Food & Leisure,25.30,,,,,,,,,,Yes
+2022-09-29,September,,182.30,Card - WF Visa,Target - party supplies,Discretionary,(D) Giftgiving,182.30,,,,,,,,,,Yes
+2022-09-30,September,,10.00,Venmo Transfer,Paid Caleb for sailor hat,Discretionary,(D) Products & Merchandise,,,,,,,,,,-10.00,Yes
+2022-09-30,September,,10.00,Cash,Boat gig - drinks,Discretionary,(D) Food & Leisure,,,,,,,,,-10.00,,n/a
+2022-09-30,September,700.06,,Direct Deposit,FNBO - salary income,Regular,,,,,700.06,,,,,,,Yes
+2022-09-30,September,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-10-01,October,28.00,,Zelle Transfer,Paid back by Kawai for Old Navy haul,Reimbursement,(R) Products & Merchandise,,,,28.00,,,,,,,Yes
+2022-10-01,October,,28.88,Card - BR Visa,Old Navy - clothes,Discretionary,(D) Products & Merchandise,,,28.88,,,,,,,,Yes
+2022-10-01,October,,34.57,Card - FNBO Visa,Lisa's - brunch date,Discretionary,(D) Recreation,,34.57,,,,,,,,,Yes
+2022-10-01,October,,59.00,Card - WF Visa,Funny Bone - dinner,Discretionary,(D) Recreation,59.00,,,,,,,,,,Yes
+2022-10-02,October,,2.19,Card - BR Visa,Target - a tasty drink,Discretionary,(D) Food & Leisure,,,2.19,,,,,,,,Yes
+2022-10-02,October,,136.23,Card - WF Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,136.23,,,,,,,,,,Yes
+2022-10-03,October,,26.76,Card - BR Visa,Hy-vee - corsage for birthday girl,Discretionary,(D) Giftgiving,,,26.76,,,,,,,,Yes
+2022-10-03,October,,52.27,Card - BR Visa,Home Style Laundry - dry cleaning,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,52.27,,,,,,,,Yes
+2022-10-03,October,,10.69,Card - BR Visa,HBO Max subscription,Discretionary,(D) Products & Merchandise,,,10.69,,,,,,,,Yes
+2022-10-03,October,,,Online Transfer,Paid off card - BR Visa,,,,,-900.00,-900.00,,,,,,,Yes
+2022-10-03,October,,1429.84,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1429.84,,,,,Yes
+2022-10-03,October,,630.00,Card - WF Visa,United Way FNBO - won auction item,Discretionary,(D) Charitable giving,630.00,,,,,,,,,,Yes
+2022-10-03,October,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,Yes
+2022-10-03,October,,85.11,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-85.11,,,,,Yes
+2022-10-06,October,,20.00,Venmo Transfer,Paid Mike for Patrick's wedding gift,Discretionary,(D) Giftgiving,,,,,,,,,,-20.00,Yes
+2022-10-06,October,,27.39,Card - WF Visa,Pickleman's - dinner,Discretionary,(D) Food & Leisure,27.39,,,,,,,,,,Yes
+2022-10-06,October,,4.11,Card - FNBO Visa,FN Tower Interchange - drink,Discretionary,(D) Food & Leisure,,4.11,,,,,,,,,Yes
+2022-10-07,October,,,ATM Withdrawal,Transfer Balance,,,,,,-60.00,,,,,60.00,,Yes
+2022-10-07,October,,24.30,Card - WF Visa,Papa John's,Discretionary,(D) Food & Leisure,24.30,,,,,,,,,,
+2022-10-07,October,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,
+2022-10-07,October,,5.50,Online Transfer,ATM Withdrawal fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,,-5.50,,,,,,,Yes
+2022-10-08,October,,295.69,Card - BR Visa,Jam's - birthday brunch,Discretionary,(D) Food & Leisure,,,295.69,,,,,,,,Yes
+2022-10-08,October,,25.00,Venmo Transfer,Paid Sophie for birthday cake,Discretionary,(D) Giftgiving,,,,,,,,,,-25.00,Yes
+2022-10-08,October,23.00,,Venmo Transfer,Paid back by Maya for birthday brunch,Reimbursement,(R) Food & Leisure,,,,,,,,,,23.00,Yes
+2022-10-08,October,20.00,,Venmo Transfer,Paid back by Andrew for birthday brunch,Reimbursement,(R) Food & Leisure,,,,,,,,,,20.00,Yes
+2022-10-08,October,48.00,,Venmo Transfer,Paid back by Stephen for birthday brunch,Reimbursement,(R) Food & Leisure,,,,,,,,,,48.00,Yes
+2022-10-08,October,20.00,,Venmo Transfer,Paid back by Sophie for birthday brunch,Reimbursement,(R) Food & Leisure,,,,,,,,,,20.00,Yes
+2022-10-08,October,60.00,,Cash,Paid back by Duncan for birthday brunch,Reimbursement,(R) Food & Leisure,,,,,,,,,60.00,,n/a
+2022-10-09,October,,,Venmo Transfer,Transfer Balance,,,,,,255.50,,,,,,-255.50,
+2022-10-09,October,,4.00,Card - BR Visa,Sozo - snacks,Discretionary,(D) Food & Leisure,,,4.00,,,,,,,,Yes
+2022-10-10,October,,28.56,Card - WF Visa,Spielbound - game passes and drinks,Discretionary,(D) Recreation,28.56,,,,,,,,,,
+2022-10-11,October,,17.74,Card - BR Visa,AMC - movie snacks,Discretionary,(D) Recreation,,,17.74,,,,,,,,Yes
+2022-10-11,October,,34.75,Card - FNBO Visa,Casey's - gas,Nondiscretionary,(ND) Groceries & Gas,,34.75,,,,,,,,,Yes
+2022-10-12,October,,,ATM Withdrawal,Transfer Balance,,,,,,-60.00,,,,,60.00,,
+2022-10-12,October,,100.00,Cash,Presonus ACP88,Discretionary,(D) Products & Merchandise,,,,,,,,,-100.00,,n/a
+2022-10-12,October,,,Online Transfer,Paid off card - FNBO Visa,,,,-700.00,,,,-700.00,,,,,Yes
+2022-10-12,October,,29.00,Card - FNBO Visa,Late card payment fee,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,29.00,,,,,,,,,Yes
+2022-10-13,October,,5.34,Card - WF Visa,Sozo - coffee,Discretionary,(D) Food & Leisure,5.34,,,,,,,,,,
+2022-10-13,October,,42.73,Card - BR Visa,Etsy - permanent Wood Hoops screen prints,Discretionary,(D) Giftgiving,,,42.73,,,,,,,,Yes
+2022-10-14,October,,21.33,Card - BR Visa,Thrift World - short film wardrobe,Nondiscretionary,(ND) Nonnegotiable Unpredictables,,,21.33,,,,,,,,Yes
+2022-10-14,October,,5.33,Card - WF Visa,Apple TV,Discretionary,(D) Products & Merchandise,5.33,,,,,,,,,,Yes
+2022-10-14,October,721.14,,Direct Deposit,FNBO - salary income,Regular,,,,,721.14,,,,,,,Yes
+2022-10-14,October,1200.00,,Direct Deposit,FNBO - salary income,Regular,,,,,,,1200.00,,,,,Yes
+2022-10-15,October,,27.66,Card - FNBO Visa,Taco Co - dinner with friends,Discretionary,(D) Recreation,,27.66,,,,,,,,,Yes
+2022-10-16,October,,4.80,Card - WF Visa,Cenex - gas station snacks,Discretionary,(D) Food & Leisure,4.80,,,,,,,,,,Yes
+2022-10-16,October,,7.14,Card - FNBO Visa,Cenex - gas station snacks,Discretionary,(D) Food & Leisure,,7.14,,,,,,,,,Yes
+2022-10-17,October,,46.00,Zelle Transfer,Paid Kawai for Costco stuff - jacket,Discretionary,(D) Products & Merchandise,,,,-46.00,,,,,,,Yes
+2022-10-17,October,,45.00,Zelle Transfer,Paid Kawai for Costco stuff - gnomes for Mom,Discretionary,(D) Giftgiving,,,,-45.00,,,,,,,Yes
+2022-10-18,October,,103.36,Online Transfer,Progressive - auto insurance,Nondiscretionary,(ND) Car & Renter's Insurance,,,,-103.36,,,,,,,Yes
+2022-10-18,October,,30.00,Online Transfer,Phone Payment to Dad,Nondiscretionary,(ND) Phone Payment to Dad,,,,-30.00,,,,,,,Yes
+2022-10-20,October,,20.00,Cash,Tap House - lunch,Discretionary,(D) Food & Leisure,,,,,,,,,-20.00,,n/a
+2022-10-20,October,,5.00,Cash,Sozo - coffee,Discretionary,(D) Food & Leisure,,,,,,,,,-5.00,,n/a
+2022-10-20,October,,250.00,Check,Corolla Payment,Nondiscretionary,(ND) Car Payment,,,,,,-250.00,,,,,
+2022-10-20,October,,,Online Transfer,Paid off card - WF Visa,,,-1000.00,,,-1000.00,,,,,,,
+2022-10-21,October,,30.00,Card - BR Visa,Lime Cash,Discretionary,(D) Parking & Scooters,,,30.00,,,,,,,,
+2022-10-22,October,,1.38,Card - BR Visa,Lime Scooter,Discretionary,(D) Parking & Scooters,,,1.38,,,,,,,,
+2022-10-22,October,,233.26,Card - BR Visa,Presonus Digimax FS-8,Discretionary,(D) Products & Merchandise,,,233.26,,,,,,,,
+2022-10-23,October,,8.07,Card - BR Visa,Gas station snacks on shoot date,Discretionary,(D) Food & Leisure,,,8.07,,,,,,,,
+2022-10-24,October,,16.00,Card - WF Visa,Parking violation,Nondiscretionary,(ND) Nonnegotiable Unpredictables,16.00,,,,,,,,,,
+2022-10-24,October,700.00,,Zelle Transfer,Kawai rent,Reimbursement,(R) Rent & Utilities,,,,700.00,,,,,,,
+2022-10-25,October,114.00,,Venmo Transfer,Paid by Adam for boat gig,Regular,,,,,,,,,,,114.00,
+2022-10-26,October,,25.99,,,,,,,,,,,,,,,
+2022-10-28,October,,50.00,Venmo Transfer,Paid Maeve for dinner,Discretionary,(D) Recreation,,,,,,,,,,-50.00,
+2022-10-29,October,75.00,,Zelle Transfer,Paid back by Kawai for Old Navy and dinner and ink,Reimbursement,(R) Recreation,,,,75.00,,,,,,,
+2022-10-30,October,,19.71,Card - WF Visa,La Gaviota food truck - lunch,Discretionary,(D) Food & Leisure,19.71,,,,,,,,,,
+2022-10-31,October,,149.94,Card - FNBO Visa,Date night - Kona grill,Discretionary,(D) Recreation,,149.94,,,,,,,,,
+2022-11-03,November,,33.00,Card - WF Visa,YMCA Subscription,Nondiscretionary,(ND) YMCA Subscription,33.00,,,,,,,,,,
+2022-11-03,November,,14.72,Card - WF Visa,Subway - lunch,Discretionary,(D) Food & Leisure,14.72,,,,,,,,,,
+2022-11-04,November,,1424.26,Online Transfer,Joslyn Lofts - rent,Nondiscretionary,(ND) Rent & Utilities,,,,,,-1424.26,,,,,
+2022-11-04,November,,85.11,Online Transfer,Cox Internet,Nondiscretionary,(ND) Internet,,,,,,-85.11,,,,,
+2022-11-04,November,,,Online Transfer,Paid off card - BR Visa,,,,,-700.00,-700.00,,,,,,,
+2022-11-04,November,,28.06,Card - WF Visa,Holiday - gas,Nondiscretionary,(ND) Groceries & Gas,28.06,,,,,,,,,,
+2022-11-05,November,,23.00,Card - WF Visa,Cigars,Discretionary,(D) Recreation,23.00,,,,,,,,,,
+2022-11-05,November,,32.18,Card - WF Visa,Cub Foods - party supplies,Discretionary,(D) Recreation,32.18,,,,,,,,,,
+2022-11-05,November,,55.75,Card - FNBO Visa,Gallagher's - brunch for Eddy Fitz cap'n,Discretionary,(D) Food & Leisure,,55.75,,,,,,,,,
+2022-11-05,November,,15.00,Card - FNBO Visa,Goodwill - sailor's jacket,Discretionary,(D) Products & Merchandise,,15.00,,,,,,,,,
+2022-11-06,November,,17.00,Cash,Loon's Landing - beer,Discretionary,(D) Food & Leisure,,,,,,,,,-17.00,,n/a
+2022-11-06,November,,22.93,Card - BR Visa,Lucky's - brunch,Discretionary,(D) Food & Leisure,,,22.93,,,,,,,,
+2022-11-07,November,,26.74,Card - WF Visa,Russell Speeder's Unlimited Express Subscription,Nondiscretionary,(ND) Carwash Subscription,26.74,,,,,,,,,,
+2022-11-07,November,,155.57,Card - BR Visa,Aldi - groceries,Nondiscretionary,(ND) Groceries & Gas,,,155.57,,,,,,,,
+2022-11-08,November,72.00,,Zelle Transfer,Paid back by Kawai for Aldi & Costco jacket,Reimbursement,(R) Groceries & Gas,,,,72.00,,,,,,,
+2022-11-08,November,,128.38,Card - FNBO Visa,Costco - groceries,Nondiscretionary,(ND) Groceries & Gas,,128.38,,,,,,,,,
+2022-11-11,November,,,Online Transfer,Paid off card - FNBO Visa,,,,-850.00,,,,-850.00,,,,,
