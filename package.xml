@@ -16,5 +16,9 @@
         <name>ApexTrigger</name>
         <members>TransferTrigger</members>
     </types>
+    <types>
+        <name>Layout</name>
+        <members>Transfer__c-Transfer Layout</members>
+    </types>
     <version>56.0</version>
 </Package>
