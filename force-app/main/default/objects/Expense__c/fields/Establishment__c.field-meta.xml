@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Establishment__c</fullName>
+    <description>The establishment where the expense was made.</description>
+    <externalId>false</externalId>
+    <label>Establishment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aldi</fullName>
+                <default>false</default>
+                <label>Aldi</label>
+            </value>
+            <value>
+                <fullName>Costco</fullName>
+                <default>false</default>
+                <label>Costco</label>
+            </value>
+            <value>
+                <fullName>Cox</fullName>
+                <default>false</default>
+                <label>Cox</label>
+            </value>
+            <value>
+                <fullName>Dubliner Pub</fullName>
+                <default>false</default>
+                <label>Dubliner Pub</label>
+            </value>
+            <value>
+                <fullName>Harney Street Tavern</fullName>
+                <default>false</default>
+                <label>Harney Street Tavern</label>
+            </value>
+            <value>
+                <fullName>Joslyn Lofts</fullName>
+                <default>false</default>
+                <label>Joslyn Lofts</label>
+            </value>
+            <value>
+                <fullName>Papa John&apos;s</fullName>
+                <default>false</default>
+                <label>Papa John&apos;s</label>
+            </value>
+            <value>
+                <fullName>ParkOmaha</fullName>
+                <default>false</default>
+                <label>ParkOmaha</label>
+            </value>
+            <value>
+                <fullName>Russell Speeder&apos;s</fullName>
+                <default>false</default>
+                <label>Russell Speeder&apos;s</label>
+            </value>
+            <value>
+                <fullName>Sozo</fullName>
+                <default>false</default>
+                <label>Sozo</label>
+            </value>
+            <value>
+                <fullName>Sweetwater</fullName>
+                <default>false</default>
+                <label>Sweetwater</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>YMCA</fullName>
+                <default>false</default>
+                <label>YMCA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

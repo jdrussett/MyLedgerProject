@@ -3,6 +3,18 @@
     <types>
         <name>CustomObject</name>
         <members>Expense__c</members>
+        <members>Income__c</members>
+        <members>Transfer__c</members>
+        <members>Account</members>
+    </types>
+    <types>
+        <name>ApexClass</name>
+        <members>TransferTriggerController</members>
+        <members>TransferTriggerControllerTest</members>
+    </types>
+    <types>
+        <name>ApexTrigger</name>
+        <members>TransferTrigger</members>
     </types>
     <version>56.0</version>
 </Package>
