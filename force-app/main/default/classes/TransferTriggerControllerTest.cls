@@ -4,11 +4,17 @@ private class TransferTriggerControllerTest {
     private static List<Transfer__c> createTestTransfers(Map<Account, Account> AccountMap) {
         List<Transfer__c> newTransfers = new List<Transfer__c>();
         Integer amt = 100;
-        for (Id i : AccountMap.keySet()) {
+        for (Account a : AccountMap.keySet()) {
+            Integer i = 0;
             newTransfers.add(new Transfer(
-
+                Amount__c = amt,
+                RecordTypeId = (math.mod(i,2)==0) ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
+                Source_Account__c = a.Id,
+                Target_Account__c = AccountMap.get(a).Id,
+                Subject__c = 'Test Transfer Record ' + (i+1).format()
             ));
             amt += 50;
+            I += 1;
         }
     }
 
@@ -20,14 +26,14 @@ private class TransferTriggerControllerTest {
             Account sourceAccount = new Account(
                 AccountNumber = Integer.valueOf(i.format().repeat(4)),
                 Balance = 1000,
-                Name = 'Test Source Account ' + i.format(),
+                Name = 'Test Source Account ' + (i+1).format(),
                 Total_Transfers_In__c = 300,
                 Total_Transfers_Out__c = 300
             );
             Account targetAccount = new Account(
                 AccountNumber = Integer.valueOf((i+1).format().repeat(4)),
                 Balance = 1000,
-                Name = 'Test Target Account ' + i.format(),
+                Name = 'Test Target Account ' + (i+1).format(),
                 Total_Transfers_In__c = 300,
                 Total_Transfers_Out__c = 300
             );

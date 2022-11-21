@@ -3,6 +3,7 @@ public class TransferTriggerController {
         List<Id> SourceAccountIds = new List<Account>();
         List<Id> TargetAccountIds = new List<Account>();
         
+        // get lists of source and target account IDs
         for (Id t : transfersFromTriggerMap.keySet()) {
             SourceAccountIds.add(transfersFromTriggerMap.get(t).Source_Account__c);
             TargetAccountIds.add(transfersFromTriggerMap.get(t).Target_Account__c);
