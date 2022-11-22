@@ -41,9 +41,12 @@ Map<String, Account> accountMap = new Map<String, Account>{
     'testacc2' => new Account(Name = 'test acc 2', Total_Transfers_In__c = 0)
 };
 
+insert accountMap.values();
+
 for (String s : transferMap.keySet()) {
     if (accountMap.containsKey(transferMap.get(s).Subject__c)) {
         accountMap.get(transferMap.get(s).Subject__c).Total_Transfers_In__c += transferMap.get(s).Amount__c;
     }
 }
+update accountMap.values();
 System.debug('accountMap: ' + accountMap);

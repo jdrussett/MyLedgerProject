@@ -4,7 +4,7 @@ public class TransferTriggerController {
         List<Id> TargetAccountIds = new List<Account>();
         
         // get lists of source and target account IDs
-        for (Id t : transfersFromTrigger) {
+        for (Transfer__c t : transfersFromTrigger) {
             SourceAccountIds.add(transfersFromTrigger.Source_Account__c);
             TargetAccountIds.add(transfersFromTrigger.Target_Account__c);
         }
@@ -26,7 +26,18 @@ public class TransferTriggerController {
         //     }
         // }
         // 
-        // scenarios: 
+        // scenarios:
+
+        for (Transfer__c t : transfersFromTrigger) {
+
+            // lateral transfers
+            if (SourceAccountsMap.containsKey(t.Source_Account__c)) {
+                SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
+            }
+            if (TargetAccountsMap.containsKey(t.Target_Account__c) && t.Method__c != 'Card Payoff') {
+                
+            }
+        }
         
     }
     public void updateTransfers(List<Transfer__c> transfersFromTriggerMap) {
