@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Card_Payoff_Must_Reference_Card_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Method__c, &apos;Card Payoff&apos;),
+  OR(
+    AND(
+      Source_Account__r.RecordType.DeveloperName = &apos;Credit_Card&apos;,
+      Target_Account__r.RecordType.DeveloperName = &apos;Credit_Card&apos;
+    ),
+    AND(
+      Source_Account__r.RecordType.DeveloperName = &apos;General_Equity&apos;,
+      Target_Account__r.RecordType.DeveloperName = &apos;General_Equity&apos;
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>You must select one equity account and one card account for a card payoff transfer.</errorMessage>
+</ValidationRule>
