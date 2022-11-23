@@ -15,3 +15,4 @@ Salesforce ledger ideas:
     - withdraw cash
     - pay off card
     - transfer
+- dashboard elements for last 7 and 30 days expenses
