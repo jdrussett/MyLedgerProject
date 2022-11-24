@@ -1,41 +1,27 @@
 @IsTest
-private class TransferTriggerControllerTest {
+public class TransferTriggerControllerTest {
     
-    
-
-    private static Map<Account, Account> createTestAccountPairs(Integer numPairs) {
-        Map<Account, Account> sourceTargetPair = new Map<Account, Account>();
-        List<Account> testSources = new List<Account>();
-        List<Account> testTargets = new List<Account>();
-        for (Integer i = 0; i < numPairs; i++) {
-            Account sourceAccount = new Account(
-                AccountNumber = Integer.valueOf(i.format().repeat(4)),
-                Balance = 1000,
-                Name = 'Test Source Account ' + (i+1).format(),
-                Total_Transfers_In__c = 300,
-                Total_Transfers_Out__c = 300
-            );
-            Account targetAccount = new Account(
-                AccountNumber = Integer.valueOf((i+1).format().repeat(4)),
-                Balance = 1000,
-                Name = 'Test Target Account ' + (i+1).format(),
-                Total_Transfers_In__c = 300,
-                Total_Transfers_Out__c = 300
-            );
-            testSources.add(sourceAccount);
-            testTargets.add(targetAccount);
-        }
-        System.debug('new lists of accounts: source list: ' + testSources + '; target list: ' + testTargets);
-        try {
-            insert testSources;
-            insert testTargets;
-        } catch (DmlException exc) {
-            System.debug('could not insert test accounts: ' + exc);
-        }
-        for (Integer i=0; i < testSources.size(); i++) {
-            sourceTargetPair.put(testSources[i], testTargets[i]);
-        }
-        return sourceTargetPair;
-        System.debug('sourceTargetPair: ' + sourceTargetPair);
+    @isTest
+    static void addNewTransfersTest_OneRecord() {
+        Account testSource = TestDataFactory.CreateOneGeneralAccount('001', 'Source');
+        System.debug('testSource account: ' + testSource);
+        Account testTarget = TestDataFactory.CreateOneGeneralAccount('002', 'Target');
+        System.debug('testTarget account: ' + testTarget);
+        Transfer__c testTransfer = TestDataFactory.createOneTransfer(testSource, testTarget, 25, 'test_transfer', 'Online Transfer');
+        System.debug('testTransfer: ' + testTransfer);
+        List<Transfer__c> transferList = new List<Transfer__c>{testTransfer};
+        Test.startTest();
+        TransferTriggerController.addNewTransfers(transferList);
+        Account updatedSource = [SELECT Id, Total_Transfers_Out__c, AccountNumber
+                                 FROM Account
+                                 WHERE AccountNumber = 'General001'][0];
+        Account updatedTarget = [SELECT Id, Total_Transfers_In__c, AccountNumber
+                                 FROM Account
+                                 WHERE AccountNumber = 'General002'][0];
+        System.assert(updatedSource.Total_Transfers_Out__c == 50);
+        System.assert(updatedTarget.Total_Transfers_In__c == 125);
+        Test.stopTest();
     }
+
+    
 }

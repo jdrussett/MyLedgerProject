@@ -1,7 +1,8 @@
-// enter anonymous apex code to run here
+// -----------------------------------------------------------------------------------------------------------------
 // delete [select id from transfer__c];
 // delete [select id from expense__c];
 // Integer numPairs = 1;
+// -----------------------------------------------------------------------------------------------------------------
 // Map<Account, Account> sourceTargetPair = new Map<Account, Account>();
 // List<Account> testSources = new List<Account>();
 // List<Account> testTargets = new List<Account>();
@@ -30,23 +31,33 @@
 //     sourceTargetPair.put(testSources[i], testTargets[i]);
 // }
 // System.debug('sourceTargetPair: ' + sourceTargetPair);
-Map<String, Transfer__c> transferMap = new Map<String, Transfer__c>{
-    'firstTransfer' => new Transfer__c(Subject__c = 'testacc1', Amount__c = 5),
-    'secondTransfer' => new Transfer__c(Subject__c = 'testacc2', Amount__c = 3),
-    'thirdTransfer' => new Transfer__c(Subject__c = 'testacc1', Amount__c = 9)
+// // -----------------------------------------------------------------------------------------------------------------
+// Map<String, Transfer__c> transferMap = new Map<String, Transfer__c>{
+//     'firstTransfer' => new Transfer__c(Subject__c = 'testacc1', Amount__c = 5),
+//     'secondTransfer' => new Transfer__c(Subject__c = 'testacc2', Amount__c = 3),
+//     'thirdTransfer' => new Transfer__c(Subject__c = 'testacc1', Amount__c = 9)
+// };
+
+// Map<String, Account> accountMap = new Map<String, Account>{
+//     'testacc1' => new Account(Name = 'test acc 1', Total_Transfers_In__c = 0),
+//     'testacc2' => new Account(Name = 'test acc 2', Total_Transfers_In__c = 0)
+// };
+
+// insert accountMap.values();
+
+// for (String s : transferMap.keySet()) {
+//     if (accountMap.containsKey(transferMap.get(s).Subject__c)) {
+//         accountMap.get(transferMap.get(s).Subject__c).Total_Transfers_In__c += transferMap.get(s).Amount__c;
+//     }
+// }
+// update accountMap.values();
+// System.debug('accountMap: ' + accountMap);
+// -----------------------------------------------------------------------------------------------------------------
+Map<String, String> stringmap = new Map<String, String> {
+    'key1' => 'value1',
+    'key2' => 'value2'
 };
-
-Map<String, Account> accountMap = new Map<String, Account>{
-    'testacc1' => new Account(Name = 'test acc 1', Total_Transfers_In__c = 0),
-    'testacc2' => new Account(Name = 'test acc 2', Total_Transfers_In__c = 0)
-};
-
-insert accountMap.values();
-
-for (String s : transferMap.keySet()) {
-    if (accountMap.containsKey(transferMap.get(s).Subject__c)) {
-        accountMap.get(transferMap.get(s).Subject__c).Total_Transfers_In__c += transferMap.get(s).Amount__c;
-    }
-}
-update accountMap.values();
-System.debug('accountMap: ' + accountMap);
+List<String> valueList = new List<String>(stringmap.values());
+List<String> keyList = new List<String>(stringmap.keySet());
+System.debug('valuelist: ' + valueList);
+System.debug('keylist: ' + keyList);

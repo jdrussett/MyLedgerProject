@@ -1,11 +1,11 @@
-trigger TransferTrigger on SOBJECT (after insert, after update, after delete) {
-    if (Trigger.isInsert) {
-        TransferTriggerController.newTransfers(Trigger.newMap);
+trigger TransferTrigger on Transfer__c (after insert, before update, after update, after delete) {
+    if (Trigger.isInsert || (Trigger.isUpdate && Trigger.isAfter)) {
+        TransferTriggerController.addNewTransfers(Trigger.new);
     }
-    if (Trigger.isUpdate) {
-        TransferTriggerController.updateTransfers(Trigger.newMap);
+    if (Trigger.isUpdate || Trigger.isBefore) {
+        TransferTriggerController.revertPriorTransfers(Trigger.new);
     }
     if (Trigger.isDelete) {
-        TransferTriggerController.deleteTransfers(Trigger.newMap);
+        TransferTriggerController.deleteTransfers(Trigger.new);
     }
 }
