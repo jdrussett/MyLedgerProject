@@ -2,7 +2,7 @@
 public class TransferTriggerControllerTest {
     
     @isTest
-    static void addNewTransfersTest_OneRecord() {
+    static void addNewTransfersTest_OneRecord_Lateral() {
         Account testSource = TestDataFactory.CreateOneGeneralAccount('001', 'Source');
         System.debug('testSource account: ' + testSource);
         Account testTarget = TestDataFactory.CreateOneGeneralAccount('002', 'Target');
@@ -23,5 +23,8 @@ public class TransferTriggerControllerTest {
         Test.stopTest();
     }
 
-    
+    @isTest
+    static void addNewTransfersTest_multipleTransfers(){
+        
+    }
 }

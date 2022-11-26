@@ -23,13 +23,14 @@ public class TransferTriggerController {
 
         for (Transfer__c t : transfersFromTrigger) {
 
-            // lateral transfers
+            // card payoffs
             if (t.Method__c == 'Card Payoff') {
                 if (t.Source_Account__c != null) {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
                 }
                 TargetAccountsMap.get(t.Target_Account__c).Total_Card_Charges__c += t.Amount__c;
             }
+            // lateral transfers
             else {
                 if (t.Source_Account__c != null) {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
@@ -41,7 +42,7 @@ public class TransferTriggerController {
             SourceAccountsMap.values(),
             TargetAccountsMap.values()
         };
-        update accountsToUpdate;   
+        update accountsToUpdate;
     }
 
     public static void revertPriorTransfers(List<Transfer__c> transfersFromTriggerMap) {

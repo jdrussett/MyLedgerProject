@@ -31,27 +31,29 @@ public class TestDataFactory {
         for (Integer i = 0; i < numPairs; i++) {
             sourceTargetPairs.put(
                 new Account(
-                    AccountNumber = i.format().repeat(4),
-                    Name = 'Test Source Account ' + (i+1).format(),
-                    Total_Transfers_In__c = 300,
-                    Total_Transfers_Out__c = 300
+                    AccountNumber = ((2*(i+1))-1).format().repeat(4),
+                    Name = 'Test Source Account ' + ((2*(i+1))-1).format(),
+                    Total_Transfers_Out__c = 300,
+                    Type = (math.mod((2*(i+1))-1,2) == 0) ? 'Credit Card' : 'Checking Account',
+                    RecordTypeId = (math.mod((2*(i+1))-1,2) == 0) ? '012Dn000000tIWLIA2' : '012Dn000000tIWQIA2'
                 ),
                 new Account(
-                    AccountNumber = (i+1).format().repeat(4),
-                    Name = 'Test Target Account ' + (i+1).format(),
+                    AccountNumber = (2*(i+1)).format().repeat(4),
+                    Name = 'Test Target Account ' + (2*(i+1)).format(),
                     Total_Transfers_In__c = 300,
-                    Total_Transfers_Out__c = 300
+                    Total_Card_Charges__c = 150,
+                    Type = 'Checking Account'
                 )
             );
         }
-        System.debug('new lists of accounts: source list: ' + sourceTargetPairs.keySet() + '; target list: ' + sourceTargetPairs.values());
         try {
-            insert new List<Account>(sourceTargetPairs.keySet());
-            insert new List<Account>(sourceTargetPairs.values());
+            insert new List<Account>{
+                sourceTargetPairs.keySet(),
+                sourceTargetPairs.values()
+            };
         } catch (DmlException exc) {
             System.debug('could not insert test accounts: ' + exc);
         }
-        System.debug('sourceTargetPair: ' + sourceTargetPairs);
         return sourceTargetPairs;
     }
 
@@ -72,20 +74,20 @@ public class TestDataFactory {
         return transfer;
     }
     
-    // public static List<Transfer__c> createMultipleTransfers(Map<Account, Account> AccountMap) {
-    //     List<Transfer__c> newTransfers = new List<Transfer__c>();
-    //     Integer amt = 100;
-    //     for (Account a : AccountMap.keySet()) {
-    //         Integer i = 0;
-    //         newTransfers.add(new Transfer(
-    //             Amount__c = amt,
-    //             RecordTypeId = (math.mod(i,2)==0) ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
-    //             Source_Account__c = a.Id,
-    //             Target_Account__c = AccountMap.get(a).Id,
-    //             Subject__c = 'Test Transfer Record ' + (i+1).format()
-    //         ));
-    //         amt += 50;
-    //         I += 1;
-    //     }
-    // }
+    public static List<Transfer__c> createMultipleTransfers(Map<Account, Account> AccountMap) {
+        List<Transfer__c> newTransfers = new List<Transfer__c>();
+        Integer amt = 100;
+        for (Account a : AccountMap.keySet()) {
+            Integer i = 0;
+            newTransfers.add(new Transfer(
+                Amount__c = amt,
+                RecordTypeId = (math.mod(i,2)==0) ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
+                Source_Account__c = a.Id,
+                Target_Account__c = AccountMap.get(a).Id,
+                Subject__c = 'Test Transfer Record ' + (i+1).format()
+            ));
+            amt += 50;
+            I += 1;
+        }
+    }
 }
