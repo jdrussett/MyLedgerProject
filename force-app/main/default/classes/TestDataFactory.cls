@@ -76,18 +76,17 @@ public class TestDataFactory {
     
     public static List<Transfer__c> createMultipleTransfers(Map<Account, Account> AccountMap) {
         List<Transfer__c> newTransfers = new List<Transfer__c>();
-        Integer amt = 100;
+        Integer amt = 10;
         for (Account a : AccountMap.keySet()) {
-            Integer i = 0;
             newTransfers.add(new Transfer(
                 Amount__c = amt,
-                RecordTypeId = (math.mod(i,2)==0) ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
+                RecordTypeId = (a.Target_Account__r.Type == 'Credit Card') ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
+                Method__c = (a.Target_Account__r.Type == 'Credit Card') ? 'Card Payoff' : 'Online Transfer',
                 Source_Account__c = a.Id,
                 Target_Account__c = AccountMap.get(a).Id,
                 Subject__c = 'Test Transfer Record ' + (i+1).format()
             ));
-            amt += 50;
-            I += 1;
+            amt += 5;
         }
     }
 }

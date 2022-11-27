@@ -26,9 +26,9 @@ public class TransferTriggerController {
             // card payoffs
             if (t.Method__c == 'Card Payoff') {
                 if (t.Source_Account__c != null) {
-                    SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
+                    SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;
                 }
-                TargetAccountsMap.get(t.Target_Account__c).Total_Card_Charges__c += t.Amount__c;
+                TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
             }
             // lateral transfers
             else {
