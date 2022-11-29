@@ -11,19 +11,21 @@ public class TransferTriggerController {
         }
 
         // get all source and target account records
-        List<Account> SourceAccounts = [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
-                                        FROM Account
-                                        WHERE Id IN :SourceAccountIds];
-        List<Account> TargetAccounts = [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
-                                        FROM Account
-                                        WHERE Id IN :TargetAccountIds];
-
-        Map<Id, Account> SourceAccountsMap = new Map<Id, Account>(SourceAccounts);
-        Map<Id, Account> TargetAccountsMap = new Map<Id, Account>(TargetAccounts);
+        Map<Id, Account> SourceAccountsMap = new Map<Id, Account>(
+            [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
+             FROM Account
+             WHERE Id IN :SourceAccountIds]
+        );
+        Map<Id, Account> TargetAccountsMap = new Map<Id, Account>(
+            [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
+             FROM Account
+             WHERE Id IN :TargetAccountIds]
+        );
 
         for (Transfer__c t : transfersFromTrigger) {
 
             // card payoffs
+            System.debug('t.Method__c: ' + t.Method__c);
             if (t.Method__c == 'Card Payoff') {
                 if (t.Source_Account__c != null) {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;
@@ -38,10 +40,10 @@ public class TransferTriggerController {
                 TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
             }
         }
-        List<Account> accountsToUpdate = new List<Account>{
-            SourceAccountsMap.values(),
-            TargetAccountsMap.values()
-        };
+        
+        List<Account> accountsToUpdate = new List<Account>();
+        accountsToUpdate.addAll(SourceAccountsMap.values());
+        accountsToUpdate.addAll(TargetAccountsMap.values());
         update accountsToUpdate;
     }
 

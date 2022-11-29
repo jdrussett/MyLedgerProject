@@ -26,35 +26,38 @@ public class TestDataFactory {
         return acc;
     }
 
-    private static Map<Account, Account> createTestAccountPairs(Integer numPairs) {
+    public static Map<Account, Account> createTestAccountPairs(Integer numPairs) {
         Map<Account, Account> sourceTargetPairs = new Map<Account, Account>();
         for (Integer i = 0; i < numPairs; i++) {
             sourceTargetPairs.put(
                 new Account(
                     AccountNumber = ((2*(i+1))-1).format().repeat(4),
                     Name = 'Test Source Account ' + ((2*(i+1))-1).format(),
+                    Total_Transfers_In__c = 1000,
                     Total_Transfers_Out__c = 300,
-                    Type = (math.mod((2*(i+1))-1,2) == 0) ? 'Credit Card' : 'Checking Account',
-                    RecordTypeId = (math.mod((2*(i+1))-1,2) == 0) ? '012Dn000000tIWLIA2' : '012Dn000000tIWQIA2'
+                    Total_Card_Charges__c = 300,
+                    Type = 'Checking Account'
                 ),
                 new Account(
                     AccountNumber = (2*(i+1)).format().repeat(4),
                     Name = 'Test Target Account ' + (2*(i+1)).format(),
-                    Total_Transfers_In__c = 300,
-                    Total_Card_Charges__c = 150,
-                    Type = 'Checking Account'
+                    Total_Transfers_In__c = 1000,
+                    Type = (math.mod((2*(i+1)),4) == 0) ? 'Credit Card' : 'Checking Account',
+                    RecordTypeId = (math.mod((2*(i+1)),4) == 0) ? '012Dn000000tIWLIA2' : '012Dn000000tIWQIA2'
                 )
             );
         }
+        
+        List<Account> accsToInsert = sourceTargetPairs.values().clone();
+        accsToInsert.addAll(sourceTargetPairs.keySet());
+        
         try {
-            insert new List<Account>{
-                sourceTargetPairs.keySet(),
-                sourceTargetPairs.values()
-            };
+            insert accsToInsert;
         } catch (DmlException exc) {
             System.debug('could not insert test accounts: ' + exc);
         }
-        return sourceTargetPairs;
+        System.debug('sourceTargetPairs.clone() Map: ' + sourceTargetPairs.clone());
+        return sourceTargetPairs.clone();
     }
 
     public static Transfer__c createOneTransfer(
@@ -76,17 +79,23 @@ public class TestDataFactory {
     
     public static List<Transfer__c> createMultipleTransfers(Map<Account, Account> AccountMap) {
         List<Transfer__c> newTransfers = new List<Transfer__c>();
-        Integer amt = 10;
-        for (Account a : AccountMap.keySet()) {
-            newTransfers.add(new Transfer(
+        Integer amt = 100;
+        Integer i = 1;
+        for (Account a : new List<Account>(AccountMap.keySet())) {
+            System.debug('a: ' + a);
+            System.debug('AccountMap.get(a): ' + AccountMap.get(a));
+            newTransfers.add(new Transfer__c(
                 Amount__c = amt,
-                RecordTypeId = (a.Target_Account__r.Type == 'Credit Card') ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
-                Method__c = (a.Target_Account__r.Type == 'Credit Card') ? 'Card Payoff' : 'Online Transfer',
+                RecordTypeId = (AccountMap.get(a).Type == 'Credit Card') ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
+                Method__c = (AccountMap.get(a).Type == 'Credit Card') ? 'Card Payoff' : 'Online Transfer',
                 Source_Account__c = a.Id,
                 Target_Account__c = AccountMap.get(a).Id,
                 Subject__c = 'Test Transfer Record ' + (i+1).format()
             ));
-            amt += 5;
+            System.debug('newTransfers: ' + newTransfers);
+            amt += 50;
+            i += 1;
         }
+        return newTransfers;
     }
 }

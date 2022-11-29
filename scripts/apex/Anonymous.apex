@@ -53,11 +53,27 @@
 // update accountMap.values();
 // System.debug('accountMap: ' + accountMap);
 // -----------------------------------------------------------------------------------------------------------------
-Map<String, String> stringmap = new Map<String, String> {
-    'key1' => 'value1',
-    'key2' => 'value2'
+Map<Account, Account> accountMap = new Map<Account, Account> {
+    new Account(Name = 'test key account 1', AccountNumber = '1111') => new Account(Name = 'test value account 1', AccountNumber = '2222'),
+    new Account(Name = 'test key account 2', AccountNumber = '3333') => new Account(Name = 'test value account 2', AccountNumber = '4444'),
+    new Account(Name = 'test key account 3', AccountNumber = '5555') => new Account(Name = 'test value account 3', AccountNumber = '6666')
 };
-List<String> valueList = new List<String>(stringmap.values());
-List<String> keyList = new List<String>(stringmap.keySet());
-System.debug('valuelist: ' + valueList);
-System.debug('keylist: ' + keyList);
+for (Account a : accountMap.keySet()) {
+    System.debug('current key: ' + a);
+    System.debug('current value: ' + accountMap.get(a));
+}
+List<Account> accsToInsert = accountMap.values().clone();
+accsToInsert.addAll(accountMap.keySet());
+insert accsToInsert;
+for (Account a : accountMap.keySet()) {
+    System.debug('current key: ' + a);
+    System.debug('current value: ' + accountMap.get(a));
+}
+System.debug('accountMap.clone(): ' + accountMap.clone());
+Map<Account, Account> cloneAccountMap = accountMap.clone();
+for (Account a : cloneAccountMap.keySet()) {
+    System.debug('current key: ' + a);
+    System.debug('current value: ' + cloneAccountMap.get(a));
+}
+System.debug('accountMap.deepclone(): ' + accountMap.deepClone());
+delete accsToInsert;
