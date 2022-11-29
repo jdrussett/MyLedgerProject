@@ -25,7 +25,6 @@ public class TransferTriggerController {
         for (Transfer__c t : transfersFromTrigger) {
 
             // card payoffs
-            System.debug('t.Method__c: ' + t.Method__c);
             if (t.Method__c == 'Card Payoff') {
                 if (t.Source_Account__c != null) {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;

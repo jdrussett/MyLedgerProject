@@ -56,7 +56,6 @@ public class TestDataFactory {
         } catch (DmlException exc) {
             System.debug('could not insert test accounts: ' + exc);
         }
-        System.debug('sourceTargetPairs.clone() Map: ' + sourceTargetPairs.clone());
         return sourceTargetPairs.clone();
     }
 
@@ -82,8 +81,6 @@ public class TestDataFactory {
         Integer amt = 100;
         Integer i = 1;
         for (Account a : new List<Account>(AccountMap.keySet())) {
-            System.debug('a: ' + a);
-            System.debug('AccountMap.get(a): ' + AccountMap.get(a));
             newTransfers.add(new Transfer__c(
                 Amount__c = amt,
                 RecordTypeId = (AccountMap.get(a).Type == 'Credit Card') ? '012Dn000000tI9JIAU' : '012Dn000000tI9EIAU',
@@ -92,7 +89,6 @@ public class TestDataFactory {
                 Target_Account__c = AccountMap.get(a).Id,
                 Subject__c = 'Test Transfer Record ' + (i+1).format()
             ));
-            System.debug('newTransfers: ' + newTransfers);
             amt += 50;
             i += 1;
         }

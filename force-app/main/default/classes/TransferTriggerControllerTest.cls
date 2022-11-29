@@ -22,7 +22,6 @@ public class TransferTriggerControllerTest {
     @isTest
     static void addNewTransfersTest_multipleTransfers(){
         Map<Account, Account> testAcctsMap = TestDataFactory.createTestAccountPairs(3);
-        System.debug('test accounts map: ' + testAcctsMap);
         List<Transfer__c> testTransfers = TestDataFactory.createMultipleTransfers(testAcctsMap);
         Test.startTest();
         TransferTriggerController.addNewTransfers(testTransfers);
