@@ -30,22 +30,55 @@ public class TransferTriggerControllerTest {
         for (Account a : updatedAccounts) {
             switch on a.AccountNumber {
                 when '1111' {
+                    System.assertEquals(a.Total_Transfers_Out__c, 400);
                     System.assertEquals(a.Balance__c, 300);
                 }
                 when '2222' {
                     System.assertEquals(a.Balance__c, 1100);
                 }
                 when '3333' {
+                    System.assertEquals(a.Total_Card_Charges__c, 450);
                     System.assertEquals(a.Balance__c, 250);
                 }
                 when '4444' {
                     System.assertEquals(a.Balance__c, -1150);
                 }
                 when '5555' {
+                    System.assertEquals(a.Total_Transfers_Out__c, 500);
                     System.assertEquals(a.Balance__c, 200);
                 }
                 when '6666' {
                     System.assertEquals(a.Balance__c, 1200);
+                }
+            }
+        }
+        Test.stopTest();
+    }
+
+    @isTest
+    static void revertPriorTransfersTest_multipleTransfers() {
+        Map<Account, Account> testAcctsMap = TestDataFactory.createTestAccountPairs(2);
+        List<Transfer__c> testTransfers = TestDataFactory.createMultipleTransfers(testAcctsMap);
+        Test.startTest();
+        TransferTriggerController.revertPriorTransfers(testTransfers);
+        List<Account> updatedAccounts = [SELECT Id, AccountNumber, Total_Transfers_Out__c, Total_Card_Charges__c, Balance__c 
+                                         FROM Account];
+        System.assertEquals(updatedAccounts.size(), 4);
+        for (Account a : updatedAccounts) {
+            switch on a.AccountNumber {
+                when '1111' {
+                    System.assertEquals(a.Total_Transfers_Out__c, 200);
+                    System.assertEquals(a.Balance__c, 500);
+                }
+                when '2222' {
+                    System.assertEquals(a.Balance__c, 900);
+                }
+                when '3333' {
+                    System.assertEquals(a.Total_Card_Charges__c, 150);
+                    System.assertEquals(a.Balance__c, 550);
+                }
+                when '4444' {
+                    System.assertEquals(a.Balance__c, -850);
                 }
             }
         }
