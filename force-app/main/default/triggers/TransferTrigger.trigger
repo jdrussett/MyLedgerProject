@@ -3,6 +3,6 @@ trigger TransferTrigger on Transfer__c (after insert, before update, after updat
         TransferTriggerController.addNewTransfers(Trigger.new);
     }
     if ((Trigger.isUpdate && Trigger.isBefore) || Trigger.isDelete) {
-        TransferTriggerController.revertPriorTransfers(Trigger.new);
+        TransferTriggerController.revertPriorTransfers(Trigger.old);
     }
 }

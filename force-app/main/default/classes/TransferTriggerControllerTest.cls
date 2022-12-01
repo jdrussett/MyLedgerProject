@@ -88,9 +88,7 @@ public class TransferTriggerControllerTest {
     @isTest
     static void addNewTransfersTest_InitialLoad() {
         Account testTarget = TestDataFactory.CreateOneGeneralAccount('1111', 'initial load 1');
-        System.debug('testTarget: ' + testTarget);
         Transfer__c testTransfer = TestDataFactory.createOneTransferForInitialLoad(testTarget, 100, 'test initial load', null);
-        System.debug('testTransfer: ' + testTransfer);
         Test.startTest();
         TransferTriggerController.addNewTransfers(new List<Transfer__c>{testTransfer});
         Account updatedTarget = [SELECT Id, Total_Transfers_In__c, AccountNumber

@@ -1,11 +1,11 @@
-"Id","Name","Type","AccountNumber"
-"001Dn0000033D9eIAE","BR MasterCard","Credit Card","3523"
-"001Dn0000033D9dIAE","FNBO Visa","Credit Card","7719"
-"001Dn0000033D9YIAU","WF Visa","Credit Card","2621"
-"001Dn0000033D9jIAE","FNBO Checking","Checking Account","6667"
-"001Dn0000033D9ZIAU","WF Checking","Checking Account","7449"
-"001Dn0000033D9nIAE","FNBO Savings","Savings Account","1405"
-"001Dn0000033D9aIAE","WF Savings","Savings Account","7052"
-"001Dn0000033D9iIAE","Cash","Cash",""
-"001Dn0000033D9oIAE","Fidelity","Digital","2458"
-"001Dn0000033D9fIAE","Venmo","Digital",""
+"Id","RecordTypeId","RecordType.DeveloperName","Type","Name","AccountNumber","Balance__c","Total_Card_Charges__c","Total_Expenses__c","Total_Income__c","Total_Transfers_In__c","Total_Transfers_Out__c"
+"001Dn0000033D9ZIAU","012Dn000000tIWQIA2","General_Equity","Checking Account","WF Checking",7449,"0",0,"0","0",0,0
+"001Dn0000033D9aIAE","012Dn000000tIWQIA2","General_Equity","Savings Account","WF Savings",7052,"0",0,"0","0",0,0
+"001Dn0000033D9YIAU","012Dn000000tIWLIA2","Credit_Card","Credit Card","WF Visa",2621,"0",0,"0","0",0,0
+"001Dn0000033D9dIAE","012Dn000000tIWLIA2","Credit_Card","Credit Card","FNBO Visa",7719,"0",0,"0","0",0,0
+"001Dn0000033D9eIAE","012Dn000000tIWLIA2","Credit_Card","Credit Card","BR MasterCard",3523,"0",0,"0","0",0,0
+"001Dn0000033D9fIAE","012Dn000000tIWQIA2","General_Equity","Digital","Venmo",,"0",0,"0","0",0,0
+"001Dn0000033D9iIAE","012Dn000000tIWQIA2","General_Equity","Cash","Cash",,"0",0,"0","0",0,0
+"001Dn0000033D9jIAE","012Dn000000tIWQIA2","General_Equity","Checking Account","FNBO Checking",6667,"0",0,"0","0",0,0
+"001Dn0000033D9nIAE","012Dn000000tIWQIA2","General_Equity","Savings Account","FNBO Savings",1405,"0",0,"0","0",0,0
+"001Dn0000033D9oIAE","012Dn000000tIWQIA2","General_Equity","Digital","Fidelity",2458,"0",0,"0","0",0,0
