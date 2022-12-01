@@ -1,0 +1,55 @@
+Date__c,Amount__c,Account__c,Method__c,Subject__c,RecordTypeId,record type,category,Reflected_Online__c
+2022-01-02,40,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for drinks on NYE,012Dn000000tHzmIAE,Reimbursement,(R) Recreation,1
+2022-01-02,694,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-01-02,36,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Internet,012Dn000000tHzmIAE,Reimbursement,(R) Internet,1
+2022-01-07,674.17,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-01-21,676.23,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-01-23,35,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for champagne and coat,012Dn000000tHzmIAE,Reimbursement,(R) Groceries & Gas,1
+2022-01-25,17,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Craft burgers,012Dn000000tHzmIAE,Reimbursement,(R) Food & Leisure,1
+2022-02-01,694,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-02-01,36,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Internet,012Dn000000tHzmIAE,Reimbursement,(R) Internet,1
+2022-02-04,674.17,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-02-18,676.18,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-03-04,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-03-15,10,001Dn0000033D9ZIAU,Zelle Transfer,Paid by Kawai for something I don't know,012Dn000000tHzmIAE,Reimbursement,,1
+2022-03-16,280,001Dn0000033D9ZIAU,Direct Deposit,Nebraska Tax Return,012Dn000000tHzhIAE,Regular,,1
+2022-03-17,27.37,001Dn0000033D9ZIAU,Online Transfer,Sold old tubes on Reverb,012Dn000000tHzhIAE,Regular,,1
+2022-03-17,941,001Dn0000033D9ZIAU,Direct Deposit,Federal Tax Return,012Dn000000tHzhIAE,Regular,,1
+2022-03-18,723.28,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-03-21,606,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-03-21,40,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Internet,012Dn000000tHzmIAE,Reimbursement,(R) Internet,1
+2022-04-01,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-04-15,723.29,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,,,1
+2022-04-16,37.42,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Old Navy haul,012Dn000000tHzmIAE,Reimbursement,(R) Products & Merchandise,1
+2022-04-29,586,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-04-29,36,001Dn0000033D9ZIAU,Zelle Transfer,Kawai Internet,012Dn000000tHzmIAE,Reimbursement,(R) Internet,1
+2022-04-29,700.05,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-05-11,300,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Hiwa for bail,012Dn000000tHzmIAE,Reimbursement,(R) Nonnegotiable Unpredictables,1
+2022-05-13,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-05-27,588,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-05-27,723.28,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-06-10,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-06-24,658,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-06-24,723.29,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-07-02,142,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Dad for 6mp,012Dn000000tHzmIAE,Reimbursement,(R) Necessary Life Supplies,1
+2022-07-07,12,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Pickleman's,012Dn000000tHzmIAE,Reimbursement,(R) Food & Leisure,1
+2022-07-08,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-07-17,12,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Panda Express,012Dn000000tHzmIAE,Reimbursement,(R) Food & Leisure,1
+2022-07-22,33.5,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for alcohol,012Dn000000tHzmIAE,Reimbursement,(R) Groceries & Gas,1
+2022-07-22,723.28,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-07-25,694,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-08-03,15,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for food at Rhythm on the Rails,012Dn000000tHzmIAE,Reimbursement,(R) Food & Leisure,1
+2022-08-05,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-08-16,300,001Dn0000033D9ZIAU,Direct Deposit,FNBO - reimbursement for Salesforce Developer 1 Exam,012Dn000000tHzmIAE,Reimbursement,(R) Nonnegotiable Unpredictables,1
+2022-08-19,723.27,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-08-29,680,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-09-02,721.13,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-09-13,45,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Old Navy haul,012Dn000000tHzmIAE,Reimbursement,(R) Products & Merchandise,1
+2022-09-16,723.28,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-09-27,728,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,1
+2022-09-30,700.06,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-10-01,28,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Old Navy haul,012Dn000000tHzmIAE,Reimbursement,(R) Products & Merchandise,1
+2022-10-14,721.14,001Dn0000033D9ZIAU,Direct Deposit,FNBO - salary income,012Dn000000tHzhIAE,Regular,,1
+2022-10-24,700,001Dn0000033D9ZIAU,Zelle Transfer,Kawai rent,012Dn000000tHzmIAE,Reimbursement,(R) Rent & Utilities,0
+2022-10-29,75,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Old Navy and dinner and ink,012Dn000000tHzmIAE,Reimbursement,(R) Recreation,0
+2022-11-08,72,001Dn0000033D9ZIAU,Zelle Transfer,Paid back by Kawai for Aldi & Costco jacket,012Dn000000tHzmIAE,Reimbursement,(R) Groceries & Gas,0

@@ -16,3 +16,4 @@ Salesforce ledger ideas:
     - pay off card
     - transfer
 - dashboard elements for last 7 and 30 days expenses
+- need to add budget category to income and have it reference budget category of related expense
