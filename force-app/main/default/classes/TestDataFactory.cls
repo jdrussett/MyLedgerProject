@@ -76,6 +76,21 @@ public class TestDataFactory {
         return transfer;
     }
     
+    public static Transfer__c createOneTransferForInitialLoad(
+            Account target, 
+            Integer amount, 
+            String transferName,
+            String method
+        ) {
+        Transfer__c transfer = new Transfer__c(
+            Amount__c = amount,
+            Target_Account__c = target.Id,
+            Subject__c = transferName,
+            Method__c = method
+        );
+        return transfer;
+    }
+    
     public static List<Transfer__c> createMultipleTransfers(Map<Account, Account> AccountMap) {
         List<Transfer__c> newTransfers = new List<Transfer__c>();
         Integer amt = 100;

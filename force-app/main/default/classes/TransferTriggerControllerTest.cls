@@ -25,7 +25,7 @@ public class TransferTriggerControllerTest {
         List<Transfer__c> testTransfers = TestDataFactory.createMultipleTransfers(testAcctsMap);
         Test.startTest();
         TransferTriggerController.addNewTransfers(testTransfers);
-        List<Account> updatedAccounts = [SELECT Id, AccountNumber, Balance__c FROM Account];
+        List<Account> updatedAccounts = [SELECT Id, AccountNumber, Total_Transfers_Out__c, Total_Card_Charges__c, Balance__c FROM Account];
         System.assertEquals(updatedAccounts.size(), 6);
         for (Account a : updatedAccounts) {
             switch on a.AccountNumber {
@@ -82,6 +82,21 @@ public class TransferTriggerControllerTest {
                 }
             }
         }
+        Test.stopTest();
+    }
+
+    @isTest
+    static void addNewTransfersTest_InitialLoad() {
+        Account testTarget = TestDataFactory.CreateOneGeneralAccount('1111', 'initial load 1');
+        System.debug('testTarget: ' + testTarget);
+        Transfer__c testTransfer = TestDataFactory.createOneTransferForInitialLoad(testTarget, 100, 'test initial load', null);
+        System.debug('testTransfer: ' + testTransfer);
+        Test.startTest();
+        TransferTriggerController.addNewTransfers(new List<Transfer__c>{testTransfer});
+        Account updatedTarget = [SELECT Id, Total_Transfers_In__c, AccountNumber
+                                 FROM Account
+                                 WHERE AccountNumber = 'General1111'][0];
+        System.assertEquals(updatedTarget.Total_Transfers_In__c, 200);
         Test.stopTest();
     }
 }
