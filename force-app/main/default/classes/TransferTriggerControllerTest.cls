@@ -97,4 +97,9 @@ public class TransferTriggerControllerTest {
         System.assertEquals(updatedTarget.Total_Transfers_In__c, 200);
         Test.stopTest();
     }
+
+    @isTest
+    static void addNewTransfersTest_strickenCharge() {
+        
+    }
 }

@@ -6,18 +6,16 @@ public class TransferTriggerController {
         Map<Id, Account> TargetAccountsMap = relatedAccounts[1];
 
         for (Transfer__c t : transfersFromTrigger) {
-            // card payoffs
-            if (t.Method__c == 'Card Payoff') {
-                if (t.Source_Account__c != null) {
+            if (t.Source_Account__c != null) {
+                if (t.Method__c == 'Card Payoff') {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;
-                }
-                TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
-            }
-            // lateral transfers
-            else {
-                if (t.Source_Account__c != null) {
+                } else {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
                 }
+            }
+            if (t.Method__c == 'Stricken Charge') {
+                TargetAccountsMap.get(t.Target_Account__c).Total_Stricken_Charges__c += t.Amount__c;
+            } else {
                 TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
             }
         }
