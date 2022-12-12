@@ -20,7 +20,8 @@ public class TestDataFactory {
             Type = 'Credit Card',
             RecordTypeId = '012Dn000000tIWLIA2',
             Name = 'Test Credit Card Account ' + accName,
-            Total_Transfers_Out__c = 25
+            Total_Transfers_Out__c = 25,
+            Total_Charges_Stricken__c = 50
         );
         insert acc;
         return acc;
@@ -42,6 +43,7 @@ public class TestDataFactory {
                     AccountNumber = (2*(i+1)).format().repeat(4),
                     Name = 'Test Target Account ' + (2*(i+1)).format(),
                     Total_Transfers_In__c = 1000,
+                    Total_Charges_Stricken__c = 0,
                     Type = (math.mod((2*(i+1)),4) == 0) ? 'Credit Card' : 'Checking Account',
                     RecordTypeId = (math.mod((2*(i+1)),4) == 0) ? '012Dn000000tIWLIA2' : '012Dn000000tIWQIA2'
                 )

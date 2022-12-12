@@ -100,6 +100,31 @@ public class TransferTriggerControllerTest {
 
     @isTest
     static void addNewTransfersTest_strickenCharge() {
-        
+        Account testAcc = TestDataFactory.CreateOneCreditCardAccount('TestCard123');
+        Transfer__c testTransfer = TestDataFactory.createOneTransferForInitialLoad(
+            testAcc, 25, 'Test Stricken Charge', 'Stricken Charge'
+        );
+        Test.startTest();
+        TransferTriggerController.addNewTransfers(new List<Transfer__c>{testTransfer});
+        Account updatedTarget = [SELECT Id, Total_Charges_Stricken__c, Name
+                                 FROM Account
+                                 WHERE Name = 'Test Credit Card Account TestCard123'];
+        System.assertEquals(updatedTarget.Total_Charges_Stricken__c, 75);
+        Test.stopTest();
+    }
+
+    @isTest
+    static void revertPriorTransfersTest_strickenCharge() {
+        Account testAcc = TestDataFactory.CreateOneCreditCardAccount('TestCard123');
+        Transfer__c testTransfer = TestDataFactory.createOneTransferForInitialLoad(
+            testAcc, 25, 'Test Stricken Charge', 'Stricken Charge'
+        );
+        Test.startTest();
+        TransferTriggerController.revertPriorTransfers(new List<Transfer__c>{testTransfer});
+        Account updatedTarget = [SELECT Id, Total_Charges_Stricken__c, Name
+                                 FROM Account
+                                 WHERE Name = 'Test Credit Card Account TestCard123'];
+        System.assertEquals(updatedTarget.Total_Charges_Stricken__c, 25);
+        Test.stopTest();
     }
 }

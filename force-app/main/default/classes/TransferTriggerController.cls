@@ -14,7 +14,7 @@ public class TransferTriggerController {
                 }
             }
             if (t.Method__c == 'Stricken Charge') {
-                TargetAccountsMap.get(t.Target_Account__c).Total_Stricken_Charges__c += t.Amount__c;
+                TargetAccountsMap.get(t.Target_Account__c).Total_Charges_Stricken__c += t.Amount__c;
             } else {
                 TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
             }
@@ -32,19 +32,17 @@ public class TransferTriggerController {
         Map<Id, Account> TargetAccountsMap = relatedAccounts[1];
 
         for (Transfer__c t : transfersFromTrigger) {
-
-            // undo card payoffs
-            if (t.Method__c == 'Card Payoff') {
-                if (t.Source_Account__c != null) {
+            if (t.Source_Account__c != null) {
+                if (t.Method__c == 'Card Payoff') {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c -= t.Amount__c;
                 }
-                TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c -= t.Amount__c;
-            }
-            // undo lateral transfers
-            else {
-                if (t.Source_Account__c != null) {
+                else {
                     SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c -= t.Amount__c;
                 }
+            }
+            if (t.Method__c == 'Stricken Charge') {
+                TargetAccountsMap.get(t.Target_Account__c).Total_Charges_Stricken__c -= t.Amount__c;
+            } else {
                 TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c -= t.Amount__c;
             }
         }
@@ -74,7 +72,7 @@ public class TransferTriggerController {
         }
         
         if (SourceAccountIds.size() > 0) {
-            for (Account a : [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
+            for (Account a : [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c, Type
                               FROM Account
                               WHERE Id IN :SourceAccountIds]) {
                 SourceAccountsMap.put(a.Id, a);
@@ -83,7 +81,7 @@ public class TransferTriggerController {
 
         // get all target records
         Map<Id, Account> TargetAccountsMap = new Map<Id, Account>(
-            [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Type
+            [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c, Type
              FROM Account
              WHERE Id IN :TargetAccountIds]
         );

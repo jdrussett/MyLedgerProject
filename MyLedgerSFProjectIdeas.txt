@@ -17,3 +17,5 @@ Salesforce ledger ideas:
     - transfer
 - dashboard elements for last 7 and 30 days expenses
 - need to add budget category to income and have it reference budget category of related expense
+- another field on transfer, income, and expense to hold account external ID and have flow on account update lookup field to account
+  on all those objects to update with the correct record ID for lookup based on external ID
