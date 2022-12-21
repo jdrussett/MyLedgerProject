@@ -78,9 +78,28 @@
 // System.debug('accountMap.deepclone(): ' + accountMap.deepClone());
 // delete accsToInsert;
 // -----------------------------------------------------------------------------------------------------------------
-Map<String, String> newMap = new Map<String, String>{
-    'a key' => 'a key',
-    null => 'another key'
-};
-System.debug('newMap: ' + newMap);
-System.debug('newMap')
+// Map<String, String> newMap = new Map<String, String>{
+//     'a key' => 'a key',
+//     null => 'another key'
+// };
+// System.debug('newMap: ' + newMap);
+// System.debug('newMap')
+// -----------------------------------------------------------------------------------------------------------------
+Set<String> set1 = new Set<String>();
+List<String> list1 = new List<String>();
+list1.add('value1');
+list1.add('value2');
+list1.add('value2');
+list1.add('value3');
+list1.add('value3');
+list1.add('value3');
+List<String> list2 = new List<String>();
+list1.add('value3');
+list1.add('value3');
+list1.add('value4');
+list1.add('value5');
+list1.add('value6');
+list1.add('value6');
+set1.addAll(list1);
+set1.addAll(list2);
+System.debug('new List<String>(set1): ' + new List<String>(set1));

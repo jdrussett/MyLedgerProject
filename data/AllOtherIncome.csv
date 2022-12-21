@@ -1,8 +1,7 @@
-Date__c,Account__c,Amount__c,Method__c,Subject__c,RecordTypeId,record type,Category,WF Visa,FNBO Visa,BR Visa,WF Checking,WF Savings,FNBO Checking,FNBO Savings,Fidelity,Cash,Venmo,Reflected online?
-2022-01-31,,0.05,Online Transfer,Interest payment from Wells Fargo,012Dn000000tHzhIAE,Regular,,,,,,0.05,,,,,,Yes
-2022-01-31,,0.4,Online Transfer,Interest payment from FNBO,012Dn000000tHzhIAE,Regular,,,,,,,,0.4,,,,Yes
-2022-03-18,,39,Cash,Paid by Caleb for Dr. Jacks show,012Dn000000tHzhIAE,Regular,,,,,,,,,,39,,n/a
-2022-06-11,,40,Cash,Paid back by Lucas for alcohol,012Dn000000tHzmIAE,Reimbursement,(R) Groceries & Gas,,,,,,,,,40,,n/a
-2022-06-18,,155,Cash,Paid by Caleb for bearwithus tour,012Dn000000tHzhIAE,Regular,,,,,,,,,,155,,n/a
-2022-09-16,,176.8,Online Transfer,Reimbursed by Wells Fargo for charge dispute,,Stricken Charge,(R) Vacationing,-176.8,,,,,,,,,,Yes
-2022-10-08,,60,Cash,Paid back by Duncan for birthday brunch,012Dn000000tHzmIAE,Reimbursement,(R) Food & Leisure,,,,,,,,,60,,n/a
+Date__c,Account__c,Amount__c,Method__c,Subject__c,RecordTypeId,RecordType,Reflected_Online__c
+2022-01-31,001Dn0000033D9aIAE,0.05,Online Transfer,Interest payment from Wells Fargo,012Dn000000tHzhIAE,Regular,true
+2022-01-31,001Dn0000033D9nIAE,0.40,Online Transfer,Interest payment from FNBO,012Dn000000tHzhIAE,Regular,true
+2022-03-18,001Dn0000033D9iIAE,39.00,Cash,Paid by Caleb for Dr. Jacks show,012Dn000000tHzhIAE,Regular,false
+2022-06-11,001Dn0000033D9iIAE,40.00,Cash,Paid back by Lucas for alcohol,012Dn000000tHzmIAE,Reimbursement,false
+2022-06-18,001Dn0000033D9iIAE,155.00,Cash,Paid by Caleb for bearwithus tour,012Dn000000tHzhIAE,Regular,false
+2022-10-08,001Dn0000033D9iIAE,60.00,Cash,Paid back by Duncan for birthday brunch,012Dn000000tHzmIAE,Reimbursement,false

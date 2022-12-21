@@ -20,7 +20,7 @@ public class TestDataFactory {
             Type = 'Credit Card',
             RecordTypeId = '012Dn000000tIWLIA2',
             Name = 'Test Credit Card Account ' + accName,
-            Total_Transfers_Out__c = 25,
+            Total_Transfers_In__c = 75,
             Total_Charges_Stricken__c = 50
         );
         insert acc;
@@ -104,7 +104,7 @@ public class TestDataFactory {
                 Method__c = (AccountMap.get(a).Type == 'Credit Card') ? 'Card Payoff' : 'Online Transfer',
                 Source_Account__c = a.Id,
                 Target_Account__c = AccountMap.get(a).Id,
-                Subject__c = 'Test Transfer Record ' + (i+1).format()
+                Subject__c = 'Test Transfer Record ' + (i).format()
             ));
             amt += 50;
             i += 1;

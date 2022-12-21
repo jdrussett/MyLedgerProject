@@ -127,4 +127,55 @@ public class TransferTriggerControllerTest {
         System.assertEquals(updatedTarget.Total_Charges_Stricken__c, 25);
         Test.stopTest();
     }
+
+    @isTest
+    static void addNewTransfersTest_OneAccountMultipleAppearances() {
+        Account testChecking = TestDataFactory.CreateOneGeneralAccount('111', 'testchecking');
+        System.debug('MYDEBUG1 :: testchecking: ' + testchecking);
+        Account testCheckingtwo = TestDataFactory.CreateOneGeneralAccount('222', 'testcheckingtwo');
+        System.debug('MYDEBUG2 :: testCheckingtwo: ' + testCheckingtwo);
+        Account testSavings = TestDataFactory.CreateOneGeneralAccount('333', 'testsaving');
+        System.debug('MYDEBUG3 :: testSavings: ' + testSavings);
+        Account testCard = TestDataFactory.CreateOneCreditCardAccount('testCard');
+        System.debug('MYDEBUG4 :: testCard: ' + testCard);
+        Transfer__c transfer1 = TestDataFactory.createOneTransfer(testChecking, testCard, 20, 'test transfer 1', 'Card Payoff');
+        Transfer__c transfer2 = TestDataFactory.createOneTransfer(testChecking, testCheckingtwo, 25, 'test transfer 2', 'Online Transfer');
+        Transfer__c transfer3 = TestDataFactory.createOneTransfer(testCheckingtwo, testSavings, 30, 'test transfer 3', 'Online Transfer');
+        List<Transfer__c> newTransfers = new List<Transfer__c>{transfer1, transfer2, transfer3};
+        for (Transfer__c t : newTransfers) {
+            System.debug('MYDEBUG5 :: current transfer: ' + t);
+        }
+        TransferTriggerController.addNewTransfers(newTransfers);
+        Account updated_testchecking = [SELECT Id, Name, AccountNumber, Type, Total_Transfers_In__c,
+                                        Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c
+                                        FROM Account
+                                        WHERE Name = 'Test General Account testchecking'][0];
+        Account updated_testcheckingtwo = [SELECT Id, Name, AccountNumber, Type, Total_Transfers_In__c,
+                                           Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c
+                                           FROM Account
+                                           WHERE Name = 'Test General Account testcheckingtwo'][0];
+        Account updated_testSavings = [SELECT Id, Name, AccountNumber, Type, Total_Transfers_In__c,
+                                       Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c
+                                       FROM Account
+                                       WHERE Name = 'Test General Account testsaving'][0];
+        Account updated_testCard = [SELECT Id, Name, AccountNumber, Type, Total_Transfers_In__c,
+                                    Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c
+                                    FROM Account
+                                    WHERE Name = 'Test Credit Card Account testCard'][0];
+
+        System.assertEquals(updated_testchecking.Total_Transfers_In__c, 100);
+        System.assertEquals(updated_testchecking.Total_Card_Charges__c, 45);
+        System.assertEquals(updated_testchecking.Total_Transfers_Out__c, 50);
+        
+        System.assertEquals(updated_testcheckingtwo.Total_Transfers_In__c, 125);
+        System.assertEquals(updated_testcheckingtwo.Total_Card_Charges__c, 25);
+        System.assertEquals(updated_testcheckingtwo.Total_Transfers_Out__c, 55);
+        
+        System.assertEquals(updated_testSavings.Total_Transfers_In__c, 130);
+        System.assertEquals(updated_testSavings.Total_Card_Charges__c, 25);
+        System.assertEquals(updated_testSavings.Total_Transfers_Out__c, 25);
+        
+        System.assertEquals(updated_testCard.Total_Transfers_In__c, 95);
+        System.assertEquals(updated_testCard.Total_Charges_Stricken__c, 50);
+    }
 }

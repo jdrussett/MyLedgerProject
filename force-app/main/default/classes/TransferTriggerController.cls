@@ -1,90 +1,71 @@
 public class TransferTriggerController {
     
     public static void addNewTransfers(List<Transfer__c> transfersFromTrigger) {
-        List<Map<Id,Account>> relatedAccounts = getRelatedAccounts(transfersFromTrigger);
-        Map<Id, Account> SourceAccountsMap = relatedAccounts[0];
-        Map<Id, Account> TargetAccountsMap = relatedAccounts[1];
+        Map<Id,Account> relatedAccounts = getRelatedAccounts(transfersFromTrigger);
+        System.debug('MYDEBUG9 :: relatedAccounts: ' + relatedAccounts);
 
         for (Transfer__c t : transfersFromTrigger) {
             if (t.Source_Account__c != null) {
                 if (t.Method__c == 'Card Payoff') {
-                    SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;
+                    relatedAccounts.get(t.Source_Account__c).Total_Card_Charges__c += t.Amount__c;
                 } else {
-                    SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
+                    relatedAccounts.get(t.Source_Account__c).Total_Transfers_Out__c += t.Amount__c;
                 }
             }
             if (t.Method__c == 'Stricken Charge') {
-                TargetAccountsMap.get(t.Target_Account__c).Total_Charges_Stricken__c += t.Amount__c;
+                relatedAccounts.get(t.Target_Account__c).Total_Charges_Stricken__c += t.Amount__c;
             } else {
-                TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
+                relatedAccounts.get(t.Target_Account__c).Total_Transfers_In__c += t.Amount__c;
             }
         }
         
-        List<Account> accountsToUpdate = new List<Account>();
-        accountsToUpdate.addAll(SourceAccountsMap.values());
-        accountsToUpdate.addAll(TargetAccountsMap.values());
-        update accountsToUpdate;
+        update new List<Account>(relatedAccounts.values());
     }
 
     public static void revertPriorTransfers(List<Transfer__c> transfersFromTrigger) {
-        List<Map<Id,Account>> relatedAccounts = getRelatedAccounts(transfersFromTrigger);
-        Map<Id, Account> SourceAccountsMap = relatedAccounts[0];
-        Map<Id, Account> TargetAccountsMap = relatedAccounts[1];
+        Map<Id,Account> relatedAccounts = getRelatedAccounts(transfersFromTrigger);
 
         for (Transfer__c t : transfersFromTrigger) {
             if (t.Source_Account__c != null) {
                 if (t.Method__c == 'Card Payoff') {
-                    SourceAccountsMap.get(t.Source_Account__c).Total_Card_Charges__c -= t.Amount__c;
+                    relatedAccounts.get(t.Source_Account__c).Total_Card_Charges__c -= t.Amount__c;
                 }
                 else {
-                    SourceAccountsMap.get(t.Source_Account__c).Total_Transfers_Out__c -= t.Amount__c;
+                    relatedAccounts.get(t.Source_Account__c).Total_Transfers_Out__c -= t.Amount__c;
                 }
             }
             if (t.Method__c == 'Stricken Charge') {
-                TargetAccountsMap.get(t.Target_Account__c).Total_Charges_Stricken__c -= t.Amount__c;
+                relatedAccounts.get(t.Target_Account__c).Total_Charges_Stricken__c -= t.Amount__c;
             } else {
-                TargetAccountsMap.get(t.Target_Account__c).Total_Transfers_In__c -= t.Amount__c;
+                relatedAccounts.get(t.Target_Account__c).Total_Transfers_In__c -= t.Amount__c;
             }
         }
 
-        List<Account> accountsToUpdate = new List<Account>();
-        accountsToUpdate.addAll(SourceAccountsMap.values());
-        accountsToUpdate.addAll(TargetAccountsMap.values());
-        update accountsToUpdate;
+        update new List<Account>(relatedAccounts.values());
     }
 
-    private static List<Map<Id,Account>> getRelatedAccounts(List<Transfer__c> transfers) {
-        List<Id> SourceAccountIds = new List<Id>();
-        List<Id> TargetAccountIds = new List<Id>();
+    private static Map<Id,Account> getRelatedAccounts(List<Transfer__c> transfers) {
+        Set<Id> AccountIds = new Set<Id>();
 
         // get lists of source and target account IDs
         for (Transfer__c t : transfers) {
-            SourceAccountIds.add(t.Source_Account__c);
-            TargetAccountIds.add(t.Target_Account__c);
+            AccountIds.add(t.Source_Account__c);
+            AccountIds.add(t.Target_Account__c);
+            System.debug('MYDEBUG6 :: AccountIds: ' + AccountIds);
         }
 
-        // get all source records
-        Map<Id, Account> SourceAccountsMap = new Map<Id, Account>();
-        for (Integer i = 0; i < SourceAccountIds.size(); i++) {
-            if (SourceAccountIds[i] == null) {
-                SourceAccountIds.remove(i);
-            }
-        }
-        
-        if (SourceAccountIds.size() > 0) {
-            for (Account a : [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c, Type
+        // get all sources and targets
+        Map<Id, Account> AccountsMap = new Map<Id, Account>();
+        if (AccountIds.size() > 0) {
+            for (Account a : [SELECT Id, Name, AccountNumber, Total_Transfers_In__c, Total_Transfers_Out__c,
+                              Total_Card_Charges__c, Total_Charges_Stricken__c, Type
                               FROM Account
-                              WHERE Id IN :SourceAccountIds]) {
-                SourceAccountsMap.put(a.Id, a);
+                              WHERE Id IN :AccountIds]) {
+                AccountsMap.put(a.Id, a);
+                System.debug('MYDEBUG7 :: sourceAccountsMap.get(a): ' + a);
             }
         } 
 
-        // get all target records
-        Map<Id, Account> TargetAccountsMap = new Map<Id, Account>(
-            [SELECT Id, Total_Transfers_In__c, Total_Transfers_Out__c, Total_Card_Charges__c, Total_Charges_Stricken__c, Type
-             FROM Account
-             WHERE Id IN :TargetAccountIds]
-        );
-        return new List<Map<Id,Account>>{SourceAccountsMap, TargetAccountsMap};
+        return AccountsMap;
     }
 }
