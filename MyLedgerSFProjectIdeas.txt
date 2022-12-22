@@ -19,7 +19,4 @@ Salesforce ledger ideas:
 - need to add budget category to income and have it reference budget category of related expense
 - another field on transfer, income, and expense to hold account external ID and have flow on account update lookup field to account
   on all those objects to update with the correct record ID for lookup based on external ID
-
-Progress:
-
-- inserted all income
+- adjust search layouts to search related records by fields other than auto-number name fields
