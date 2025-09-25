@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Entitlement",
+                "referenceId": "EntitlementRef1"
+            },
+            "IsDeleted": false,
+            "Name": "Sample Entitlement",
+            "CreatedDate": "2022-10-20T14:30:54.000+0000",
+            "LastModifiedDate": "2022-10-20T14:30:54.000+0000",
+            "SystemModstamp": "2022-10-20T14:30:54.000+0000",
+            "LastViewedDate": null,
+            "LastReferencedDate": null,
+            "Type": "Phone Support",
+            "StartDate": "2022-06-12",
+            "EndDate": "2027-06-12",
+            "IsPerIncident": false,
+            "CasesPerEntitlement": null,
+            "RemainingCases": null,
+            "Status": "Active",
+            "WorkOrdersPerEntitlement": null,
+            "RemainingWorkOrders": null
+        }
+    ]
+}

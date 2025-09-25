@@ -1,0 +1,22 @@
+Salesforce ledger ideas:
+
+- split expense category allocations
+- scheduled apex for recurring expenses
+- objects: running balances/accounts, transactions
+- chart of total expense makeup (pie chart)
+- flows for quick logging expenses
+- "projects" to add to type/category
+- flows/macros/quick actions for typical/routine expenses?
+- reconciled checkbox on accounts/running balances that automatically get unchecked when a new expense is added
+- checkbox on expenses for "reflected/reconciled"; expenses automatically added unchecked, running list of expenses still need to balance
+- "expecting reimbursement" checkbox on expenses
+- expenses/income separate objects? master-detail on reimbursement income items to related expenses getting reimbursed for?
+- quick actions/buttons:
+    - withdraw cash
+    - pay off card
+    - transfer
+- dashboard elements for last 7 and 30 days expenses
+- need to add budget category to income and have it reference budget category of related expense
+- another field on transfer, income, and expense to hold account external ID and have flow on account update lookup field to account
+  on all those objects to update with the correct record ID for lookup based on external ID
+- adjust search layouts to search related records by fields other than auto-number name fields

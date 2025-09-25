@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reflected_Online__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marked true if income received is shown on corresponding online statement or account balance.</description>
+    <externalId>false</externalId>
+    <label>Reflected Online</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

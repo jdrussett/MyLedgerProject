@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reflected_Online__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marked as true if the expense can be seen reflected on the statement/balance for the corresponding live account.</description>
+    <externalId>false</externalId>
+    <label>Reflected Online</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

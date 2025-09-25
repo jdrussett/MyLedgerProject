@@ -1,0 +1,11 @@
+"Id","RecordTypeId","RecordType.DeveloperName","Type","Name","AccountNumber","Balance__c","Total_Card_Charges__c","Total_Expenses__c","Total_Income__c","Total_Transfers_In__c","Total_Transfers_Out__c"
+"001Dn0000033D9ZIAU","012Dn000000tIWQIA2","General_Equity","Checking Account","WF Checking",7449,"0",0,"0","0",0,0
+"001Dn0000033D9aIAE","012Dn000000tIWQIA2","General_Equity","Savings Account","WF Savings",7052,"0",0,"0","0",0,0
+"001Dn0000033D9YIAU","012Dn000000tIWLIA2","Credit_Card","Credit Card","WF Visa",2621,"0",0,"0","0",0,0
+"001Dn0000033D9dIAE","012Dn000000tIWLIA2","Credit_Card","Credit Card","FNBO Visa",7719,"0",0,"0","0",0,0
+"001Dn0000033D9eIAE","012Dn000000tIWLIA2","Credit_Card","Credit Card","BR MasterCard",3523,"0",0,"0","0",0,0
+"001Dn0000033D9fIAE","012Dn000000tIWQIA2","General_Equity","Digital","Venmo",,"0",0,"0","0",0,0
+"001Dn0000033D9iIAE","012Dn000000tIWQIA2","General_Equity","Cash","Cash",,"0",0,"0","0",0,0
+"001Dn0000033D9jIAE","012Dn000000tIWQIA2","General_Equity","Checking Account","FNBO Checking",6667,"0",0,"0","0",0,0
+"001Dn0000033D9nIAE","012Dn000000tIWQIA2","General_Equity","Savings Account","FNBO Savings",1405,"0",0,"0","0",0,0
+"001Dn0000033D9oIAE","012Dn000000tIWQIA2","General_Equity","Digital","Fidelity",2458,"0",0,"0","0",0,0

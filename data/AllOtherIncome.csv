@@ -1,0 +1,7 @@
+Date__c,Account__c,Amount__c,Method__c,Subject__c,RecordTypeId,RecordType,Reflected_Online__c
+2022-01-31,001Dn0000033D9aIAE,0.05,Online Transfer,Interest payment from Wells Fargo,012Dn000000tHzhIAE,Regular,true
+2022-01-31,001Dn0000033D9nIAE,0.40,Online Transfer,Interest payment from FNBO,012Dn000000tHzhIAE,Regular,true
+2022-03-18,001Dn0000033D9iIAE,39.00,Cash,Paid by Caleb for Dr. Jacks show,012Dn000000tHzhIAE,Regular,false
+2022-06-11,001Dn0000033D9iIAE,40.00,Cash,Paid back by Lucas for alcohol,012Dn000000tHzmIAE,Reimbursement,false
+2022-06-18,001Dn0000033D9iIAE,155.00,Cash,Paid by Caleb for bearwithus tour,012Dn000000tHzhIAE,Regular,false
+2022-10-08,001Dn0000033D9iIAE,60.00,Cash,Paid back by Duncan for birthday brunch,012Dn000000tHzmIAE,Reimbursement,false

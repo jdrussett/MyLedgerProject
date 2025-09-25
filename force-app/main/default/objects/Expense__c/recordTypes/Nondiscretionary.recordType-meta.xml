@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nondiscretionary</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Expense_Compact_Layout</compactLayoutAssignment>
+    <description>An involuntary, necessary expense.</description>
+    <label>Nondiscretionary</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Car %26 Renter%27s Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Car Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carwash Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Groceries %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Necessary Life Supplies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonnegotiable Unpredictables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Payment to Dad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent %26 Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Loan Payback to Dad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YMCA Subscription</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Establishment__c</picklist>
+        <values>
+            <fullName>Aldi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubliner Pub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harney Street Tavern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joslyn Lofts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Papa John%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ParkOmaha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russell Speeder%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sozo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweetwater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YMCA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Method__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venmo Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zelle Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project__c</picklist>
+        <values>
+            <fullName>Girlfriend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

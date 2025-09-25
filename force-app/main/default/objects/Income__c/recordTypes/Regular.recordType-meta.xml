@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regular</fullName>
+    <active>true</active>
+    <description>A standard, typical receipt of income. Not a reimbursement for a previously incurred expense.</description>
+    <label>Regular</label>
+</RecordType>

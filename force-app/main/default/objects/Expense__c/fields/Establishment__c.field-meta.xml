@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Establishment__c</fullName>
+    <description>The establishment where the expense was made.</description>
+    <externalId>false</externalId>
+    <label>Establishment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>13th Street Coffee</fullName>
+                <default>false</default>
+                <label>13th Street Coffee</label>
+            </value>
+            <value>
+                <fullName>2850 Wanamaker Liquor</fullName>
+                <default>false</default>
+                <label>2850 Wanamaker Liquor</label>
+            </value>
+            <value>
+                <fullName>806 Coffee</fullName>
+                <default>false</default>
+                <label>806 Coffee</label>
+            </value>
+            <value>
+                <fullName>Abelardo&apos;s</fullName>
+                <default>false</default>
+                <label>Abelardo&apos;s</label>
+            </value>
+            <value>
+                <fullName>Abuelo&apos;s</fullName>
+                <default>false</default>
+                <label>Abuelo&apos;s</label>
+            </value>
+            <value>
+                <fullName>Ace Hardware</fullName>
+                <default>false</default>
+                <label>Ace Hardware</label>
+            </value>
+            <value>
+                <fullName>Addy&apos;s Bar &amp; Grill</fullName>
+                <default>false</default>
+                <label>Addy&apos;s Bar &amp; Grill</label>
+            </value>
+            <value>
+                <fullName>Alamo Drafthouse</fullName>
+                <default>false</default>
+                <label>Alamo Drafthouse</label>
+            </value>
+            <value>
+                <fullName>Aldi</fullName>
+                <default>false</default>
+                <label>Aldi</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>AMC Theatres</fullName>
+                <default>false</default>
+                <label>AMC Theatres</label>
+            </value>
+            <value>
+                <fullName>Amp&apos;d</fullName>
+                <default>false</default>
+                <label>Amp&apos;d</label>
+            </value>
+            <value>
+                <fullName>Arby&apos;s</fullName>
+                <default>false</default>
+                <label>Arby&apos;s</label>
+            </value>
+            <value>
+                <fullName>Archetype</fullName>
+                <default>false</default>
+                <label>Archetype</label>
+            </value>
+            <value>
+                <fullName>Asian Market</fullName>
+                <default>false</default>
+                <label>Asian Market</label>
+            </value>
+            <value>
+                <fullName>Backlot Taphouse</fullName>
+                <default>false</default>
+                <label>Backlot Taphouse</label>
+            </value>
+            <value>
+                <fullName>Baker&apos;s</fullName>
+                <default>false</default>
+                <label>Baker&apos;s</label>
+            </value>
+            <value>
+                <fullName>Barnes &amp; Noble</fullName>
+                <default>false</default>
+                <label>Barnes &amp; Noble</label>
+            </value>
+            <value>
+                <fullName>Beercade</fullName>
+                <default>false</default>
+                <label>Beercade</label>
+            </value>
+            <value>
+                <fullName>Berry &amp; Rye</fullName>
+                <default>false</default>
+                <label>Berry &amp; Rye</label>
+            </value>
+            <value>
+                <fullName>Bison Witches Bar &amp; Deli (Lincoln)</fullName>
+                <default>false</default>
+                <label>Bison Witches Bar &amp; Deli (Lincoln)</label>
+            </value>
+            <value>
+                <fullName>Blatt</fullName>
+                <default>false</default>
+                <label>Blatt</label>
+            </value>
+            <value>
+                <fullName>Block 16</fullName>
+                <default>false</default>
+                <label>Block 16</label>
+            </value>
+            <value>
+                <fullName>BP</fullName>
+                <default>false</default>
+                <label>BP</label>
+            </value>
+            <value>
+                <fullName>Braum&apos;s</fullName>
+                <default>false</default>
+                <label>Braum&apos;s</label>
+            </value>
+            <value>
+                <fullName>Broken Mug</fullName>
+                <default>false</default>
+                <label>Broken Mug</label>
+            </value>
+            <value>
+                <fullName>Bronco&apos;s</fullName>
+                <default>false</default>
+                <label>Bronco&apos;s</label>
+            </value>
+            <value>
+                <fullName>Buffalo Wild Wings</fullName>
+                <default>false</default>
+                <label>Buffalo Wild Wings</label>
+            </value>
+            <value>
+                <fullName>Buns Over Texas</fullName>
+                <default>false</default>
+                <label>Buns Over Texas</label>
+            </value>
+            <value>
+                <fullName>Burger King</fullName>
+                <default>false</default>
+                <label>Burger King</label>
+            </value>
+            <value>
+                <fullName>Café Postale</fullName>
+                <default>false</default>
+                <label>Café Postale</label>
+            </value>
+            <value>
+                <fullName>Caribou Coffee</fullName>
+                <default>false</default>
+                <label>Caribou Coffee</label>
+            </value>
+            <value>
+                <fullName>Casey&apos;s</fullName>
+                <default>false</default>
+                <label>Casey&apos;s</label>
+            </value>
+            <value>
+                <fullName>Cefco</fullName>
+                <default>false</default>
+                <label>Cefco</label>
+            </value>
+            <value>
+                <fullName>Cenex</fullName>
+                <default>false</default>
+                <label>Cenex</label>
+            </value>
+            <value>
+                <fullName>Chick-fil-A</fullName>
+                <default>false</default>
+                <label>Chick-fil-A</label>
+            </value>
+            <value>
+                <fullName>China Taste</fullName>
+                <default>false</default>
+                <label>China Taste</label>
+            </value>
+            <value>
+                <fullName>Coneflower</fullName>
+                <default>false</default>
+                <label>Coneflower</label>
+            </value>
+            <value>
+                <fullName>Converse</fullName>
+                <default>false</default>
+                <label>Converse</label>
+            </value>
+            <value>
+                <fullName>Corky Canvas</fullName>
+                <default>false</default>
+                <label>Corky Canvas</label>
+            </value>
+            <value>
+                <fullName>Corwin Toyota</fullName>
+                <default>false</default>
+                <label>Corwin Toyota</label>
+            </value>
+            <value>
+                <fullName>Costco</fullName>
+                <default>false</default>
+                <label>Costco</label>
+            </value>
+            <value>
+                <fullName>Cox</fullName>
+                <default>false</default>
+                <label>Cox</label>
+            </value>
+            <value>
+                <fullName>Cracker Barrel</fullName>
+                <default>false</default>
+                <label>Cracker Barrel</label>
+            </value>
+            <value>
+                <fullName>Craft Burgers</fullName>
+                <default>false</default>
+                <label>Craft Burgers</label>
+            </value>
+            <value>
+                <fullName>Creighton University</fullName>
+                <default>false</default>
+                <label>Creighton University</label>
+            </value>
+            <value>
+                <fullName>Crescent Ballroom (Phoenix)</fullName>
+                <default>false</default>
+                <label>Crescent Ballroom (Phoenix)</label>
+            </value>
+            <value>
+                <fullName>Cubby&apos;s</fullName>
+                <default>false</default>
+                <label>Cubby&apos;s</label>
+            </value>
+            <value>
+                <fullName>Cub Foods</fullName>
+                <default>false</default>
+                <label>Cub Foods</label>
+            </value>
+            <value>
+                <fullName>Culver&apos;s</fullName>
+                <default>false</default>
+                <label>Culver&apos;s</label>
+            </value>
+            <value>
+                <fullName>Dave &amp; Buster&apos;s</fullName>
+                <default>false</default>
+                <label>Dave &amp; Buster&apos;s</label>
+            </value>
+            <value>
+                <fullName>Delta Airlines</fullName>
+                <default>false</default>
+                <label>Delta Airlines</label>
+            </value>
+            <value>
+                <fullName>Denny&apos;s</fullName>
+                <default>false</default>
+                <label>Denny&apos;s</label>
+            </value>
+            <value>
+                <fullName>Dick&apos;s Sporting Goods</fullName>
+                <default>false</default>
+                <label>Dick&apos;s Sporting Goods</label>
+            </value>
+            <value>
+                <fullName>Dinker&apos;s</fullName>
+                <default>false</default>
+                <label>Dinker&apos;s</label>
+            </value>
+            <value>
+                <fullName>DMV</fullName>
+                <default>false</default>
+                <label>DMV</label>
+            </value>
+            <value>
+                <fullName>Dollar General</fullName>
+                <default>false</default>
+                <label>Dollar General</label>
+            </value>
+            <value>
+                <fullName>Dollar Tree</fullName>
+                <default>false</default>
+                <label>Dollar Tree</label>
+            </value>
+            <value>
+                <fullName>Down Under</fullName>
+                <default>false</default>
+                <label>Down Under</label>
+            </value>
+            <value>
+                <fullName>Dr. Jack&apos;s Drinkery</fullName>
+                <default>false</default>
+                <label>Dr. Jack&apos;s Drinkery</label>
+            </value>
+            <value>
+                <fullName>Dubliner Pub</fullName>
+                <default>false</default>
+                <label>Dubliner Pub</label>
+            </value>
+            <value>
+                <fullName>Early Bird</fullName>
+                <default>false</default>
+                <label>Early Bird</label>
+            </value>
+            <value>
+                <fullName>eCreamery</fullName>
+                <default>false</default>
+                <label>eCreamery</label>
+            </value>
+            <value>
+                <fullName>Etsy</fullName>
+                <default>false</default>
+                <label>Etsy</label>
+            </value>
+            <value>
+                <fullName>EyeBuyDirect</fullName>
+                <default>false</default>
+                <label>EyeBuyDirect</label>
+            </value>
+            <value>
+                <fullName>Farmer&apos;s Market</fullName>
+                <default>false</default>
+                <label>Farmer&apos;s Market</label>
+            </value>
+            <value>
+                <fullName>Fillmore Coffee (Phoenix)</fullName>
+                <default>false</default>
+                <label>Fillmore Coffee (Phoenix)</label>
+            </value>
+            <value>
+                <fullName>Film Streams</fullName>
+                <default>false</default>
+                <label>Film Streams</label>
+            </value>
+            <value>
+                <fullName>Firecreek Coffee Arcadia (Phoenix)</fullName>
+                <default>false</default>
+                <label>Firecreek Coffee Arcadia (Phoenix)</label>
+            </value>
+            <value>
+                <fullName>First Ave</fullName>
+                <default>false</default>
+                <label>First Ave</label>
+            </value>
+            <value>
+                <fullName>First Watch</fullName>
+                <default>false</default>
+                <label>First Watch</label>
+            </value>
+            <value>
+                <fullName>Five Below</fullName>
+                <default>false</default>
+                <label>Five Below</label>
+            </value>
+            <value>
+                <fullName>Five Guys</fullName>
+                <default>false</default>
+                <label>Five Guys</label>
+            </value>
+            <value>
+                <fullName>Fizzy&apos;s</fullName>
+                <default>false</default>
+                <label>Fizzy&apos;s</label>
+            </value>
+            <value>
+                <fullName>FNBO</fullName>
+                <default>false</default>
+                <label>FNBO</label>
+            </value>
+            <value>
+                <fullName>Focus on Force</fullName>
+                <default>false</default>
+                <label>Focus on Force</label>
+            </value>
+            <value>
+                <fullName>Freddy&apos;s</fullName>
+                <default>false</default>
+                <label>Freddy&apos;s</label>
+            </value>
+            <value>
+                <fullName>Frozen Thai</fullName>
+                <default>false</default>
+                <label>Frozen Thai</label>
+            </value>
+            <value>
+                <fullName>Fulton Brewing</fullName>
+                <default>false</default>
+                <label>Fulton Brewing</label>
+            </value>
+            <value>
+                <fullName>Funny Bone Omaha</fullName>
+                <default>false</default>
+                <label>Funny Bone Omaha</label>
+            </value>
+            <value>
+                <fullName>Gallagher&apos;s (St. Paul)</fullName>
+                <default>false</default>
+                <label>Gallagher&apos;s (St. Paul)</label>
+            </value>
+            <value>
+                <fullName>Godega</fullName>
+                <default>false</default>
+                <label>Godega</label>
+            </value>
+            <value>
+                <fullName>GoFundMe</fullName>
+                <default>false</default>
+                <label>GoFundMe</label>
+            </value>
+            <value>
+                <fullName>Good Stop</fullName>
+                <default>false</default>
+                <label>Good Stop</label>
+            </value>
+            <value>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+                <label>Goodwill</label>
+            </value>
+            <value>
+                <fullName>GreenStreet Cycles</fullName>
+                <default>false</default>
+                <label>GreenStreet Cycles</label>
+            </value>
+            <value>
+                <fullName>Ground Floor Guitar</fullName>
+                <default>false</default>
+                <label>Ground Floor Guitar</label>
+            </value>
+            <value>
+                <fullName>Guitarcenter</fullName>
+                <default>false</default>
+                <label>Guitarcenter</label>
+            </value>
+            <value>
+                <fullName>Harney Street Tavern</fullName>
+                <default>false</default>
+                <label>Harney Street Tavern</label>
+            </value>
+            <value>
+                <fullName>Headshots Bar</fullName>
+                <default>false</default>
+                <label>Headshots Bar</label>
+            </value>
+            <value>
+                <fullName>Henderson Fuel Stop</fullName>
+                <default>false</default>
+                <label>Henderson Fuel Stop</label>
+            </value>
+            <value>
+                <fullName>Hiro 88</fullName>
+                <default>false</default>
+                <label>Hiro 88</label>
+            </value>
+            <value>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+                <label>Holiday</label>
+            </value>
+            <value>
+                <fullName>Home Style Laundry</fullName>
+                <default>false</default>
+                <label>Home Style Laundry</label>
+            </value>
+            <value>
+                <fullName>Howling Hounds</fullName>
+                <default>false</default>
+                <label>Howling Hounds</label>
+            </value>
+            <value>
+                <fullName>Hu Hot</fullName>
+                <default>false</default>
+                <label>Hu Hot</label>
+            </value>
+            <value>
+                <fullName>Hy-Vee</fullName>
+                <default>false</default>
+                <label>Hy-Vee</label>
+            </value>
+            <value>
+                <fullName>Jake&apos;s Cigars</fullName>
+                <default>false</default>
+                <label>Jake&apos;s Cigars</label>
+            </value>
+            <value>
+                <fullName>Jam&apos;s</fullName>
+                <default>false</default>
+                <label>Jam&apos;s</label>
+            </value>
+            <value>
+                <fullName>JFK International Airport</fullName>
+                <default>false</default>
+                <label>JFK International Airport</label>
+            </value>
+            <value>
+                <fullName>Jiffy Trip</fullName>
+                <default>false</default>
+                <label>Jiffy Trip</label>
+            </value>
+            <value>
+                <fullName>Jimmy John&apos;s</fullName>
+                <default>false</default>
+                <label>Jimmy John&apos;s</label>
+            </value>
+            <value>
+                <fullName>Joslyn Lofts</fullName>
+                <default>false</default>
+                <label>Joslyn Lofts</label>
+            </value>
+            <value>
+                <fullName>Juice Stop</fullName>
+                <default>false</default>
+                <label>Juice Stop</label>
+            </value>
+            <value>
+                <fullName>Kinkaider Brewing</fullName>
+                <default>false</default>
+                <label>Kinkaider Brewing</label>
+            </value>
+            <value>
+                <fullName>Kona Grill</fullName>
+                <default>false</default>
+                <label>Kona Grill</label>
+            </value>
+            <value>
+                <fullName>Krispy Kreme</fullName>
+                <default>false</default>
+                <label>Krispy Kreme</label>
+            </value>
+            <value>
+                <fullName>Kum &amp; Go</fullName>
+                <default>false</default>
+                <label>Kum &amp; Go</label>
+            </value>
+            <value>
+                <fullName>Kwik Shop</fullName>
+                <default>false</default>
+                <label>Kwik Shop</label>
+            </value>
+            <value>
+                <fullName>La Gaviota</fullName>
+                <default>false</default>
+                <label>La Gaviota</label>
+            </value>
+            <value>
+                <fullName>Lake Manawa</fullName>
+                <default>false</default>
+                <label>Lake Manawa</label>
+            </value>
+            <value>
+                <fullName>Lime</fullName>
+                <default>false</default>
+                <label>Lime</label>
+            </value>
+            <value>
+                <fullName>Lisa&apos;s Radial Café</fullName>
+                <default>false</default>
+                <label>Lisa&apos;s Radial Café</label>
+            </value>
+            <value>
+                <fullName>Loon&apos;s Landing</fullName>
+                <default>false</default>
+                <label>Loon&apos;s Landing</label>
+            </value>
+            <value>
+                <fullName>Louie M&apos;s</fullName>
+                <default>false</default>
+                <label>Louie M&apos;s</label>
+            </value>
+            <value>
+                <fullName>Love&apos;s</fullName>
+                <default>false</default>
+                <label>Love&apos;s</label>
+            </value>
+            <value>
+                <fullName>Lucky&apos;s (St. Paul)</fullName>
+                <default>false</default>
+                <label>Lucky&apos;s (St. Paul)</label>
+            </value>
+            <value>
+                <fullName>Lucky Tiger</fullName>
+                <default>false</default>
+                <label>Lucky Tiger</label>
+            </value>
+            <value>
+                <fullName>Mai Thai</fullName>
+                <default>false</default>
+                <label>Mai Thai</label>
+            </value>
+            <value>
+                <fullName>Maplewood Lanes</fullName>
+                <default>false</default>
+                <label>Maplewood Lanes</label>
+            </value>
+            <value>
+                <fullName>McDonald&apos;s</fullName>
+                <default>false</default>
+                <label>McDonald&apos;s</label>
+            </value>
+            <value>
+                <fullName>Michael&apos;s</fullName>
+                <default>false</default>
+                <label>Michael&apos;s</label>
+            </value>
+            <value>
+                <fullName>Mixthemusic</fullName>
+                <default>false</default>
+                <label>Mixthemusic</label>
+            </value>
+            <value>
+                <fullName>MM 97</fullName>
+                <default>false</default>
+                <label>MM 97</label>
+            </value>
+            <value>
+                <fullName>Mouth of the South</fullName>
+                <default>false</default>
+                <label>Mouth of the South</label>
+            </value>
+            <value>
+                <fullName>Noodles &amp; Company</fullName>
+                <default>false</default>
+                <label>Noodles &amp; Company</label>
+            </value>
+            <value>
+                <fullName>Offerle Country Store</fullName>
+                <default>false</default>
+                <label>Offerle Country Store</label>
+            </value>
+            <value>
+                <fullName>Old Mattress Factory</fullName>
+                <default>false</default>
+                <label>Old Mattress Factory</label>
+            </value>
+            <value>
+                <fullName>Old Navy</fullName>
+                <default>false</default>
+                <label>Old Navy</label>
+            </value>
+            <value>
+                <fullName>Omaha Epply Airport</fullName>
+                <default>false</default>
+                <label>Omaha Epply Airport</label>
+            </value>
+            <value>
+                <fullName>Omaha Orpheum</fullName>
+                <default>false</default>
+                <label>Omaha Orpheum</label>
+            </value>
+            <value>
+                <fullName>Original Pancake House</fullName>
+                <default>false</default>
+                <label>Original Pancake House</label>
+            </value>
+            <value>
+                <fullName>Panda Express</fullName>
+                <default>false</default>
+                <label>Panda Express</label>
+            </value>
+            <value>
+                <fullName>Papa John&apos;s</fullName>
+                <default>false</default>
+                <label>Papa John&apos;s</label>
+            </value>
+            <value>
+                <fullName>ParkOmaha</fullName>
+                <default>false</default>
+                <label>ParkOmaha</label>
+            </value>
+            <value>
+                <fullName>Park Omaha</fullName>
+                <default>false</default>
+                <label>Park Omaha</label>
+            </value>
+            <value>
+                <fullName>Perkins</fullName>
+                <default>false</default>
+                <label>Perkins</label>
+            </value>
+            <value>
+                <fullName>Phillips 66</fullName>
+                <default>false</default>
+                <label>Phillips 66</label>
+            </value>
+            <value>
+                <fullName>Pickleman&apos;s</fullName>
+                <default>false</default>
+                <label>Pickleman&apos;s</label>
+            </value>
+            <value>
+                <fullName>Pirate Putt</fullName>
+                <default>false</default>
+                <label>Pirate Putt</label>
+            </value>
+            <value>
+                <fullName>Planet Sub</fullName>
+                <default>false</default>
+                <label>Planet Sub</label>
+            </value>
+            <value>
+                <fullName>Plank</fullName>
+                <default>false</default>
+                <label>Plank</label>
+            </value>
+            <value>
+                <fullName>Poke Boba House</fullName>
+                <default>false</default>
+                <label>Poke Boba House</label>
+            </value>
+            <value>
+                <fullName>PrintWithMe</fullName>
+                <default>false</default>
+                <label>PrintWithMe</label>
+            </value>
+            <value>
+                <fullName>Progressive</fullName>
+                <default>false</default>
+                <label>Progressive</label>
+            </value>
+            <value>
+                <fullName>Qdoba</fullName>
+                <default>false</default>
+                <label>Qdoba</label>
+            </value>
+            <value>
+                <fullName>Quaker Steak &amp; Lube</fullName>
+                <default>false</default>
+                <label>Quaker Steak &amp; Lube</label>
+            </value>
+            <value>
+                <fullName>Qwik Trip</fullName>
+                <default>false</default>
+                <label>Qwik Trip</label>
+            </value>
+            <value>
+                <fullName>Raising Cane&apos;s</fullName>
+                <default>false</default>
+                <label>Raising Cane&apos;s</label>
+            </value>
+            <value>
+                <fullName>Red Lobster</fullName>
+                <default>false</default>
+                <label>Red Lobster</label>
+            </value>
+            <value>
+                <fullName>Replay Lounge</fullName>
+                <default>false</default>
+                <label>Replay Lounge</label>
+            </value>
+            <value>
+                <fullName>Reverb</fullName>
+                <default>false</default>
+                <label>Reverb</label>
+            </value>
+            <value>
+                <fullName>Reverb Lounge</fullName>
+                <default>false</default>
+                <label>Reverb Lounge</label>
+            </value>
+            <value>
+                <fullName>Russell Speeder&apos;s</fullName>
+                <default>false</default>
+                <label>Russell Speeder&apos;s</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Salween</fullName>
+                <default>false</default>
+                <label>Salween</label>
+            </value>
+            <value>
+                <fullName>Sam&apos;s Club</fullName>
+                <default>false</default>
+                <label>Sam&apos;s Club</label>
+            </value>
+            <value>
+                <fullName>School House (Denver)</fullName>
+                <default>false</default>
+                <label>School House (Denver)</label>
+            </value>
+            <value>
+                <fullName>Scooter&apos;s Coffee</fullName>
+                <default>false</default>
+                <label>Scooter&apos;s Coffee</label>
+            </value>
+            <value>
+                <fullName>Shakedown Street</fullName>
+                <default>false</default>
+                <label>Shakedown Street</label>
+            </value>
+            <value>
+                <fullName>Shell</fullName>
+                <default>false</default>
+                <label>Shell</label>
+            </value>
+            <value>
+                <fullName>Sheridan&apos;s (Topeka)</fullName>
+                <default>false</default>
+                <label>Sheridan&apos;s (Topeka)</label>
+            </value>
+            <value>
+                <fullName>Slowdown</fullName>
+                <default>false</default>
+                <label>Slowdown</label>
+            </value>
+            <value>
+                <fullName>Sonic</fullName>
+                <default>false</default>
+                <label>Sonic</label>
+            </value>
+            <value>
+                <fullName>Sozo</fullName>
+                <default>false</default>
+                <label>Sozo</label>
+            </value>
+            <value>
+                <fullName>Speedway</fullName>
+                <default>false</default>
+                <label>Speedway</label>
+            </value>
+            <value>
+                <fullName>Spielbound</fullName>
+                <default>false</default>
+                <label>Spielbound</label>
+            </value>
+            <value>
+                <fullName>Starbucks</fullName>
+                <default>false</default>
+                <label>Starbucks</label>
+            </value>
+            <value>
+                <fullName>Stories Coffee</fullName>
+                <default>false</default>
+                <label>Stories Coffee</label>
+            </value>
+            <value>
+                <fullName>Stur 22 Lounge</fullName>
+                <default>false</default>
+                <label>Stur 22 Lounge</label>
+            </value>
+            <value>
+                <fullName>Subway</fullName>
+                <default>false</default>
+                <label>Subway</label>
+            </value>
+            <value>
+                <fullName>Sweetwater</fullName>
+                <default>false</default>
+                <label>Sweetwater</label>
+            </value>
+            <value>
+                <fullName>Taco Co</fullName>
+                <default>false</default>
+                <label>Taco Co</label>
+            </value>
+            <value>
+                <fullName>Tap House</fullName>
+                <default>false</default>
+                <label>Tap House</label>
+            </value>
+            <value>
+                <fullName>Taqueria Tijuana</fullName>
+                <default>false</default>
+                <label>Taqueria Tijuana</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>Tasty Pizza</fullName>
+                <default>false</default>
+                <label>Tasty Pizza</label>
+            </value>
+            <value>
+                <fullName>Ted &amp; Wally&apos;s</fullName>
+                <default>false</default>
+                <label>Ted &amp; Wally&apos;s</label>
+            </value>
+            <value>
+                <fullName>Termini B&amp;B</fullName>
+                <default>false</default>
+                <label>Termini B&amp;B</label>
+            </value>
+            <value>
+                <fullName>The Corn Dog Company</fullName>
+                <default>false</default>
+                <label>The Corn Dog Company</label>
+            </value>
+            <value>
+                <fullName>The Moon</fullName>
+                <default>false</default>
+                <label>The Moon</label>
+            </value>
+            <value>
+                <fullName>The Session Room</fullName>
+                <default>false</default>
+                <label>The Session Room</label>
+            </value>
+            <value>
+                <fullName>The Tube Store</fullName>
+                <default>false</default>
+                <label>The Tube Store</label>
+            </value>
+            <value>
+                <fullName>Thrift World</fullName>
+                <default>false</default>
+                <label>Thrift World</label>
+            </value>
+            <value>
+                <fullName>Total Wine</fullName>
+                <default>false</default>
+                <label>Total Wine</label>
+            </value>
+            <value>
+                <fullName>Tren Italia</fullName>
+                <default>false</default>
+                <label>Tren Italia</label>
+            </value>
+            <value>
+                <fullName>Uber</fullName>
+                <default>false</default>
+                <label>Uber</label>
+            </value>
+            <value>
+                <fullName>Union Coffee</fullName>
+                <default>false</default>
+                <label>Union Coffee</label>
+            </value>
+            <value>
+                <fullName>Union Rooftop</fullName>
+                <default>false</default>
+                <label>Union Rooftop</label>
+            </value>
+            <value>
+                <fullName>Verizon</fullName>
+                <default>false</default>
+                <label>Verizon</label>
+            </value>
+            <value>
+                <fullName>Victory Barber Shop</fullName>
+                <default>false</default>
+                <label>Victory Barber Shop</label>
+            </value>
+            <value>
+                <fullName>Voodoo Taco</fullName>
+                <default>false</default>
+                <label>Voodoo Taco</label>
+            </value>
+            <value>
+                <fullName>Walgreens</fullName>
+                <default>false</default>
+                <label>Walgreens</label>
+            </value>
+            <value>
+                <fullName>Walmart</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+            <value>
+                <fullName>Wash World</fullName>
+                <default>false</default>
+                <label>Wash World</label>
+            </value>
+            <value>
+                <fullName>Wendy&apos;s</fullName>
+                <default>false</default>
+                <label>Wendy&apos;s</label>
+            </value>
+            <value>
+                <fullName>WhataBurger</fullName>
+                <default>false</default>
+                <label>WhataBurger</label>
+            </value>
+            <value>
+                <fullName>Winchester&apos;s</fullName>
+                <default>false</default>
+                <label>Winchester&apos;s</label>
+            </value>
+            <value>
+                <fullName>Wohlner&apos;s</fullName>
+                <default>false</default>
+                <label>Wohlner&apos;s</label>
+            </value>
+            <value>
+                <fullName>Worn Again</fullName>
+                <default>false</default>
+                <label>Worn Again</label>
+            </value>
+            <value>
+                <fullName>YMCA</fullName>
+                <default>false</default>
+                <label>YMCA</label>
+            </value>
+            <value>
+                <fullName>Zen Coffee</fullName>
+                <default>false</default>
+                <label>Zen Coffee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

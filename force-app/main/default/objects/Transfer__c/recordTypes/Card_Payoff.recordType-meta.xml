@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Card_Payoff</fullName>
+    <active>true</active>
+    <description>A payment of a credit card to reduce both the card&apos;s balance and the target account&apos;s.</description>
+    <label>Card Payoff</label>
+    <picklistValues>
+        <picklist>Method__c</picklist>
+        <values>
+            <fullName>Card Payoff</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

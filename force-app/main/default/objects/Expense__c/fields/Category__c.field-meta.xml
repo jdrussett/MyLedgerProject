@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>Category of the expense, either discretionary or nondiscretionary.</description>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Car &amp; Renter&apos;s Insurance</fullName>
+                <default>false</default>
+                <label>Car &amp; Renter&apos;s Insurance</label>
+            </value>
+            <value>
+                <fullName>Car Payment</fullName>
+                <default>false</default>
+                <label>Car Payment</label>
+            </value>
+            <value>
+                <fullName>Carwash Subscription</fullName>
+                <default>false</default>
+                <label>Carwash Subscription</label>
+            </value>
+            <value>
+                <fullName>Groceries &amp; Gas</fullName>
+                <default>false</default>
+                <label>Groceries &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>Necessary Life Supplies</fullName>
+                <default>false</default>
+                <label>Necessary Life Supplies</label>
+            </value>
+            <value>
+                <fullName>Nonnegotiable Unpredictables</fullName>
+                <default>false</default>
+                <label>Nonnegotiable Unpredictables</label>
+            </value>
+            <value>
+                <fullName>Phone Payment to Dad</fullName>
+                <default>false</default>
+                <label>Phone Payment to Dad</label>
+            </value>
+            <value>
+                <fullName>Rent &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Rent &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Student Loan Payback to Dad</fullName>
+                <default>false</default>
+                <label>Student Loan Payback to Dad</label>
+            </value>
+            <value>
+                <fullName>YMCA Subscription</fullName>
+                <default>false</default>
+                <label>YMCA Subscription</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Leisure</fullName>
+                <default>false</default>
+                <label>Food &amp; Leisure</label>
+            </value>
+            <value>
+                <fullName>Giftgiving</fullName>
+                <default>false</default>
+                <label>Giftgiving</label>
+            </value>
+            <value>
+                <fullName>Products &amp; Merchandise</fullName>
+                <default>false</default>
+                <label>Products &amp; Merchandise</label>
+            </value>
+            <value>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+                <label>Recreation</label>
+            </value>
+            <value>
+                <fullName>Charitable Giving</fullName>
+                <default>false</default>
+                <label>Charitable Giving</label>
+            </value>
+            <value>
+                <fullName>Vacationing</fullName>
+                <default>false</default>
+                <label>Vacationing</label>
+            </value>
+            <value>
+                <fullName>Parking &amp; Scooters</fullName>
+                <default>false</default>
+                <label>Parking &amp; Scooters</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
