@@ -1,6 +1,6 @@
 @IsTest
 public class TestDataFactory {
-    public static Account CreateOneGeneralAccount(String accNum, String accName) {
+    public static Account createOneGeneralAccount(String accNum, String accName) {
         Account acc = new Account(
             AccountNumber = 'General' + accNum,
             Type = 'Checking Account',
@@ -14,7 +14,7 @@ public class TestDataFactory {
         return acc;
     }
 
-    public static Account CreateOneCreditCardAccount(String accName) {
+    public static Account createOneCreditCardAccount(String accName) {
         Account acc = new Account(
             AccountNumber = '456xyz credit',
             Type = 'Credit Card',
@@ -61,34 +61,23 @@ public class TestDataFactory {
         return sourceTargetPairs.clone();
     }
 
-    public static Transfer__c createOneTransfer(
-        Account source,
-        Account target,
-        Integer amount,
-        String transferName,
-        String method
-    ) {
+    public static Transfer__c createOneTransfer(TransferParams params) {
         Transfer__c transfer = new Transfer__c(
-            Amount__c = amount,
-            Source_Account__c = source.Id,
-            Target_Account__c = target.Id,
-            Subject__c = transferName,
-            Method__c = method
+            Amount__c = params.amount,
+            Source_Account__c = params.source.Id,
+            Target_Account__c = params.target.Id,
+            Subject__c = params.transferName,
+            Method__c = params.method
         );
         return transfer;
     }
 
-    public static Transfer__c createOneTransferForInitialLoad(
-        Account target,
-        Integer amount,
-        String transferName,
-        String method
-    ) {
+    public static Transfer__c createOneTransferForInitialLoad(TransferParams params) {
         Transfer__c transfer = new Transfer__c(
-            Amount__c = amount,
-            Target_Account__c = target.Id,
-            Subject__c = transferName,
-            Method__c = method
+            Amount__c = params.amount,
+            Target_Account__c = params.target.Id,
+            Subject__c = params.transferName,
+            Method__c = params.method
         );
         return transfer;
     }
@@ -114,5 +103,22 @@ public class TestDataFactory {
             i += 1;
         }
         return newTransfers;
+    }
+
+    private class TransferParams {
+        Account source;
+        Account target;
+        Integer amount;
+        String transferName;
+        String method;
+
+        @SuppressWarnings('PMD.ExcessiveParameterList')
+        public TransferParams(Account source, Account target, Integer amount, String transferName, String method) {
+            this.source = source;
+            this.target = target;
+            this.amount = amount;
+            this.transferName = transferName;
+            this.method = method;
+        }
     }
 }
