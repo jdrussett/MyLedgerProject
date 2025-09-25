@@ -1,0 +1,57 @@
+<!-- <template>
+  <lightning-card title="LWC Workbench" icon-name="utility:custom_apps">
+    <template lwc:if={wiredCardAccounts}>
+      <div class="slds-grid slds-wrap slds-align_absolute-center slds-m-around_medium">
+        <div class="slds-grid slds-gutters">
+          <template for:each={wiredCardAccounts} for:item="account">
+            <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-3" key={account.Id}>
+              <lightning-button
+                class="slds-m-bottom_small"
+                variant="brand"
+                label={account.Name}
+                value={account}
+                onclick={handleCardClick}
+              ></lightning-button>
+              <template lwc:if={clickedCardBalance}>
+                <p>{clickedCardBalance}</p>
+              </template>
+            </div>
+          </template>
+        </div>
+      </div>
+    </template>
+    <template lwc:else>
+      <p>No results returned</p>
+    </template>
+  </lightning-card>
+</template> -->
+
+<template>
+  <lightning-card title="LWC Workbench" icon-name="utility:custom_apps">
+    <template lwc:if={wiredCardAccounts}>
+      <div class="slds-grid slds-wrap slds-align_absolute-center slds-m-around_medium">
+        <div class="slds-grid slds-gutters">
+          <template for:each={wiredCardAccounts} for:item="account">
+            <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-3" key={account.Id}>
+              <lightning-button
+                class="slds-m-bottom_small"
+                variant="brand"
+                label={account.Name}
+                value={account}
+                onclick={handleCardClick}
+              ></lightning-button>
+              <template lwc:if={clickedCardBalance}>
+                <div class="slds-align_absolute-center">
+                  <p>{clickedCardBalance}</p>
+                </div>
+              </template>
+            </div>
+          </template>
+        </div>
+      </div>
+    </template>
+    <template lwc:else>
+      <p>No results returned</p>
+    </template>
+  </lightning-card>
+</template>

@@ -10,5 +10,9 @@
             <fullName>Card Payoff</fullName>
             <default>true</default>
         </values>
+        <values>
+            <fullName>Stricken Charge</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
 </RecordType>

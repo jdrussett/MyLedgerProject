@@ -4,4 +4,31 @@
     <active>true</active>
     <description>A reimbursement for a previously incurred expense.</description>
     <label>Reimbursement</label>
+    <picklistValues>
+        <picklist>Method__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venmo Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zelle Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

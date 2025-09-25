@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Method__c</fullName>
+    <description>The way in which the income was received.</description>
+    <externalId>false</externalId>
+    <label>Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Deposit</fullName>
+                <default>false</default>
+                <label>Direct Deposit</label>
+            </value>
+            <value>
+                <fullName>Online Transfer</fullName>
+                <default>false</default>
+                <label>Online Transfer</label>
+            </value>
+            <value>
+                <fullName>Venmo Transfer</fullName>
+                <default>false</default>
+                <label>Venmo Transfer</label>
+            </value>
+            <value>
+                <fullName>Zelle Transfer</fullName>
+                <default>false</default>
+                <label>Zelle Transfer</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Check</fullName>
+                <default>false</default>
+                <label>Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

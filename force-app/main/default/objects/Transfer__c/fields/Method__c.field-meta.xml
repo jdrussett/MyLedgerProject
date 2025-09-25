@@ -30,6 +30,11 @@
                 <default>false</default>
                 <label>Card Payoff</label>
             </value>
+            <value>
+                <fullName>Stricken Charge</fullName>
+                <default>false</default>
+                <label>Stricken Charge</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

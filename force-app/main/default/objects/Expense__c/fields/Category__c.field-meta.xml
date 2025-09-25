@@ -5,6 +5,7 @@
     <externalId>false</externalId>
     <label>Category</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -92,14 +93,19 @@
                 <label>Charitable Giving</label>
             </value>
             <value>
-                <fullName>Vacationing</fullName>
+                <fullName>Vacationing/Travel</fullName>
                 <default>false</default>
-                <label>Vacationing</label>
+                <label>Vacationing/Travel</label>
             </value>
             <value>
                 <fullName>Parking &amp; Scooters</fullName>
                 <default>false</default>
                 <label>Parking &amp; Scooters</label>
+            </value>
+            <value>
+                <fullName>Pet Expenses</fullName>
+                <default>false</default>
+                <label>Pet Expenses</label>
             </value>
         </valueSetDefinition>
     </valueSet>

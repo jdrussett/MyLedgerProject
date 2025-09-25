@@ -5,6 +5,7 @@
     <description>Marked as true if a reimbursement is expected for the expense.</description>
     <externalId>false</externalId>
     <label>Expecting Reimbursement</label>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

@@ -4,27 +4,10 @@
     <description>The overarching effort the expense contributes to.</description>
     <externalId>false</externalId>
     <label>Project</label>
+    <length>255</length>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
-    <valueSet>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Home Studio</fullName>
-                <default>false</default>
-                <label>Home Studio</label>
-            </value>
-            <value>
-                <fullName>Girlfriend</fullName>
-                <default>false</default>
-                <label>Girlfriend</label>
-            </value>
-            <value>
-                <fullName>Vehicle</fullName>
-                <default>false</default>
-                <label>Vehicle</label>
-            </value>
-        </valueSetDefinition>
-    </valueSet>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>

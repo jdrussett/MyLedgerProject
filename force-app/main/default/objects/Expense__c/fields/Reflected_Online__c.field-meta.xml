@@ -5,6 +5,7 @@
     <description>Marked as true if the expense can be seen reflected on the statement/balance for the corresponding live account.</description>
     <externalId>false</externalId>
     <label>Reflected Online</label>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

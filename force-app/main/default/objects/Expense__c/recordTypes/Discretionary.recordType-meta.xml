@@ -24,6 +24,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Pet Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Products %26 Merchandise</fullName>
             <default>false</default>
         </values>
@@ -32,62 +36,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Vacationing</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Establishment__c</picklist>
-        <values>
-            <fullName>Aldi</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Costco</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Cox</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Dubliner Pub</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Harney Street Tavern</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Joslyn Lofts</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Papa John%27s</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ParkOmaha</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Russell Speeder%27s</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sozo</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sweetwater</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Target</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>YMCA</fullName>
+            <fullName>Vacationing%2FTravel</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -115,21 +64,6 @@
         </values>
         <values>
             <fullName>Zelle Transfer</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Project__c</picklist>
-        <values>
-            <fullName>Girlfriend</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Home Studio</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Vehicle</fullName>
             <default>false</default>
         </values>
     </picklistValues>

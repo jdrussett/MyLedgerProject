@@ -3,7 +3,12 @@
     <fullName>Balance__c</fullName>
     <description>Overall balance of the account.</description>
     <externalId>false</externalId>
-    <formula>(Total_Income__c +  Total_Transfers_In__c) - (Total_Expenses__c + Total_Transfers_Out__c + Total_Card_Charges__c)</formula>
+    <formula>CASE(
+  RecordType.DeveloperName,
+  &apos;General_Equity&apos;, (Total_Income__c + Total_Transfers_In__c + Balancing_Amount__c ) - (Total_Expenses__c + Total_Transfers_Out__c + Total_Card_Charges__c),
+  &apos;Credit_Card&apos;, (Total_Expenses__c + Balancing_Amount__c - Total_Charges_Stricken__c - Total_Transfers_In__c),
+  null
+)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Balance</label>
     <precision>18</precision>

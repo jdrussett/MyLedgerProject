@@ -4,6 +4,7 @@
     <columns>NAME</columns>
     <columns>Date__c</columns>
     <columns>Amount__c</columns>
+    <columns>Method__c</columns>
     <columns>Source_Account__c</columns>
     <columns>Target_Account__c</columns>
     <filterScope>Everything</filterScope>

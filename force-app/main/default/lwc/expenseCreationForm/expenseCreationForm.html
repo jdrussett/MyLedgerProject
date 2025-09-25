@@ -1,0 +1,67 @@
+<template>
+  <!-- card containing form -->
+  <lightning-card title="Create An Expense" icon-name="utility:money">
+    <div class="slds-var-m-around_medium">
+      <!-- form for creating new expense record -->
+      <lightning-record-edit-form
+        object-api-name="Expense__c"
+        onclick={handleClick}
+        onsubmit={handleSubmit}
+        density="comfy"
+      >
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-2">
+            <lightning-input-field field-name="Account__c"></lightning-input-field>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+            <lightning-input-field field-name="Amount__c"></lightning-input-field>
+          </div>
+
+          <div class="slds-col slds-size_1-of-2">
+            <lightning-input-field field-name="Category__c"></lightning-input-field>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+            <lightning-input-field field-name="Date__c"></lightning-input-field>
+          </div>
+        </div>
+        <!-- submit button -->
+        <div class="slds-var-m-top_medium">
+          <lightning-button
+            type="submit"
+            variant="brand"
+            label="Create Expense"
+            title="Create Expense"
+          ></lightning-button>
+        </div>
+      </lightning-record-edit-form>
+    </div>
+    <div slot="footer">
+      <div class="slds-grid">
+        <div class="slds-col slds-size_2-of-3">
+          <lightning-button-group>
+            <lightning-button-stateful
+              label-when-on={discretionary.label}
+              label-when-off={discretionary.label}
+              onclick={toggleExpenseType}
+              selected={discretionary.is}
+            ></lightning-button-stateful>
+            <lightning-button-stateful
+              label-when-on={nonDiscretionary.label}
+              label-when-off={nonDiscretionary.label}
+              onclick={toggleExpenseType}
+              selected={nonDiscretionary.is}
+            ></lightning-button-stateful>
+          </lightning-button-group>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+          <lightning-button
+            variant="brand-outline"
+            label="Debug"
+            title="Debug"
+            onclick={log}
+          ></lightning-button>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>

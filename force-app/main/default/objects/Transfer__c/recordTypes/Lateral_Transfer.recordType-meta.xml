@@ -12,7 +12,7 @@
         </values>
         <values>
             <fullName>Online Transfer</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Venmo Transfer</fullName>

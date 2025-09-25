@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Charges_Stricken__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>The total amount of charges to the credit card that were stricken for a fraudulent or challenged charge.</description>
+    <externalId>false</externalId>
+    <label>Total Charges Stricken</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>
