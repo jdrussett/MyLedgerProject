@@ -53,6 +53,7 @@ $RECYCLE.BIN/
 config/
 .forceignore
 .prettierignore
+.eslintignore
 eslint.config.js
 jest.config.js
 package-lock.json
