@@ -3,7 +3,6 @@
     <fullName>Date__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <description>Date the income was received.</description>
-    <externalId>false</externalId>
     <label>Date</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>Balancing_Amount__c</fullName>
     <defaultValue>0</defaultValue>
     <description>Amount to offset calculations by for the balance total due to omitted or previously removed transfer, expense, or income records.(i.e. initial balance, balance after removing old records to clear up storage, etc.)</description>
-    <externalId>false</externalId>
     <label>Balancing Amount</label>
     <precision>18</precision>
     <required>false</required>

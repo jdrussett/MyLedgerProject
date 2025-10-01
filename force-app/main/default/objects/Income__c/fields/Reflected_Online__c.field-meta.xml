@@ -3,7 +3,6 @@
     <fullName>Reflected_Online__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Marked true if income received is shown on corresponding online statement or account balance.</description>
-    <externalId>false</externalId>
     <label>Reflected Online</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

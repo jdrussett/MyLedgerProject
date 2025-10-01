@@ -3,7 +3,6 @@
     <fullName>Reimbursed_Expense__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The expense that the reimbursement income corresponds to.</description>
-    <externalId>false</externalId>
     <label>Reimbursed Expense</label>
     <referenceTo>Expense__c</referenceTo>
     <relationshipLabel>Reimbursements</relationshipLabel>

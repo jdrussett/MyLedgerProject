@@ -3,7 +3,6 @@
     <fullName>Recurring__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Marked true if the expense is one that is recurring or regularly scheduled.</description>
-    <externalId>false</externalId>
     <label>Recurring</label>
     <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>

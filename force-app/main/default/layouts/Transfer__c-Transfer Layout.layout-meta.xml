@@ -30,7 +30,7 @@
                 <field>Source_Account__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Target_Account__c</field>
             </layoutItems>
         </layoutColumns>

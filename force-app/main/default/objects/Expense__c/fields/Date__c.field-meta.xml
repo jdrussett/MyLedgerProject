@@ -3,7 +3,6 @@
     <fullName>Date__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <description>Date the expense was incurred.</description>
-    <externalId>false</externalId>
     <label>Date</label>
     <required>true</required>
     <trackFeedHistory>true</trackFeedHistory>
